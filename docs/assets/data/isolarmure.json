@@ -1,0 +1,2232 @@
+[
+  {
+    "numero nation": 79,
+    "numero local": 1,
+    "Pokemon Name": "Slowpoke",
+    "Nom français": "Ramoloss",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Psy",
+    "Evolution Method": "Lv. 37/Echéange (Holding King's Rock)"
+  },
+  {
+    "numero nation": 79.1,
+    "numero local": 1,
+    "Pokemon Name": "Slowpoke (Galarian)",
+    "Nom français": "Ramoloss (Forme de Galar)",
+    "Possédé": "x",
+    "Type I": "Psy",
+    "Type II": "",
+    "Evolution Method": "Galarica Cuff/Galarica Wreath"
+  },
+  {
+    "numero nation": 80,
+    "numero local": 2,
+    "Pokemon Name": "Slowbro",
+    "Nom français": "Flagadoss",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 80.2,
+    "numero local": 2,
+    "Pokemon Name": "Slowbro (Galarian)",
+    "Nom français": "Flagadoss (Forme de Galar)",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 199,
+    "numero local": 3,
+    "Pokemon Name": "Slowking",
+    "Nom français": "Roigada",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 199.1,
+    "numero local": 3,
+    "Pokemon Name": "Slowking (Galarian)",
+    "Nom français": "Roigada (Forme de Galar)",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 427,
+    "numero local": 4,
+    "Pokemon Name": "Buneary",
+    "Nom français": "Laporeille",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 428,
+    "numero local": 5,
+    "Pokemon Name": "Lopunny",
+    "Nom français": "Lockpin",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 440,
+    "numero local": 6,
+    "Pokemon Name": "Happiny",
+    "Nom français": "Ptiravi",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Level Up (Holding Oval Stone)"
+  },
+  {
+    "numero nation": 113,
+    "numero local": 7,
+    "Pokemon Name": "Chansey",
+    "Nom français": "Leveinard",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 242,
+    "numero local": 8,
+    "Pokemon Name": "Blissey",
+    "Nom français": "Leuphorie",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 819,
+    "numero local": 9,
+    "Pokemon Name": "Skwovet",
+    "Nom français": "Rongourmand",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Lv. 24"
+  },
+  {
+    "numero nation": 820,
+    "numero local": 10,
+    "Pokemon Name": "Greedent",
+    "Nom français": "Rongrigou",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 174,
+    "numero local": 11,
+    "Pokemon Name": "Igglybuff",
+    "Nom français": "Toudoudou",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Fée",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 39,
+    "numero local": 12,
+    "Pokemon Name": "Jigglypuff",
+    "Nom français": "Rondoudou",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Fée",
+    "Evolution Method": "Pierre Lune"
+  },
+  {
+    "numero nation": 40,
+    "numero local": 13,
+    "Pokemon Name": "Wigglytuff",
+    "Nom français": "Grodoudou",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "Fée",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 824,
+    "numero local": 14,
+    "Pokemon Name": "Blipbug",
+    "Nom français": "Larvadar",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "",
+    "Evolution Method": "Lv. 10"
+  },
+  {
+    "numero nation": 825,
+    "numero local": 15,
+    "Pokemon Name": "Dottler",
+    "Nom français": "Coléodôme",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Psy",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 826,
+    "numero local": 16,
+    "Pokemon Name": "Orbeetle",
+    "Nom français": "Astronelle",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 753,
+    "numero local": 17,
+    "Pokemon Name": "Fomantis",
+    "Nom français": "Mimantis",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": "Lv. 34 (Day)"
+  },
+  {
+    "numero nation": 754,
+    "numero local": 18,
+    "Pokemon Name": "Lurantis",
+    "Nom français": "Floramantis",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 840,
+    "numero local": 19,
+    "Pokemon Name": "Applin",
+    "Nom français": "Verpom",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Dragon",
+    "Evolution Method": "Tart Apple"
+  },
+  {
+    "numero nation": 841,
+    "numero local": 20,
+    "Pokemon Name": "Flapple",
+    "Nom français": "Pomdrapi",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Dragon",
+    "Evolution Method": "Sweet Apple"
+  },
+  {
+    "numero nation": 842,
+    "numero local": 21,
+    "Pokemon Name": "Appletun",
+    "Nom français": "Dratatin",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Dragon",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 661,
+    "numero local": 22,
+    "Pokemon Name": "Fletchling",
+    "Nom français": "Passerouge",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 17"
+  },
+  {
+    "numero nation": 662,
+    "numero local": 23,
+    "Pokemon Name": "Fletchinder",
+    "Nom français": "Braisillon",
+    "Possédé": "x",
+    "Type I": "Feu",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 35"
+  },
+  {
+    "numero nation": 663,
+    "numero local": 24,
+    "Pokemon Name": "Talonflame",
+    "Nom français": "Flambusard",
+    "Possédé": "x",
+    "Type I": "Feu",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 403,
+    "numero local": 25,
+    "Pokemon Name": "Shinx",
+    "Nom français": "Lixy",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": "Lv. 15"
+  },
+  {
+    "numero nation": 404,
+    "numero local": 26,
+    "Pokemon Name": "Luxio",
+    "Nom français": "Luxio",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 405,
+    "numero local": 27,
+    "Pokemon Name": "Luxray",
+    "Nom français": "Luxray",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 707,
+    "numero local": 28,
+    "Pokemon Name": "Klefki",
+    "Nom français": "Trousselin",
+    "Possédé": "x",
+    "Type I": "Acier",
+    "Type II": "Fée",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 624,
+    "numero local": 29,
+    "Pokemon Name": "Pawniard",
+    "Nom français": "Scalpion",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Acier",
+    "Evolution Method": "Lv. 52"
+  },
+  {
+    "numero nation": 625,
+    "numero local": 30,
+    "Pokemon Name": "Bisharp",
+    "Nom français": "Scalproie",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Acier",
+    "Evolution Method": "Level Up (After Defeating 3 Leader Bisharp)"
+  },
+  {
+    "numero nation": 63,
+    "numero local": 31,
+    "Pokemon Name": "Abra",
+    "Nom français": "Abra",
+    "Possédé": "",
+    "Type I": "Psy",
+    "Type II": "",
+    "Evolution Method": "Lv. 16"
+  },
+  {
+    "numero nation": 64,
+    "numero local": 32,
+    "Pokemon Name": "Kadabra",
+    "Nom français": "Kadabra",
+    "Possédé": "",
+    "Type I": "Psy",
+    "Type II": "",
+    "Evolution Method": "Echéange"
+  },
+  {
+    "numero nation": 65,
+    "numero local": 33,
+    "Pokemon Name": "Alakazam",
+    "Nom français": "Alakazam",
+    "Possédé": "",
+    "Type I": "Psy",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 280,
+    "numero local": 34,
+    "Pokemon Name": "Ralts",
+    "Nom français": "Tarsal",
+    "Possédé": "",
+    "Type I": "Psy",
+    "Type II": "Fée",
+    "Evolution Method": "Lv. 20"
+  },
+  {
+    "numero nation": 281,
+    "numero local": 35,
+    "Pokemon Name": "Kirlia",
+    "Nom français": "Kirlia",
+    "Possédé": "",
+    "Type I": "Psy",
+    "Type II": "Fée",
+    "Evolution Method": "Lv. 30/Pierre Aube (Male)"
+  },
+  {
+    "numero nation": 282,
+    "numero local": 36,
+    "Pokemon Name": "Gardevoir",
+    "Nom français": "Gardevoir",
+    "Possédé": "x",
+    "Type I": "Psy",
+    "Type II": "Fée",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 475,
+    "numero local": 37,
+    "Pokemon Name": "Gallade",
+    "Nom français": "Gallame",
+    "Possédé": "x",
+    "Type I": "Psy",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 98,
+    "numero local": 38,
+    "Pokemon Name": "Krabby",
+    "Nom français": "Krabby",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 28"
+  },
+  {
+    "numero nation": 99,
+    "numero local": 39,
+    "Pokemon Name": "Kingler",
+    "Nom français": "Krabboss",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 72,
+    "numero local": 40,
+    "Pokemon Name": "Tentacool",
+    "Nom français": "Tentacool",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 73,
+    "numero local": 41,
+    "Pokemon Name": "Tentacruel",
+    "Nom français": "Tentacruel",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Poison",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 129,
+    "numero local": 42,
+    "Pokemon Name": "Magikarp",
+    "Nom français": "Magicarpe",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 20"
+  },
+  {
+    "numero nation": 130,
+    "numero local": 43,
+    "Pokemon Name": "Gyarados",
+    "Nom français": "Léviator",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 223,
+    "numero local": 44,
+    "Pokemon Name": "Remoraid",
+    "Nom français": "Rémoraid",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 25"
+  },
+  {
+    "numero nation": 224,
+    "numero local": 45,
+    "Pokemon Name": "Octillery",
+    "Nom français": "Octillery",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 458,
+    "numero local": 46,
+    "Pokemon Name": "Mantyke",
+    "Nom français": "Babimanta",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Vol",
+    "Evolution Method": "Level Up (Remoraid in Party)"
+  },
+  {
+    "numero nation": 226,
+    "numero local": 47,
+    "Pokemon Name": "Mantine",
+    "Nom français": "Démanta",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 278,
+    "numero local": 48,
+    "Pokemon Name": "Wingull",
+    "Nom français": "Goélise",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 25"
+  },
+  {
+    "numero nation": 279,
+    "numero local": 49,
+    "Pokemon Name": "Pelipper",
+    "Nom français": "Bekipan",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 451,
+    "numero local": 50,
+    "Pokemon Name": "Skorupi",
+    "Nom français": "Rapion",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Insecte",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 452,
+    "numero local": 51,
+    "Pokemon Name": "Drapion",
+    "Nom français": "Drascore",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 206,
+    "numero local": 52,
+    "Pokemon Name": "Dunsparce",
+    "Nom français": "Insolourdo",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Level Up (Knowing Hyper Drill)"
+  },
+  {
+    "numero nation": 626,
+    "numero local": 53,
+    "Pokemon Name": "Bouffalant",
+    "Nom français": "Frison",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 108,
+    "numero local": 54,
+    "Pokemon Name": "Lickitung",
+    "Nom français": "Excelangue",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Level Up (Knowing Rollout)"
+  },
+  {
+    "numero nation": 463,
+    "numero local": 55,
+    "Pokemon Name": "Lickilicky",
+    "Nom français": "Coudlangue",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 833,
+    "numero local": 56,
+    "Pokemon Name": "Chewtle",
+    "Nom français": "Khélocrok",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 22"
+  },
+  {
+    "numero nation": 834,
+    "numero local": 57,
+    "Pokemon Name": "Drednaw",
+    "Nom français": "Torgamord",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Roche",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 194,
+    "numero local": 58,
+    "Pokemon Name": "Wooper",
+    "Nom français": "Axoloto",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Sol",
+    "Evolution Method": "Lv. 20"
+  },
+  {
+    "numero nation": 195,
+    "numero local": 59,
+    "Pokemon Name": "Quagsire",
+    "Nom français": "Maraiste",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Sol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 704,
+    "numero local": 60,
+    "Pokemon Name": "Goomy",
+    "Nom français": "Mucuscule",
+    "Possédé": "x",
+    "Type I": "Dragon",
+    "Type II": "",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 705,
+    "numero local": 61,
+    "Pokemon Name": "Sliggoo",
+    "Nom français": "Colimucus",
+    "Possédé": "x",
+    "Type I": "Dragon",
+    "Type II": "",
+    "Evolution Method": "Lv. 50 (Rain or Fog)"
+  },
+  {
+    "numero nation": 706,
+    "numero local": 62,
+    "Pokemon Name": "Goodra",
+    "Nom français": "Muplodocus",
+    "Possédé": "",
+    "Type I": "Dragon",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 621,
+    "numero local": 63,
+    "Pokemon Name": "Druddigon",
+    "Nom français": "Drakkarmin",
+    "Possédé": "x",
+    "Type I": "Dragon",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 616,
+    "numero local": 64,
+    "Pokemon Name": "Shelmet",
+    "Nom français": "Escargaume",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "",
+    "Evolution Method": "Echéange (For Karrablast)"
+  },
+  {
+    "numero nation": 617,
+    "numero local": 65,
+    "Pokemon Name": "Accelgor",
+    "Nom français": "Limaspeed",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 588,
+    "numero local": 66,
+    "Pokemon Name": "Karrablast",
+    "Nom français": "Carabing",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "",
+    "Evolution Method": "Echéange (For Shelmet)"
+  },
+  {
+    "numero nation": 589,
+    "numero local": 67,
+    "Pokemon Name": "Escavalier",
+    "Nom français": "Lançargot",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Acier",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 1,
+    "numero local": 68,
+    "Pokemon Name": "Bulbasaur",
+    "Nom français": "Bulbizarre",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 16"
+  },
+  {
+    "numero nation": 2,
+    "numero local": 69,
+    "Pokemon Name": "Ivysaur",
+    "Nom français": "Herbizarre",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 32"
+  },
+  {
+    "numero nation": 3,
+    "numero local": 70,
+    "Pokemon Name": "Venusaur",
+    "Nom français": "Florizarre",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Poison",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 7,
+    "numero local": 71,
+    "Pokemon Name": "Squirtle",
+    "Nom français": "Carapuce",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 16"
+  },
+  {
+    "numero nation": 8,
+    "numero local": 72,
+    "Pokemon Name": "Wartortle",
+    "Nom français": "Carabaffe",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 36"
+  },
+  {
+    "numero nation": 9,
+    "numero local": 73,
+    "Pokemon Name": "Blastoise",
+    "Nom français": "Tortank",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 543,
+    "numero local": 74,
+    "Pokemon Name": "Venipede",
+    "Nom français": "Venipatte",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 22"
+  },
+  {
+    "numero nation": 544,
+    "numero local": 75,
+    "Pokemon Name": "Whirlipede",
+    "Nom français": "Scobolide",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 545,
+    "numero local": 76,
+    "Pokemon Name": "Scolipede",
+    "Nom français": "Brutapode",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Poison",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 590,
+    "numero local": 77,
+    "Pokemon Name": "Foongus",
+    "Nom français": "Trompignon",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Poison",
+    "Evolution Method": "Lv. 39"
+  },
+  {
+    "numero nation": 591,
+    "numero local": 78,
+    "Pokemon Name": "Amoonguss",
+    "Nom français": "Gaulet",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Poison",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 764,
+    "numero local": 79,
+    "Pokemon Name": "Comfey",
+    "Nom français": "Guérilande",
+    "Possédé": "x",
+    "Type I": "Fée",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 114,
+    "numero local": 80,
+    "Pokemon Name": "Tangela",
+    "Nom français": "Saquedeneu",
+    "Possédé": "",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": "Level Up (Knowing Ancient Power)"
+  },
+  {
+    "numero nation": 465,
+    "numero local": 81,
+    "Pokemon Name": "Tangrowth",
+    "Nom français": "Bouldeneu",
+    "Possédé": "",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 453,
+    "numero local": 82,
+    "Pokemon Name": "Croagunk",
+    "Nom français": "Cradopaud",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Combat",
+    "Evolution Method": "Lv. 37"
+  },
+  {
+    "numero nation": 454,
+    "numero local": 83,
+    "Pokemon Name": "Toxicroak",
+    "Nom français": "Coatox",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 172,
+    "numero local": 84,
+    "Pokemon Name": "Pichu",
+    "Nom français": "Pichu",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 25,
+    "numero local": 85,
+    "Pokemon Name": "Pikachu",
+    "Nom français": "Pikachu",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": "Pierre Foudre"
+  },
+  {
+    "numero nation": 26,
+    "numero local": 86,
+    "Pokemon Name": "Raichu",
+    "Nom français": "Raichu",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 26.1,
+    "numero local": 86,
+    "Pokemon Name": "Raichu (Alolan)",
+    "Nom français": "Raichu (Forme d'Alola)",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 570,
+    "numero local": 87,
+    "Pokemon Name": "Zorua",
+    "Nom français": "Miasmax\nGigamax",
+    "Possédé": "",
+    "Type I": "Ténèbres",
+    "Type II": "",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 571,
+    "numero local": 88,
+    "Pokemon Name": "Zoroark",
+    "Nom français": "Zorua\nForme de Hisui",
+    "Possédé": "",
+    "Type I": "Ténèbres",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 765,
+    "numero local": 89,
+    "Pokemon Name": "Oranguru",
+    "Nom français": "Gouroutan",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 766,
+    "numero local": 90,
+    "Pokemon Name": "Passimian",
+    "Nom français": "Quartermac",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 341,
+    "numero local": 91,
+    "Pokemon Name": "Corphish",
+    "Nom français": "Écrapince",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 342,
+    "numero local": 92,
+    "Pokemon Name": "Crawdaunt",
+    "Nom français": "Colhomard",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 845,
+    "numero local": 93,
+    "Pokemon Name": "Cramorant",
+    "Nom français": "Nigosier",
+    "Possédé": "x",
+    "Type I": "Vol",
+    "Type II": "Eau",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 118,
+    "numero local": 94,
+    "Pokemon Name": "Goldeen",
+    "Nom français": "Poissirène",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 33"
+  },
+  {
+    "numero nation": 119,
+    "numero local": 95,
+    "Pokemon Name": "Seaking",
+    "Nom français": "Poissoroy",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 846,
+    "numero local": 96,
+    "Pokemon Name": "Arrokuda",
+    "Nom français": "Embrochet",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 26"
+  },
+  {
+    "numero nation": 847,
+    "numero local": 97,
+    "Pokemon Name": "Barraskewda",
+    "Nom français": "Hastacuda",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 120,
+    "numero local": 98,
+    "Pokemon Name": "Staryu",
+    "Nom français": "Stari",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Pierre Eau"
+  },
+  {
+    "numero nation": 121,
+    "numero local": 99,
+    "Pokemon Name": "Starmie",
+    "Nom français": "Staross",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 891,
+    "numero local": 100,
+    "Pokemon Name": "Kubfu",
+    "Nom français": "Wushours",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": "Scroll of Darkness/Scroll of Water"
+  },
+  {
+    "numero nation": 892,
+    "numero local": 101,
+    "Pokemon Name": "Urshifu (Single Strike)",
+    "Nom français": "Shifours (Style Poing Final)",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 892.1,
+    "numero local": 101,
+    "Pokemon Name": "Urshifu (Rapid Strike)",
+    "Nom français": "Shifours (Style Mille Poings)",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "Eau",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 587,
+    "numero local": 102,
+    "Pokemon Name": "Emolga",
+    "Nom français": "Emolga",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 702,
+    "numero local": 103,
+    "Pokemon Name": "Dedenne",
+    "Nom français": "Dedenne",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "Fée",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 877,
+    "numero local": 104,
+    "Pokemon Name": "Morpeko (Full Belly)",
+    "Nom français": "Morpeko (Mode Rassasié)",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 877.1,
+    "numero local": 104,
+    "Pokemon Name": "Morpeko (Hangry)",
+    "Nom français": "Morpeko (Mode Affamé)",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 81,
+    "numero local": 105,
+    "Pokemon Name": "Magnemite",
+    "Nom français": "Magnéti",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "Acier",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 82,
+    "numero local": 106,
+    "Pokemon Name": "Magneton",
+    "Nom français": "Magnéton",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "Acier",
+    "Evolution Method": "Pierre Foudre"
+  },
+  {
+    "numero nation": 462,
+    "numero local": 107,
+    "Pokemon Name": "Magnezone",
+    "Nom français": "Magnézone",
+    "Possédé": "",
+    "Type I": "Electrik",
+    "Type II": "Acier",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 686,
+    "numero local": 108,
+    "Pokemon Name": "Inkay",
+    "Nom français": "Sepiatop",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Psy",
+    "Evolution Method": "Lv. 30 (Switch Upside Down)"
+  },
+  {
+    "numero nation": 687,
+    "numero local": 109,
+    "Pokemon Name": "Malamar",
+    "Nom français": "Sepiatroce",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 746,
+    "numero local": 110,
+    "Pokemon Name": "Wishiwashi (Solo)",
+    "Nom français": "Froussardine (Forme Solitaire)",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 746.1,
+    "numero local": 110,
+    "Pokemon Name": "Wishiwashi (School)",
+    "Nom français": "Froussardine (Forme Banc)",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 318,
+    "numero local": 111,
+    "Pokemon Name": "Carvanha",
+    "Nom français": "Carvanha",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Ténèbres",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 319,
+    "numero local": 112,
+    "Pokemon Name": "Sharpedo",
+    "Nom français": "Sharpedo",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 506,
+    "numero local": 113,
+    "Pokemon Name": "Lillipup",
+    "Nom français": "Ponchiot",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Lv. 16"
+  },
+  {
+    "numero nation": 507,
+    "numero local": 114,
+    "Pokemon Name": "Herdier",
+    "Nom français": "Ponchien",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Lv. 32"
+  },
+  {
+    "numero nation": 508,
+    "numero local": 115,
+    "Pokemon Name": "Stoutland",
+    "Nom français": "Mastouffe",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 128,
+    "numero local": 116,
+    "Pokemon Name": "Tauros",
+    "Nom français": "Tauros",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 241,
+    "numero local": 117,
+    "Pokemon Name": "Miltank",
+    "Nom français": "Écrémeuh",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 123,
+    "numero local": 118,
+    "Pokemon Name": "Scyther",
+    "Nom français": "Insécateur",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Vol",
+    "Evolution Method": "Echéange (Holding Metal Coat)/Black Augurite"
+  },
+  {
+    "numero nation": 212,
+    "numero local": 119,
+    "Pokemon Name": "Scizor",
+    "Nom français": "Cizayox",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Acier",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 127,
+    "numero local": 120,
+    "Pokemon Name": "Pinsir",
+    "Nom français": "Scarabrute",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 214,
+    "numero local": 121,
+    "Pokemon Name": "Heracross",
+    "Nom français": "Scarhino",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 557,
+    "numero local": 122,
+    "Pokemon Name": "Dwebble",
+    "Nom français": "Crabicoque",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Roche",
+    "Evolution Method": "Lv. 34"
+  },
+  {
+    "numero nation": 558,
+    "numero local": 123,
+    "Pokemon Name": "Crustle",
+    "Nom français": "Crabaraque",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Roche",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 767,
+    "numero local": 124,
+    "Pokemon Name": "Wimpod",
+    "Nom français": "Sovkipou",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Eau",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 768,
+    "numero local": 125,
+    "Pokemon Name": "Golisopod",
+    "Nom français": "Sarmuraï",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Eau",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 871,
+    "numero local": 126,
+    "Pokemon Name": "Pincurchin",
+    "Nom français": "Wattapik",
+    "Possédé": "x",
+    "Type I": "Electrik",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 747,
+    "numero local": 127,
+    "Pokemon Name": "Mareanie",
+    "Nom français": "Vorastérie",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Eau",
+    "Evolution Method": "Lv. 38"
+  },
+  {
+    "numero nation": 748,
+    "numero local": 128,
+    "Pokemon Name": "Toxapex",
+    "Nom français": "Prédastérie",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Eau",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 852,
+    "numero local": 129,
+    "Pokemon Name": "Clobbopus",
+    "Nom français": "Poulpaf",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": "Level Up (Knowing Taunt)"
+  },
+  {
+    "numero nation": 853,
+    "numero local": 130,
+    "Pokemon Name": "Grapploct",
+    "Nom français": "Krakos",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 90,
+    "numero local": 131,
+    "Pokemon Name": "Shellder",
+    "Nom français": "Kokiyas",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Pierre Eau"
+  },
+  {
+    "numero nation": 91,
+    "numero local": 132,
+    "Pokemon Name": "Cloyster",
+    "Nom français": "Crustabri",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Glace",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 769,
+    "numero local": 133,
+    "Pokemon Name": "Sandygast",
+    "Nom français": "Bacabouh",
+    "Possédé": "",
+    "Type I": "Spectre",
+    "Type II": "Sol",
+    "Evolution Method": "Lv. 42"
+  },
+  {
+    "numero nation": 770,
+    "numero local": 134,
+    "Pokemon Name": "Palossand",
+    "Nom français": "Trépassable",
+    "Possédé": "x",
+    "Type I": "Spectre",
+    "Type II": "Sol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 425,
+    "numero local": 135,
+    "Pokemon Name": "Drifloon",
+    "Nom français": "Baudrive",
+    "Possédé": "",
+    "Type I": "Spectre",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 28"
+  },
+  {
+    "numero nation": 426,
+    "numero local": 136,
+    "Pokemon Name": "Drifblim",
+    "Nom français": "Grodrive",
+    "Possédé": "x",
+    "Type I": "Spectre",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 339,
+    "numero local": 137,
+    "Pokemon Name": "Barboach",
+    "Nom français": "Barloche",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Sol",
+    "Evolution Method": "Lv. 30"
+  },
+  {
+    "numero nation": 340,
+    "numero local": 138,
+    "Pokemon Name": "Whiscash",
+    "Nom français": "Barbicha",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Sol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 298,
+    "numero local": 139,
+    "Pokemon Name": "Azurill",
+    "Nom français": "Azurill",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Fée",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 183,
+    "numero local": 140,
+    "Pokemon Name": "Marill",
+    "Nom français": "Marill",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Fée",
+    "Evolution Method": "Lv. 18"
+  },
+  {
+    "numero nation": 184,
+    "numero local": 141,
+    "Pokemon Name": "Azumarill",
+    "Nom français": "Azumarill",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Fée",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 60,
+    "numero local": 142,
+    "Pokemon Name": "Poliwag",
+    "Nom français": "Ptitard",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 25"
+  },
+  {
+    "numero nation": 61,
+    "numero local": 143,
+    "Pokemon Name": "Poliwhirl",
+    "Nom français": "Têtarte",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Pierre Eau/Echéange (Holding King's Rock)"
+  },
+  {
+    "numero nation": 62,
+    "numero local": 144,
+    "Pokemon Name": "Poliwrath",
+    "Nom français": "Tartard",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 186,
+    "numero local": 145,
+    "Pokemon Name": "Politoed",
+    "Nom français": "Tarpaud",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 54,
+    "numero local": 146,
+    "Pokemon Name": "Psyduck",
+    "Nom français": "Psykokwak",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 33"
+  },
+  {
+    "numero nation": 55,
+    "numero local": 147,
+    "Pokemon Name": "Golduck",
+    "Nom français": "Akwakwak",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 293,
+    "numero local": 148,
+    "Pokemon Name": "Whismur",
+    "Nom français": "Chuchmur",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Lv. 20"
+  },
+  {
+    "numero nation": 294,
+    "numero local": 149,
+    "Pokemon Name": "Loudred",
+    "Nom français": "Ramboum",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 295,
+    "numero local": 150,
+    "Pokemon Name": "Exploud",
+    "Nom français": "Brouhabam",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 527,
+    "numero local": 151,
+    "Pokemon Name": "Woobat",
+    "Nom français": "Chovsourir",
+    "Possédé": "x",
+    "Type I": "Psy",
+    "Type II": "Vol",
+    "Evolution Method": "Bonheur"
+  },
+  {
+    "numero nation": 528,
+    "numero local": 152,
+    "Pokemon Name": "Swoobat",
+    "Nom français": "Rhinolove",
+    "Possédé": "x",
+    "Type I": "Psy",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 227,
+    "numero local": 153,
+    "Pokemon Name": "Skarmory",
+    "Nom français": "Airmure",
+    "Possédé": "",
+    "Type I": "Acier",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 524,
+    "numero local": 154,
+    "Pokemon Name": "Roggenrola",
+    "Nom français": "Nodulithe",
+    "Possédé": "x",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": "Lv. 25"
+  },
+  {
+    "numero nation": 525,
+    "numero local": 155,
+    "Pokemon Name": "Boldore",
+    "Nom français": "Géolithe",
+    "Possédé": "x",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": "Echéange"
+  },
+  {
+    "numero nation": 526,
+    "numero local": 156,
+    "Pokemon Name": "Gigalith",
+    "Nom français": "Gigalithe",
+    "Possédé": "x",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 744,
+    "numero local": 157,
+    "Pokemon Name": "Rockruff",
+    "Nom français": "Rocabot",
+    "Possédé": "x",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": "Lv. 25 (Day)/Lv. 25 (Nuit)"
+  },
+  {
+    "numero nation": 745,
+    "numero local": 158,
+    "Pokemon Name": "Lycanroc (Midday)",
+    "Nom français": "Lougaroc (Forme Diurne)",
+    "Possédé": "",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 745.1,
+    "numero local": 158,
+    "Pokemon Name": "Lycanroc (Midnight)",
+    "Nom français": "Lougaroc (Forme Nocturne)",
+    "Possédé": "",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 745.2,
+    "numero local": 158,
+    "Pokemon Name": "Lycanroc (Dusk)",
+    "Nom français": "Lougaroc (Forme Crépusculaire)",
+    "Possédé": "",
+    "Type I": "Roche",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 757,
+    "numero local": 159,
+    "Pokemon Name": "Salandit",
+    "Nom français": "Tritox",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Feu",
+    "Evolution Method": "Lv. 33 (Female)"
+  },
+  {
+    "numero nation": 758,
+    "numero local": 160,
+    "Pokemon Name": "Salazzle",
+    "Nom français": "Malamandre",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Feu",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 559,
+    "numero local": 161,
+    "Pokemon Name": "Scraggy",
+    "Nom français": "Baggiguane",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Combat",
+    "Evolution Method": "Lv. 39"
+  },
+  {
+    "numero nation": 560,
+    "numero local": 162,
+    "Pokemon Name": "Scrafty",
+    "Nom français": "Baggaïd",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 619,
+    "numero local": 163,
+    "Pokemon Name": "Mienfoo",
+    "Nom français": "Kungfouine",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": "Lv. 50"
+  },
+  {
+    "numero nation": 620,
+    "numero local": 164,
+    "Pokemon Name": "Mienshao",
+    "Nom français": "Shaofouine",
+    "Possédé": "x",
+    "Type I": "Combat",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 782,
+    "numero local": 165,
+    "Pokemon Name": "Jangmo-o",
+    "Nom français": "Bébécaille",
+    "Possédé": "x",
+    "Type I": "Dragon",
+    "Type II": "",
+    "Evolution Method": "Lv. 35"
+  },
+  {
+    "numero nation": 783,
+    "numero local": 166,
+    "Pokemon Name": "Hakamo-o",
+    "Nom français": "Écaïd",
+    "Possédé": "x",
+    "Type I": "Dragon",
+    "Type II": "Combat",
+    "Evolution Method": "Lv. 45"
+  },
+  {
+    "numero nation": 784,
+    "numero local": 167,
+    "Pokemon Name": "Kommo-o",
+    "Nom français": "Ékaïser",
+    "Possédé": "",
+    "Type I": "Dragon",
+    "Type II": "Combat",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 27,
+    "numero local": 168,
+    "Pokemon Name": "Sandshrew",
+    "Nom français": "Sabelette",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": "Lv. 22"
+  },
+  {
+    "numero nation": 27.1,
+    "numero local": 168,
+    "Pokemon Name": "Sandshrew (Alolan)",
+    "Nom français": "Sabelette (Forme d'Alola)",
+    "Possédé": "x",
+    "Type I": "Glace",
+    "Type II": "Acier",
+    "Evolution Method": "Pierre Glace"
+  },
+  {
+    "numero nation": 28,
+    "numero local": 169,
+    "Pokemon Name": "Sandslash",
+    "Nom français": "Sablaireau",
+    "Possédé": "",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 28.1,
+    "numero local": 169,
+    "Pokemon Name": "Sandslash (Alolan)",
+    "Nom français": "Sablaireau (Forme d'Alola)",
+    "Possédé": "",
+    "Type I": "Glace",
+    "Type II": "Acier",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 104,
+    "numero local": 170,
+    "Pokemon Name": "Cubone",
+    "Nom français": "Osselait",
+    "Possédé": "",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": "Lv. 28/Lv. 28 (Nuit)"
+  },
+  {
+    "numero nation": 105,
+    "numero local": 171,
+    "Pokemon Name": "Marowak",
+    "Nom français": "Ossatueur",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 105.1,
+    "numero local": 171,
+    "Pokemon Name": "Marowak (Alolan)",
+    "Nom français": "Ossatueur (Forme d'Alola)",
+    "Possédé": "x",
+    "Type I": "Feu",
+    "Type II": "Spectre",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 115,
+    "numero local": 172,
+    "Pokemon Name": "Kangaskhan",
+    "Nom français": "Kangourex",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 324,
+    "numero local": 173,
+    "Pokemon Name": "Torkoal",
+    "Nom français": "Chartor",
+    "Possédé": "x",
+    "Type I": "Feu",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 843,
+    "numero local": 174,
+    "Pokemon Name": "Silicobra",
+    "Nom français": "Dunaja",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": "Lv. 36"
+  },
+  {
+    "numero nation": 844,
+    "numero local": 175,
+    "Pokemon Name": "Sandaconda",
+    "Nom français": "Dunaconda",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 551,
+    "numero local": 176,
+    "Pokemon Name": "Sandile",
+    "Nom français": "Mascaïman",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "Ténèbres",
+    "Evolution Method": "Lv. 29"
+  },
+  {
+    "numero nation": 552,
+    "numero local": 177,
+    "Pokemon Name": "Krokorok",
+    "Nom français": "Escroco",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "Ténèbres",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 553,
+    "numero local": 178,
+    "Pokemon Name": "Krookodile",
+    "Nom français": "Crocorible",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "Ténèbres",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 627,
+    "numero local": 179,
+    "Pokemon Name": "Rufflet",
+    "Nom français": "Furaiglon",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 54"
+  },
+  {
+    "numero nation": 628,
+    "numero local": 180,
+    "Pokemon Name": "Braviary",
+    "Nom français": "Gueriaigle",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 629,
+    "numero local": 181,
+    "Pokemon Name": "Vullaby",
+    "Nom français": "Vostourno",
+    "Possédé": "",
+    "Type I": "Ténèbres",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 54"
+  },
+  {
+    "numero nation": 630,
+    "numero local": 182,
+    "Pokemon Name": "Mandibuzz",
+    "Nom français": "Vaututrice",
+    "Possédé": "x",
+    "Type I": "Ténèbres",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 111,
+    "numero local": 183,
+    "Pokemon Name": "Rhyhorn",
+    "Nom français": "Rhinocorne",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "Roche",
+    "Evolution Method": "Lv. 42"
+  },
+  {
+    "numero nation": 112,
+    "numero local": 184,
+    "Pokemon Name": "Rhydon",
+    "Nom français": "Rhinoféros",
+    "Possédé": "x",
+    "Type I": "Sol",
+    "Type II": "Roche",
+    "Evolution Method": "Echéange (Holding Protector)"
+  },
+  {
+    "numero nation": 464,
+    "numero local": 185,
+    "Pokemon Name": "Rhyperior",
+    "Nom français": "Rhinastoc",
+    "Possédé": "",
+    "Type I": "Sol",
+    "Type II": "Roche",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 636,
+    "numero local": 186,
+    "Pokemon Name": "Larvesta",
+    "Nom français": "Pyronille",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Feu",
+    "Evolution Method": "Lv. 59"
+  },
+  {
+    "numero nation": 637,
+    "numero local": 187,
+    "Pokemon Name": "Volcarona",
+    "Nom français": "Pyrax",
+    "Possédé": "x",
+    "Type I": "Insecte",
+    "Type II": "Feu",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 170,
+    "numero local": 188,
+    "Pokemon Name": "Chinchou",
+    "Nom français": "Loupio",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Electrik",
+    "Evolution Method": "Lv. 27"
+  },
+  {
+    "numero nation": 171,
+    "numero local": 189,
+    "Pokemon Name": "Lanturn",
+    "Nom français": "Lanturn",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Electrik",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 320,
+    "numero local": 190,
+    "Pokemon Name": "Wailmer",
+    "Nom français": "Wailmer",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 321,
+    "numero local": 191,
+    "Pokemon Name": "Wailord",
+    "Nom français": "Wailord",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 592,
+    "numero local": 192,
+    "Pokemon Name": "Frillish",
+    "Nom français": "Viskuse",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Spectre",
+    "Evolution Method": "Lv. 40"
+  },
+  {
+    "numero nation": 593,
+    "numero local": 193,
+    "Pokemon Name": "Jellicent",
+    "Nom français": "Moyade",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "Spectre",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 690,
+    "numero local": 194,
+    "Pokemon Name": "Skrelp",
+    "Nom français": "Venalgue",
+    "Possédé": "x",
+    "Type I": "Poison",
+    "Type II": "Eau",
+    "Evolution Method": "Lv. 48"
+  },
+  {
+    "numero nation": 691,
+    "numero local": 195,
+    "Pokemon Name": "Dragalge",
+    "Nom français": "Kravarech",
+    "Possédé": "",
+    "Type I": "Poison",
+    "Type II": "Dragon",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 692,
+    "numero local": 196,
+    "Pokemon Name": "Clauncher",
+    "Nom français": "Flingouste",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 37"
+  },
+  {
+    "numero nation": 693,
+    "numero local": 197,
+    "Pokemon Name": "Clawitzer",
+    "Nom français": "Gamblast",
+    "Possédé": "x",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 116,
+    "numero local": 198,
+    "Pokemon Name": "Horsea",
+    "Nom français": "Hypotrempe",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Lv. 32"
+  },
+  {
+    "numero nation": 117,
+    "numero local": 199,
+    "Pokemon Name": "Seadra",
+    "Nom français": "Hypocéan",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "",
+    "Evolution Method": "Echéange (Holding Dragon Scale)"
+  },
+  {
+    "numero nation": 230,
+    "numero local": 200,
+    "Pokemon Name": "Kingdra",
+    "Nom français": "Hyporoi",
+    "Possédé": "",
+    "Type I": "Eau",
+    "Type II": "Dragon",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 548,
+    "numero local": 201,
+    "Pokemon Name": "Petilil",
+    "Nom français": "Chlorobule",
+    "Possédé": "",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": "Pierre Soleil"
+  },
+  {
+    "numero nation": 549,
+    "numero local": 202,
+    "Pokemon Name": "Lilligant",
+    "Nom français": "Fragilady",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 415,
+    "numero local": 203,
+    "Pokemon Name": "Combee",
+    "Nom français": "Apitrini",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Vol",
+    "Evolution Method": "Lv. 21 (Female)"
+  },
+  {
+    "numero nation": 416,
+    "numero local": 204,
+    "Pokemon Name": "Vespiquen",
+    "Nom français": "Apireine",
+    "Possédé": "",
+    "Type I": "Insecte",
+    "Type II": "Vol",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 102,
+    "numero local": 205,
+    "Pokemon Name": "Exeggcute",
+    "Nom français": "Noeunoeuf",
+    "Possédé": "",
+    "Type I": "Plante",
+    "Type II": "Psy",
+    "Evolution Method": "Pierre Plante"
+  },
+  {
+    "numero nation": 103,
+    "numero local": 206,
+    "Pokemon Name": "Exeggutor",
+    "Nom français": "Noadkoko",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Psy",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 103.1,
+    "numero local": 206,
+    "Pokemon Name": "Exeggutor (Alolan)",
+    "Nom français": "Noadkoko (Forme d'Alola)",
+    "Possédé": "x",
+    "Type I": "Plante",
+    "Type II": "Dragon",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 132,
+    "numero local": 207,
+    "Pokemon Name": "Ditto",
+    "Nom français": "Métamorph",
+    "Possédé": "x",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  },
+  {
+    "numero nation": 137,
+    "numero local": 208,
+    "Pokemon Name": "Porygon",
+    "Nom français": "Porygon",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Echéange (Holding Up-Grade)"
+  },
+  {
+    "numero nation": 233,
+    "numero local": 209,
+    "Pokemon Name": "Porygon2",
+    "Nom français": "Porygon2",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": "Echéange (Holding Dubious Disc)"
+  },
+  {
+    "numero nation": 474,
+    "numero local": 210,
+    "Pokemon Name": "Porygon-Z",
+    "Nom français": "Porygon-Z",
+    "Possédé": "",
+    "Type I": "Normal",
+    "Type II": "",
+    "Evolution Method": ""
+  }
+]

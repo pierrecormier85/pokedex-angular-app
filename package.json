@@ -10,7 +10,8 @@
     "prod": "ng build --prod --baseHref /pokedex/ --serviceWorker true",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy" : "ng build --output-path docs --base-href /pokedex-angular-app/"
   },
   "private": true,
   "dependencies": {
