@@ -1,12 +1,16 @@
 <div class="pokemon-card" routerLink="/pokemon/{{pokemon.id}}">
   <div class="pokemon-card-info">
     <div class="id-name">
-      <span class="card-id">{{pokemon.id}}</span>
+      <span class="card-id">
+        {{getIdRegional()}}
+        <img class="icon" *ngIf="isPokemonCapture()" alt="" src="assets/icons/icon-72x72.png">
+      </span>
+
       <div class="card-name text-capitalize text-left text-truncate">{{pokemon.name}}</div>
     </div>
     <div class="icons">
       <div class="icon {{type['n']}}" *ngFor="let type of pokemon.types"><img alt="" src="assets/type-icons/png/{{type['n']}}.png"></div>
     </div>
   </div>
-  <img class="pokemon-card-img mx-auto" alt="" src="assets/thumbnails-compressed/{{this.pad(this.pokemon.id, 3) + '.png'}}">
+  <img class="pokemon-card-img mx-auto" alt="" src="assets/thumbnails-compressed/{{this.pad(this.pokemon.id, 4) + '.png'}}">
 </div>

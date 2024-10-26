@@ -21,6 +21,7 @@ import { HeaderComponent } from './header/header.component';
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { PokemonItemComponent } from './pokemon-list/pokemon-item/pokemon-item.component';
 import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -29,11 +30,12 @@ import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.componen
     PokemonListComponent,
     PokemonItemComponent,
     PokemonDetailComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    CommonModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,

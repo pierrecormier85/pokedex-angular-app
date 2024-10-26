@@ -1,13 +1,13 @@
-import { Injectable, Output } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Pokemon } from './pokemon.model';
-import { forkJoin, Subject } from 'rxjs';
-import { Observable, Observer, fromEvent, merge } from 'rxjs';
-import { map } from 'rxjs/operators';
-import { NotificationsService } from 'angular2-notifications';
-import { Move } from './moves.model';
-import { Machine } from './machine.model';
-import { PokemonMove } from './pokemon-move.model';
+import {Injectable, Output} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {Pokemon} from './pokemon.model';
+import {forkJoin, fromEvent, merge, Observable, Observer, Subject} from 'rxjs';
+import {map} from 'rxjs/operators';
+import {NotificationsService} from 'angular2-notifications';
+import {Move} from './moves.model';
+import {Machine} from './machine.model';
+import {PokemonMove} from './pokemon-move.model';
+import {FrenchNationalPokemon} from './french-national-pokemon.model';
 
 @Injectable({
   providedIn: 'root'
@@ -32,6 +32,7 @@ export class PokemonService {
   firstTime = false;
   megaEvolutionMainSwitch;
   versionMainSwitch;
+  frenchPokemon: FrenchNationalPokemon[] = [];
   renamedNames = {
     29: 'Nidoran♀',
     32: 'Nidoran♂',
@@ -74,7 +75,7 @@ export class PokemonService {
     892: 'Urshifu',
     902: 'Basculegion',
     905: 'Enamorus'
-  }
+  };
   @Output() searchItemSubject: Subject<string> = new Subject<string>();
   @Output() EverythingLoaded: Subject<boolean> = new Subject<boolean>();
   @Output() megaSwitchSubscription: Subject<boolean> = new Subject<boolean>();
@@ -114,6 +115,8 @@ export class PokemonService {
       }
     });
     this.isMobile = this.isMobileBrowser(); //  Mobile Browser Check
+
+    this.getFrenchPokemonFromJSON();
   }
 
   isMobileBrowser() {
@@ -136,7 +139,7 @@ export class PokemonService {
 
   getPokemonMovesFromCSV() {
     this.pokemonMovesCSV = {};
-    this.http.get('assets/data/pokemon-moves.csv', { responseType: 'text' })
+    this.http.get('assets/data/pokemon-moves.csv', {responseType: 'text'})
       .subscribe(
         data => {
           const allTextLines = data.split(/\r\n|\r|\n/);
@@ -166,17 +169,18 @@ export class PokemonService {
       (response) => {
         this.getMoveDetailsFromCSV();
         this.pokemonJSON = response['pokemon'];
-        for (let i = 0; i < 905; i++) {
+        for (let i = 0; i < 1025; i++) {
           const pokemonData = this.pokemonJSON[(i + 1).toString()];
           const pokemonSpeciesData = this.pokemonSpeciesJSON[i];
-          let name = pokemonData['N'];
-          if (this.renamedNames[pokemonData['id']] !== undefined) {
-            name = this.renamedNames[pokemonData['id']];// Renaming Manually
-          }
+          const frenchVersion = this.frenchPokemon.find(fp => fp.nationalId === pokemonData['id']);
+
           this.pokemons.push(new Pokemon(
             // from pokemon
-            name,
+            frenchVersion.frenchName,
             pokemonData['id'],
+            frenchVersion.galarId,
+            frenchVersion.isolarmureId,
+            frenchVersion.couronneigeId,
             // null,
             pokemonData['T'],
             pokemonData['Ab'],
@@ -194,13 +198,13 @@ export class PokemonService {
             pokemonData['Sp'],
             // from pokemon-species
             pokemonSpeciesData,
-            pokemonSpeciesData['Co'],
-            pokemonSpeciesData['G'],
-            pokemonSpeciesData['varieties'],
-            pokemonSpeciesData['EvC']
+            pokemonSpeciesData ? pokemonSpeciesData['Co'] : '',
+            pokemonSpeciesData ? pokemonSpeciesData['G'] : '',
+            pokemonSpeciesData ? pokemonSpeciesData['varieties'] : '',
+            pokemonSpeciesData ? pokemonSpeciesData['EvC'] : ''
           ));
         }
-        this.newPokemonsLoaded.next(905);
+        this.newPokemonsLoaded.next(1025);
         this.pokemonsListChanged.next(this.pokemons);
       }
     );
@@ -208,7 +212,7 @@ export class PokemonService {
 
   getMoveDetailsFromCSV() {
     this.movesDetails = [];
-    this.http.get('assets/data/moves.csv', { responseType: 'text' })
+    this.http.get('assets/data/moves.csv', {responseType: 'text'})
       .subscribe(
         data => {
           this.getMachinesFromCSV();
@@ -235,7 +239,7 @@ export class PokemonService {
 
   getMachinesFromCSV() {
     this.machineDetails = [];
-    this.http.get('assets/data/machines.csv', { responseType: 'text' })
+    this.http.get('assets/data/machines.csv', {responseType: 'text'})
       .subscribe(
         data => {
           this.getMovesFlavorFromJSON();
@@ -286,7 +290,7 @@ export class PokemonService {
   requestALL() {
     const requests = [];
     requests.push(this.http.get('assets/data/pokemon-species.json'));
-    requests.push(this.http.get('assets/data/pokemon-moves.csv', { responseType: 'text' }));
+    requests.push(this.http.get('assets/data/pokemon-moves.csv', {responseType: 'text'}));
     // requests.push(this.http.get('assets/data/pokemon.json'));
     // requests.push(this.http.get('assets/data/moves.csv', {responseType: 'text'}));
     // requests.push(this.http.get('assets/data/machines.csv', {responseType: 'text'}));
@@ -325,5 +329,22 @@ export class PokemonService {
         sub.next(navigator.onLine);
         sub.complete();
       }));
+  }
+
+  getFrenchPokemonFromJSON() {
+    this.http.get('assets/data/french pokemon.json').subscribe(
+      (response: Array<Object>) => {
+        for (let i = 0; i < response.length; i++) {
+          const pokemonData = response[i];
+          this.frenchPokemon.push(new FrenchNationalPokemon(
+            pokemonData['French Name'],
+            pokemonData['National Dex'],
+            pokemonData['Galar Dex(SwSh)'],
+            pokemonData['Isle of Armor Dex(SwSh)'],
+            pokemonData['Crown Tund Dex(SwSh)']
+          ));
+        }
+      }
+    );
   }
 }

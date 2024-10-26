@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-expand" id="header" [ngClass]="color">
   <ul class="navbar-nav mt-2">
-    <button type="button" class="btn back-arrow" routerLink="/pokemon" [ngClass]="{'back-arrow-fade': showSearch}">
+    <button type="button" class="btn back-arrow" routerLink="/pokedex" [ngClass]="{'back-arrow-fade': showSearch}">
       <i class="icon-left-big"></i></button>
     <li class="nav-item search-bar-form" [ngClass]="{'search-fade': !showSearch}" style="display: inline-flex">
       <form>
@@ -16,6 +16,10 @@
         </div>
       </form>
     </li>
+    <button type="button" class="btn" routerLink="/pokedex">National</button>
+    <button type="button" class="btn" routerLink="/pokedex/galar">Galar</button>
+    <button type="button" class="btn" routerLink="/pokedex/isolarmure">Isolarmure</button>
+    <button type="button" class="btn" routerLink="/pokedex/couronneige">Couronneige</button>
   </ul>
   <a class="navbar-brand ml-auto" data-toggle="modal" data-target="#aboutModal" #menu>PokéDex</a>
 </nav>
@@ -64,7 +68,7 @@
             VIII). Earlier in Development this app used to call the API but
             now all the data is completely stored locally to facilitate offline usage. The PokéAPI database is accurate
             but its not perfect. Therefore, some data might be inconsistent.
-            <br>Made with <i class="icon-heart"></i> for Pokémon. 
+            <br>Made with <i class="icon-heart"></i> for Pokémon.
           </p>
           <p class="heading text-center font-weight-bolder">SPECIAL THANKS</p>
           <p><a href="https://github.com/PokeAPI/pokeapi" target="_blank">PokéAPI.co</a> & <a href="https://github.com/veekun/pokedex"

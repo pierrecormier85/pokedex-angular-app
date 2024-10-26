@@ -1,7 +1,14 @@
 <div class="pokemon-list faded" #scrollingBlock [ngClass]="{fade:scrolled}">
-  <virtual-scroller #scroll [items]="pokemons| searchFilter: searchItem" [parentScroll]="scrollingBlock" scrollAnimationTime="0">
+  <div *ngIf="regionPokedex">
+    <label style="font-size: medium; margin-right: 10px;" for="masquerCapture">Masquer capturer</label>
+    <input id="masquerCapture" type="checkbox" class="switch" checked name="versionSwitch" [(ngModel)]="masquerCapture"
+           (change)="checkMasquerCapture($event)">
+  </div>
+  <virtual-scroller #scroll [items]="pokemons| searchFilter: searchItem" [parentScroll]="scrollingBlock"
+                    scrollAnimationTime="0">
     <app-pokemon-item *ngFor="let pokemon of scroll.viewPortItems; trackBy: trackByPokemonID; let i = index;"
-      [pokemon]="pokemon"></app-pokemon-item>
+                      [pokemon]="pokemon" [region]="regionPokedex"
+                      [pokemonsCapture]="pokemonsCapture"></app-pokemon-item>
   </virtual-scroller>
 </div>
 

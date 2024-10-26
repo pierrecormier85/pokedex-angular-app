@@ -1,7 +1,10 @@
-import { ChangeDetectorRef, Component, HostListener, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { Pokemon } from '../shared/pokemon.model';
-import { PokemonService } from '../shared/pokemon.service';
-import { VirtualScrollerComponent } from 'ngx-virtual-scroller';
+import {Component, HostListener, OnDestroy, OnInit, ViewChild} from '@angular/core';
+import {Pokemon} from '../shared/pokemon.model';
+import {PokemonService} from '../shared/pokemon.service';
+import {VirtualScrollerComponent} from 'ngx-virtual-scroller';
+import {ActivatedRoute} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
+import {PokemonCapture} from '../shared/pokemon-capture.model';
 
 @Component({
   selector: 'app-pokemon-list',
@@ -9,7 +12,9 @@ import { VirtualScrollerComponent } from 'ngx-virtual-scroller';
   styleUrls: ['./pokemon-list.component.scss']
 })
 export class PokemonListComponent implements OnInit, OnDestroy {
+  regionPokedex;
   pokemons: Pokemon[] = [];
+  pokemonsCapture: PokemonCapture[] = [];
   noOfPokemonLoaded: number;
   pokemonListSubscription;
   noOfLoadedPokemonSubscription;
@@ -17,6 +22,7 @@ export class PokemonListComponent implements OnInit, OnDestroy {
   searchItemSubscription;
   scrolled = true;
   resizeTimeout: any = 250;
+  masquerCapture = false;
 
   @ViewChild(VirtualScrollerComponent)
   private virtualScroller: VirtualScrollerComponent;
@@ -33,7 +39,7 @@ export class PokemonListComponent implements OnInit, OnDestroy {
     }).bind(this), 500);
   }
 
-  constructor(private pokemonService: PokemonService, public changeDetectorRef: ChangeDetectorRef) {
+  constructor(private http: HttpClient, private activatedRoute: ActivatedRoute, private pokemonService: PokemonService) {
     this.pokemonService.previousPokemonID.subscribe(
       (response) => {
         this.scrolled = false;
@@ -43,13 +49,41 @@ export class PokemonListComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    this.activatedRoute.params.subscribe(
+      (params) => {
+        this.regionPokedex = params['region'];
+        this.initPokemonList();
+
+        if (this.regionPokedex) {
+          this.http.get(`assets/data/${this.regionPokedex}.json`).subscribe(
+            (response: Object[]) => {
+              for (let i = 0; i < response.length; i++) {
+                const pokemonData = response[i];
+                this.pokemonsCapture.push(new PokemonCapture(
+                  // from pokemon
+                  pokemonData['numero local'],
+                  pokemonData['Possédé'] === 'x',
+                ));
+              }
+            }
+          );
+        }
+      }
+    );
+  }
+
+  initPokemonList() {
     if (this.pokemonService.pokemons[0]) { // List already loaded
-      this.pokemons = this.pokemonService.pokemons;
+      this.pokemons = this.pokemonService.pokemons
+        .filter(pokemon => this.getIdRegional(pokemon))
+        .sort((a, b) => this.getIdRegional(a) - this.getIdRegional(b));
       this.noOfPokemonLoaded = this.pokemonService.noOfPokemonsLoaded;
     } else { // List not already Loaded
       this.pokemonListSubscription = this.pokemonService.pokemonsListChanged.subscribe(
         (response) => {
-          this.pokemons = response.slice(0, this.noOfPokemonLoaded);
+          this.pokemons = response.slice(0, this.noOfPokemonLoaded)
+            .filter(pokemon => this.getIdRegional(pokemon))
+            .sort((a, b) => this.getIdRegional(a) - this.getIdRegional(b));
         }
       );
       this.noOfLoadedPokemonSubscription = this.pokemonService.newPokemonsLoaded.subscribe(
@@ -79,6 +113,42 @@ export class PokemonListComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.pokemonService.searchItemSubject.next('');
     this.searchItemSubscription.unsubscribe();
+  }
+
+  getIdRegional(pokemon: Pokemon): number {
+    switch (this.regionPokedex) {
+      case 'galar' :
+        return pokemon.galarId;
+      case 'isolarmure' :
+        return pokemon.isolarmureId;
+      case 'couronneige' :
+        return pokemon.couronneigeId;
+      default:
+        return pokemon.id;
+    }
+  }
+
+  checkMasquerCapture(values: any) {
+    if (values.currentTarget.checked) {
+      this.pokemons = this.pokemonService.pokemons
+        .filter(pokemon => this.getIdRegional(pokemon))
+        .filter(pokemon => !this.isPokemonCapture(pokemon))
+        .sort((a, b) => this.getIdRegional(a) - this.getIdRegional(b));
+    } else {
+      this.pokemons = this.pokemonService.pokemons
+        .filter(pokemon => this.getIdRegional(pokemon))
+        .sort((a, b) => this.getIdRegional(a) - this.getIdRegional(b));
+    }
+    this.pokemonService.versionSwitchSubscription.next(values.currentTarget.checked);
+  }
+
+  isPokemonCapture(pokemon: Pokemon): boolean {
+    let isPokemonCapture = false;
+    if (this.pokemonsCapture) {
+      const pokemonCapture = this.pokemonsCapture.find(pc => pc.id === this.getIdRegional(pokemon));
+      isPokemonCapture = pokemonCapture ? pokemonCapture.capture : false;
+    }
+    return isPokemonCapture;
   }
 
 }

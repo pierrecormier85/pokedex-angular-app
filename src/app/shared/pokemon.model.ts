@@ -3,6 +3,9 @@ export class Pokemon {
     // From pokemon
     public name: string,
     public id: number,
+    public galarId: number,
+    public isolarmureId: number,
+    public couronneigeId: number,
     // public sprite, // no
     public types,
     public abilities,
@@ -23,7 +26,7 @@ export class Pokemon {
     public color,
     public genera,
     public varieties,
-    public evolutionChainID
+    public evolutionChainID,
   ) {
   }
 }

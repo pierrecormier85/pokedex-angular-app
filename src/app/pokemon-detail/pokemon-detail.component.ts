@@ -430,6 +430,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.pokemon = new Pokemon(
       pokemonFromList.name,
       pokemonFromList.id,
+      pokemonFromList.galarId,
+      pokemonFromList.isolarmureId,
+      pokemonFromList.couronneigeId,
       pokemonFromList.types,
       pokemonFromList.abilities,
       pokemonFromList.height,
@@ -454,6 +457,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.pokemonForms[0] = new Pokemon(
       this.pokemon.name,
       this.pokemon.id,
+      this.pokemon.galarId,
+      this.pokemon.isolarmureId,
+      this.pokemon.couronneigeId,
       this.pokemon.types,
       this.pokemon.abilities,
       this.pokemon.height,
@@ -477,7 +483,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.selectedEvolutionId = this.pokemon.id;
     this.selectedStat = 'base';
     this.abilitySelected = 0;
-    if (this.pokemon.varieties !== undefined &&
+    if (this.pokemon.varieties !== undefined && this.selectedFormNo &&
       this.formColors[this.pokemon.varieties[this.selectedFormNo]['n']] !== undefined) {
       this.pokemon.color = this.formColors[this.pokemon.varieties[this.selectedFormNo]['n']];
       this.pokemonService.activePokemon.next(this.pokemon);
@@ -491,9 +497,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.evoChainsFetched = true;
     }
     if (this.pokemon.is_default) {
-      this.pokemonImageUrl = 'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/' +
-        this.pad(this.pokemon.id, 3) + '.png';
-      // this.pokemonImageUrl = 'assets/images/' + this.pad(this.pokemon.id, 3) + '.png';
+      this.pokemonImageUrl = 'assets/thumbnails-compressed/' + this.pad(this.pokemon.id, 4) + '.png';
     }
     // }
     this.getGenera();
@@ -646,8 +650,8 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   }
 
   totalBaseStats() {
-    return (this.pokemonStats[0] + this.pokemonStats[1] + this.pokemonStats[2] + this.pokemonStats[3]
-      + this.pokemonStats[4] + this.pokemonStats[5]);
+    return this.pokemonStats ? (this.pokemonStats[0] + this.pokemonStats[1] + this.pokemonStats[2] + this.pokemonStats[3]
+      + this.pokemonStats[4] + this.pokemonStats[5]) : 0;
   }
 
   formatFormNames() {
@@ -712,6 +716,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.pokemonForms[i] = new Pokemon(
         form['N'],
         form['id'],
+        null,
+        null,
+        null,
         form['T'],
         form['Ab'],
         form['H'],
