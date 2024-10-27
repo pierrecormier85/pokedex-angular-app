@@ -1,8 +1,10 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { PokemonService } from '../shared/pokemon.service';
-import { Pokemon } from '../shared/pokemon.model';
-import { Subject } from 'rxjs';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {PokemonService} from '../shared/pokemon.service';
+import {Pokemon} from '../shared/pokemon.model';
+import {Subject} from 'rxjs';
+import {PokedexService} from '../shared/pokedex.service';
+import {PokemonLocalisation} from '../shared/pokemon-localisation.model';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -129,7 +131,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'eternatus-eternamax': 'Eternamax Eternatus',
     'calyrex-ice': 'Ice Rider Calyrex',
     'calyrex-shadow': 'Shadow Rider Calyrex'
-  }
+  };
 
 
   visible = true;
@@ -173,50 +175,50 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'eevee'];
 
 
-  typeDefences = { '4x': [], '2x': [], '1x': [], '0.5x': [], '0.25x': [], '0x': [] };
-  typeChart = [{ 'name': 'normal', 'immunes': ['ghost'], 'weaknesses': ['rock', 'steel'], 'strengths': [] },
-  { 'name': 'fire', 'immunes': [], 'weaknesses': ['fire', 'water', 'rock', 'dragon'], 'strengths': ['grass', 'ice', 'bug', 'steel'] },
-  { 'name': 'water', 'immunes': [], 'weaknesses': ['water', 'grass', 'dragon'], 'strengths': ['fire', 'ground', 'rock'] },
-  { 'name': 'electric', 'immunes': ['ground'], 'weaknesses': ['electric', 'grass', 'dragon'], 'strengths': ['water', 'flying'] },
-  {
-    'name': 'grass',
-    'immunes': [],
-    'weaknesses': ['fire', 'grass', 'poison', 'flying', 'bug', 'dragon', 'steel'],
-    'strengths': ['water', 'ground', 'rock']
-  },
-  {
-    'name': 'ice',
-    'immunes': [],
-    'weaknesses': ['fire', 'water', 'ice', 'steel'],
-    'strengths': ['grass', 'ground', 'flying', 'dragon']
-  },
-  {
-    'name': 'fighting',
-    'immunes': ['ghost'],
-    'weaknesses': ['poison', 'flying', 'psychic', 'bug', 'fairy'],
-    'strengths': ['normal', 'ice', 'rock', 'dark', 'steel']
-  },
-  { 'name': 'poison', 'immunes': ['steel'], 'weaknesses': ['poison', 'ground', 'rock', 'ghost'], 'strengths': ['grass', 'fairy'] },
-  {
-    'name': 'ground',
-    'immunes': ['flying'],
-    'weaknesses': ['grass', 'bug'],
-    'strengths': ['fire', 'electric', 'poison', 'rock', 'steel']
-  },
-  { 'name': 'flying', 'immunes': [], 'weaknesses': ['electric', 'rock', 'steel'], 'strengths': ['grass', 'fighting', 'bug'] },
-  { 'name': 'psychic', 'immunes': ['dark'], 'weaknesses': ['psychic', 'steel'], 'strengths': ['fighting', 'poison'] },
-  {
-    'name': 'bug',
-    'immunes': [],
-    'weaknesses': ['fire', 'fighting', 'poison', 'flying', 'ghost', 'steel', 'fairy'],
-    'strengths': ['grass', 'psychic', 'dark']
-  },
-  { 'name': 'rock', 'immunes': [], 'weaknesses': ['fighting', 'ground', 'steel'], 'strengths': ['fire', 'ice', 'flying', 'bug'] },
-  { 'name': 'ghost', 'immunes': ['normal'], 'weaknesses': ['dark'], 'strengths': ['psychic', 'ghost'] },
-  { 'name': 'dragon', 'immunes': ['fairy'], 'weaknesses': ['steel'], 'strengths': ['dragon'] },
-  { 'name': 'dark', 'immunes': [], 'weaknesses': ['fighting', 'dark', 'fairy'], 'strengths': ['psychic', 'ghost'] },
-  { 'name': 'steel', 'immunes': [], 'weaknesses': ['fire', 'water', 'electric', 'steel'], 'strengths': ['ice', 'rock', 'fairy'] },
-  { 'name': 'fairy', 'immunes': [], 'weaknesses': ['fire', 'poison', 'steel'], 'strengths': ['fighting', 'dragon', 'dark'] }];
+  typeDefences = {'4x': [], '2x': [], '1x': [], '0.5x': [], '0.25x': [], '0x': []};
+  typeChart = [{'name': 'normal', 'immunes': ['ghost'], 'weaknesses': ['rock', 'steel'], 'strengths': []},
+    {'name': 'fire', 'immunes': [], 'weaknesses': ['fire', 'water', 'rock', 'dragon'], 'strengths': ['grass', 'ice', 'bug', 'steel']},
+    {'name': 'water', 'immunes': [], 'weaknesses': ['water', 'grass', 'dragon'], 'strengths': ['fire', 'ground', 'rock']},
+    {'name': 'electric', 'immunes': ['ground'], 'weaknesses': ['electric', 'grass', 'dragon'], 'strengths': ['water', 'flying']},
+    {
+      'name': 'grass',
+      'immunes': [],
+      'weaknesses': ['fire', 'grass', 'poison', 'flying', 'bug', 'dragon', 'steel'],
+      'strengths': ['water', 'ground', 'rock']
+    },
+    {
+      'name': 'ice',
+      'immunes': [],
+      'weaknesses': ['fire', 'water', 'ice', 'steel'],
+      'strengths': ['grass', 'ground', 'flying', 'dragon']
+    },
+    {
+      'name': 'fighting',
+      'immunes': ['ghost'],
+      'weaknesses': ['poison', 'flying', 'psychic', 'bug', 'fairy'],
+      'strengths': ['normal', 'ice', 'rock', 'dark', 'steel']
+    },
+    {'name': 'poison', 'immunes': ['steel'], 'weaknesses': ['poison', 'ground', 'rock', 'ghost'], 'strengths': ['grass', 'fairy']},
+    {
+      'name': 'ground',
+      'immunes': ['flying'],
+      'weaknesses': ['grass', 'bug'],
+      'strengths': ['fire', 'electric', 'poison', 'rock', 'steel']
+    },
+    {'name': 'flying', 'immunes': [], 'weaknesses': ['electric', 'rock', 'steel'], 'strengths': ['grass', 'fighting', 'bug']},
+    {'name': 'psychic', 'immunes': ['dark'], 'weaknesses': ['psychic', 'steel'], 'strengths': ['fighting', 'poison']},
+    {
+      'name': 'bug',
+      'immunes': [],
+      'weaknesses': ['fire', 'fighting', 'poison', 'flying', 'ghost', 'steel', 'fairy'],
+      'strengths': ['grass', 'psychic', 'dark']
+    },
+    {'name': 'rock', 'immunes': [], 'weaknesses': ['fighting', 'ground', 'steel'], 'strengths': ['fire', 'ice', 'flying', 'bug']},
+    {'name': 'ghost', 'immunes': ['normal'], 'weaknesses': ['dark'], 'strengths': ['psychic', 'ghost']},
+    {'name': 'dragon', 'immunes': ['fairy'], 'weaknesses': ['steel'], 'strengths': ['dragon']},
+    {'name': 'dark', 'immunes': [], 'weaknesses': ['fighting', 'dark', 'fairy'], 'strengths': ['psychic', 'ghost']},
+    {'name': 'steel', 'immunes': [], 'weaknesses': ['fire', 'water', 'electric', 'steel'], 'strengths': ['ice', 'rock', 'fairy']},
+    {'name': 'fairy', 'immunes': [], 'weaknesses': ['fire', 'poison', 'steel'], 'strengths': ['fighting', 'dragon', 'dark']}];
   types = [
     'normal',
     'fighting',
@@ -352,14 +354,33 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   eggMovesList = [];
   tutorMovesList = [];
   selectedMove = 'level-up';
-  selectedMoveFirstColHeader = { 'level-up': 'Level', 'machine': '#', 'egg': '-', 'tutor': '-' };
+  selectedMoveFirstColHeader = {'level-up': 'Level', 'machine': '#', 'egg': '-', 'tutor': '-', 'localisation': '-'};
 
   selectedGameVersion;
 
   versions = {
-    'red-blue': 1, 'yellow': 2, 'gold-silver': 3, 'crystal': 4, 'ruby-sapphire': 5, 'emerald': 6,
-    'firered-leafgreen': 7, 'diamond-pearl': 8, 'platinum': 9, 'heartgold-soulsilver': 10, 'black-white': 11, 'colosseum': 12,
-    'xd': 13, 'black-2-white-2': 14, 'x-y': 15, 'omega-ruby-alpha-sapphire': 16, 'sun-moon': 17, 'ultra-sun-ultra-moon': 18, "lets-go-pikachu-lets-go-eevee": 19, "sword-shield": 20
+    'red-blue': 1,
+    'yellow': 2,
+    'gold-silver': 3,
+    'crystal': 4,
+    'ruby-sapphire': 5,
+    'emerald': 6,
+    'firered-leafgreen': 7,
+    'diamond-pearl': 8,
+    'platinum': 9,
+    'heartgold-soulsilver': 10,
+    'black-white': 11,
+    'colosseum': 12,
+    'xd': 13,
+    'black-2-white-2': 14,
+    'x-y': 15,
+    'omega-ruby-alpha-sapphire': 16,
+    'sun-moon': 17,
+    'ultra-sun-ultra-moon': 18,
+    'lets-go-pikachu-lets-go-eevee': 19,
+    'sword-shield': 20,
+    'isolarmure': 21,
+    'couronneige': 22,
   };
   generations = {
     'generation-i': 1,
@@ -370,11 +391,29 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'generation-vi': 6,
     'generation-vii': 7,
     'generation-viii': 8
-  }
+  };
   versionToGeneration = {
-    'red-blue': 1, 'yellow': 1, 'gold-silver': 2, 'crystal': 2, 'ruby-sapphire': 3, 'emerald': 3,
-    'firered-leafgreen': 3, 'diamond-pearl': 4, 'platinum': 4, 'heartgold-soulsilver': 4, 'black-white': 5, 'black-2-white-2': 5, 'x-y': 6, 'omega-ruby-alpha-sapphire': 6, 'sun-moon': 7, 'ultra-sun-ultra-moon': 7, "lets-go-pikachu-lets-go-eevee": 7, "sword-shield": 8
-  }
+    'red-blue': 1,
+    'yellow': 1,
+    'gold-silver': 2,
+    'crystal': 2,
+    'ruby-sapphire': 3,
+    'emerald': 3,
+    'firered-leafgreen': 3,
+    'diamond-pearl': 4,
+    'platinum': 4,
+    'heartgold-soulsilver': 4,
+    'black-white': 5,
+    'black-2-white-2': 5,
+    'x-y': 6,
+    'omega-ruby-alpha-sapphire': 6,
+    'sun-moon': 7,
+    'ultra-sun-ultra-moon': 7,
+    'lets-go-pikachu-lets-go-eevee': 7,
+    'sword-shield': 8,
+    'isolarmure': 8,
+    'couronneige': 8,
+  };
 
   currentMoveData;
   currentMoveID = null;
@@ -390,8 +429,10 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
 
   isOnline;
 
+  pokemonLocalisations: PokemonLocalisation[];
+
   constructor(private activatedRoute: ActivatedRoute,
-    private pokemonService: PokemonService) {
+              private pokemonService: PokemonService, private pokedexService: PokedexService) {
     this.megaEvolveAnimationEnabled = !this.pokemonService.isMobile;
   }
 
@@ -635,10 +676,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     } else {
       this.selectedAbilityFlavorText = this.abilities[no]['flavor_text_entries'][this.versions[this.selectedGameVersion]];
       if (this.abilities[no]['effect_entries'] == undefined) {
-        this.selectedAbilityEffect = "Unavailable";
-        this.selectedAbilityShortEffect = "Unavailable";
-      }
-      else {
+        this.selectedAbilityEffect = 'Unavailable';
+        this.selectedAbilityShortEffect = 'Unavailable';
+      } else {
         this.selectedAbilityEffect = this.abilities[no]['effect_entries']['effect'];
         this.selectedAbilityShortEffect = this.abilities[no]['effect_entries']['short_effect'];
       }
@@ -665,8 +705,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
           formattedName = formattedName.replace(/-/g, ' ');
         } else if (name.indexOf('-alola') !== -1 && this.pokemon.id !== 25) { // Excluding Alola-Cap Pikachu
           formattedName = 'Alolan ' + this.pokemon.species['n'];
-        }
-        else if (name.indexOf('-galar') !== -1) {
+        } else if (name.indexOf('-galar') !== -1) {
           formattedName = 'Galarian ' + this.pokemon.species['n'];
         } else if (name.indexOf('-hisui') !== -1) {
           formattedName = 'Hisuian ' + this.pokemon.species['n'];
@@ -911,7 +950,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   private constructEvolutionChain(chain) {
     const id = chain['species']['id'];
     const pokemon = this.pokemonService.pokemons.find(pkm => pkm.id === id);
-    return[
+    return [
       pokemon.name, // 0
       id, // 1
       chain['is_baby'], // 2
@@ -975,7 +1014,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
         break;
       case '122':
         this.evolutionDesc = [['Level 7 based on PV', 'Level 7 based on PV'],
-        ['Level 10+', 'Level 10+']];
+          ['Level 10+', 'Level 10+']];
     }
   }
 
@@ -1193,7 +1232,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   }
 
   calculateTypeEffectiveness() {
-    this.typeDefences = { '4x': [], '2x': [], '1x': [], '0.5x': [], '0.25x': [], '0x': [] };
+    this.typeDefences = {'4x': [], '2x': [], '1x': [], '0.5x': [], '0.25x': [], '0x': []};
     let type1 = this.pokemon.types[0]['n'];
     let type2;
     if (this.pokemon.types[1] !== undefined) {
@@ -1346,7 +1385,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.movesListLoaded = true;
   }
 
-  selectMovesByLearnMethod(moveToSelect) {
+  async selectMovesByLearnMethod(moveToSelect) {
     if (this.selectedMove === moveToSelect) {
       return;
     } else {
@@ -1372,6 +1411,12 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
           this.moveDetails = this.moveTutorDetails;
           this.selectedMove = 'tutor';
           break;
+        case 'localisation':
+          this.movesList = [];
+          this.moveDetails = [];
+          this.pokemonLocalisations = await this.pokedexService.getRegionalLocalisation(this.selectedGameVersion);
+          this.selectedMove = 'localisation';
+          break;
       }
     }
   }
@@ -1387,7 +1432,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     }
   }
 
-  selectGameVersion(name) {
+  async selectGameVersion(name) {
     if (this.selectedGameVersion === name) {
       return;
     } else {
@@ -1398,6 +1443,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.selectedGameVersion = name;
       this.currentMoveID = null;
       this.getMoves();
+      this.pokemonLocalisations = await this.pokedexService.getRegionalLocalisation(this.selectedGameVersion);
       this.delayMovesListLoad = true;
     }
   }
@@ -1416,10 +1462,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.currentMoveID = id;
     //Effect Texts
     if (this.currentMoveData['effect_entries'] === undefined) {
-      this.moveShortEffect = "Unavailable";
-      this.moveEffect = "Unavailable";
-    }
-    else if (this.currentMoveData['effect_chance'] !== null) {
+      this.moveShortEffect = 'Unavailable';
+      this.moveEffect = 'Unavailable';
+    } else if (this.currentMoveData['effect_chance'] !== null) {
       this.moveShortEffect = this.currentMoveData['effect_entries']['short_effect'].replace(/\$effect_chance/g,
         this.movesList[id][2].effect_chance);
       this.moveEffect = this.currentMoveData['effect_entries']['effect'].replace(/\$effect_chance/g,
@@ -1446,7 +1491,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.moveEggDetails = [];
     this.moveTutorDetails = [];
     for (const move of this.levelUpMovesList) {
-      const moveID = move[3]
+      const moveID = move[3];
       this.moveLevelDetails.push(this.pokemonService.moveJSON[moveID - 1]);
     }
     for (const move of this.machineMovesList) {
@@ -1483,6 +1528,40 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       str[i] = str[i][0].toUpperCase() + str[i].substr(1);
     }
     return str.join(join);
+  }
+
+  isPresent() {
+    const pokedex = this.pokedexService.pokedex.find(pkx => pkx.jeu === this.selectedGameVersion);
+    const code = pokedex ? pokedex.codeAPI : '';
+    return this.pokemon.pokedex.find(pokemonPokedex => pokemonPokedex.region === code);
+  }
+
+  isCapture() {
+    const pokedex = this.pokedexService.pokedex.find(pkx => pkx.jeu === this.selectedGameVersion);
+    const code = pokedex ? pokedex.codeNav : '';
+    const pokemonsCapture = JSON.parse(localStorage.getItem(this.pokedexService.getCodeFromJeu(this.selectedGameVersion)));
+    if (pokemonsCapture) {
+      const pokemonCapture = pokemonsCapture.find(pc => pc.id === this.pokedexService.getIdRegional(this.pokemon, code));
+
+      if (pokemonCapture) {
+        const isPokemonCapture = pokemonCapture ? pokemonCapture.capture : false;
+
+        return isPokemonCapture ? 'Oui' : 'Non';
+      }
+
+    }
+  }
+
+  getLocalisation() {
+    if (this.pokemonLocalisations) {
+      const pokedex = this.pokedexService.pokedex.find(pkx => pkx.jeu === this.selectedGameVersion);
+      const code = pokedex ? pokedex.codeNav : '';
+      const pokemonLocalisation = this.pokemonLocalisations.find(pl => pl.regional === this.pokedexService.getIdRegional(this.pokemon, code));
+
+      if (pokemonLocalisation) {
+        return pokemonLocalisation.localisations;
+      }
+    }
   }
 
   ngOnDestroy() {

@@ -633,8 +633,13 @@
               [ngClass]="selectedMove=='tutor' ? pokemon.color : null">Tutor
             </button>
           </div>
+          <div class="col">
+            <button class="btn rounded-pill font-weight-bold" (click)="selectMovesByLearnMethod('localisation')"
+                    [ngClass]="selectedMove=='localisation' ? pokemon.color : null">Localisation
+            </button>
+          </div>
         </div>
-        <div class="inner scrollableTable">
+        <div class="inner scrollableTable" *ngIf="selectedMove !=='localisation'">
           <div class="table-responsive {{pokemon.color}}" style="position: relative;">
             <div class="lds-dual-ring" *ngIf="!movesListLoaded"></div>
             <table class="table table-fixed">
@@ -689,6 +694,36 @@
               </tbody>
             </table>
           </div>
+        </div>
+        <div class="inner scrollableTable" *ngIf="selectedMove ==='localisation'">
+          <div class="table-responsive {{pokemon.color}}" style="position: relative;">
+            <table class="table table-fixed">
+              <thead>
+              <tr>
+                <th scope="col" class="col-2 text-truncate text-center">Infos</th>
+                <th scope="col" class="col-10 text-truncate text-center">Détails</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="disableClicking" *ngIf="isPresent()">
+                <td class="col-2 text-center">Capture</td>
+                <td class="col-10 text-center">{{isCapture()}}</td>
+              </tr>
+              <tr class="disableClicking" *ngIf="isPresent()">
+                <td class="col-2 text-center">Localisation</td>
+                <td class="col-10 text-center">{{getLocalisation()}}</td>
+              </tr>
+              <tr class="disableClicking" *ngIf="!isPresent()">
+                <td class="col text-center NotFoundText" style="padding-top: 8.5rem;">
+                   Le pokémon n'est pas présent dans le jeu.
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row text-center" style="display: flex">
+
         </div>
         <h1 class="Heading text-center text-uppercase" style="margin-top: 1.5rem;">Game Versions</h1>
         <div class="row GameVersions text-center" style="display: flex">
@@ -780,6 +815,16 @@
           <div class="col">
             <button class="btn rounded-pill font-weight-bold" (click)="selectGameVersion('sword-shield')"
               [ngClass]="selectedGameVersion=='sword-shield' ? pokemon.color : null">SS
+            </button>
+          </div>
+          <div class="col">
+            <button class="btn rounded-pill font-weight-bold" (click)="selectGameVersion('isolarmure')"
+                    [ngClass]="selectedGameVersion=='isolarmure' ? pokemon.color : null">Isolarmure
+            </button>
+          </div>
+          <div class="col">
+            <button class="btn rounded-pill font-weight-bold" (click)="selectGameVersion('couronneige')"
+                    [ngClass]="selectedGameVersion=='couronneige' ? pokemon.color : null">Couronneige
             </button>
           </div>
         </div>

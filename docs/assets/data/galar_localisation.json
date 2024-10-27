@@ -1,0 +1,2802 @@
+[
+ {
+   "regional": 1,
+   "national": 810,
+   "Img.": "",
+   "nom": "Ouistempo",
+   "localisations": "Paddoxton (starter) ; offert sur HOME"
+ },
+ {
+   "regional": 2,
+   "national": 811,
+   "Img.": "",
+   "nom": "Badabouin",
+   "localisations": "Évolution de Ouistempo au niveau 16"
+ },
+ {
+   "regional": 3,
+   "national": 812,
+   "Img.": "",
+   "nom": "Gorythmic",
+   "localisations": "Évolution de Badabouin au niveau 35"
+ },
+ {
+   "regional": 4,
+   "national": 813,
+   "Img.": "",
+   "nom": "Flambino",
+   "localisations": "Paddoxton (starter) ; offert sur HOME"
+ },
+ {
+   "regional": 5,
+   "national": 814,
+   "Img.": "",
+   "nom": "Lapyro",
+   "localisations": "Évolution de Flambino au niveau 16"
+ },
+ {
+   "regional": 6,
+   "national": 815,
+   "Img.": "",
+   "nom": "Pyrobut",
+   "localisations": "Évolution de Lapyro au niveau 35"
+ },
+ {
+   "regional": 7,
+   "national": 816,
+   "Img.": "",
+   "nom": "Larméléon",
+   "localisations": "Paddoxton (starter) ; offert sur HOME"
+ },
+ {
+   "regional": 8,
+   "national": 817,
+   "Img.": "",
+   "nom": "Arrozard",
+   "localisations": "Évolution de Larméléon au niveau 16"
+ },
+ {
+   "regional": 9,
+   "national": 818,
+   "Img.": "",
+   "nom": "Lézargus",
+   "localisations": "Évolution de Arrozard au niveau 35"
+ },
+ {
+   "regional": 10,
+   "national": 824,
+   "Img.": "",
+   "nom": "Larvadar",
+   "localisations": "Forêt de Sleepwood, Route 1, Route 2, Coiffe du Géant"
+ },
+ {
+   "regional": 11,
+   "national": 825,
+   "Img.": "",
+   "nom": "Coléodôme",
+   "localisations": "Route 5, Coiffe du Géant, Miroir du Géant, Plaine Rocheuse\nÉvolution de Larvadar au niveau 10"
+ },
+ {
+   "regional": 12,
+   "national": 826,
+   "Img.": "",
+   "nom": "Astronelle",
+   "localisations": "Forêt de Sleepwood, Bois de Clairjour, Coiffe du Géant, Lac Ouragan\nÉvolution de Coléodôme au niveau 30"
+ },
+ {
+   "regional": 13,
+   "national": 10,
+   "Img.": "",
+   "nom": "Chenipan",
+   "localisations": "Route 1"
+ },
+ {
+   "regional": 14,
+   "national": 11,
+   "Img.": "",
+   "nom": "Chrysacier",
+   "localisations": "Plaine Verdoyante\nÉvolution de Chenipan au niveau 7"
+ },
+ {
+   "regional": 15,
+   "national": 12,
+   "Img.": "",
+   "nom": "Papilusion",
+   "localisations": "Forêt de Sleepwood, Lac Coupenotte Est, Miroir du Géant, Plaine Verdoyante\nÉvolution de Chrysacier au niveau 10"
+ },
+ {
+   "regional": 16,
+   "national": 736,
+   "Img.": "",
+   "nom": "Larvibule",
+   "localisations": "Forêt de Sleepwood, Route 1, Bois de Clairjour, Lac Coupenotte Est, Lac Milobellus Nord, Tour en ruines"
+ },
+ {
+   "regional": 17,
+   "national": 737,
+   "Img.": "",
+   "nom": "Chrysapile",
+   "localisations": "Fosse des Sables, Oeil du Lac, Plateau de Kickenham\nÉvolution de Larvibule au niveau 20"
+ },
+ {
+   "regional": 18,
+   "national": 738,
+   "Img.": "",
+   "nom": "Lucanon",
+   "localisations": "Siège du Géant\nÉvolution de Chrysapile en utilisant une Pierre Foudre"
+ },
+ {
+   "regional": 19,
+   "national": 163,
+   "Img.": "",
+   "nom": "Hoothoot",
+   "localisations": "Forêt de Sleepwood, Route 1, Route 2, Bois de Clairjour, Coiffe du Géant"
+ },
+ {
+   "regional": 20,
+   "national": 164,
+   "Img.": "",
+   "nom": "Noarfang",
+   "localisations": "Abords de Motorby, Berges de Motorby, Coiffe du Géant, Prairie Entre-Ponts\nÉvolution de Hoothoot au niveau 20"
+ },
+ {
+   "regional": 21,
+   "national": 821,
+   "Img.": "",
+   "nom": "Minisange",
+   "localisations": "Forêt de Sleepwood, Route 1, Route 2, Route 3, Berges de Motorby"
+ },
+ {
+   "regional": 22,
+   "national": 822,
+   "Img.": "",
+   "nom": "Bleuseille",
+   "localisations": "Route 3, Berges de Motorby, Miroir du Géant, Plateau de Kickenham\nÉvolution de Minisange au niveau 18"
+ },
+ {
+   "regional": 23,
+   "national": 823,
+   "Img.": "",
+   "nom": "Corvaillus",
+   "localisations": "Forêt de Sleepwood, Route 7, Berges de Motorby, Coiffe du Géant, Fosse des Sables, Lac Milobellus Nord, Lac Ouragan, Plateau de Kickenham, Tour en ruines\nÉvolution de Bleuseille au niveau 38"
+ },
+ {
+   "regional": 24,
+   "national": 819,
+   "Img.": "",
+   "nom": "Rongourmand",
+   "localisations": "Forêt de Sleepwood, Route 1, Route 2, Route 3, Route 4, Route 5, Berges de Motorby, Bois de Clairjour, Lac Milobellus Nord, Plaine Verdoyante, Tour en ruines, Échange interne"
+ },
+ {
+   "regional": 25,
+   "national": 820,
+   "Img.": "",
+   "nom": "Rongrigou",
+   "localisations": "Route 6, Route 7, Route 9, Berges de Motorby, Coiffe du Géant, Lac Ouragan, Miroir du Géant, Oeil du Lac, Plateau de Kickenham, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Rongourmand au niveau 24"
+ },
+ {
+   "regional": 26,
+   "national": 519,
+   "Img.": "",
+   "nom": "Poichigeon",
+   "localisations": "Plaine Verdoyante, Tour en ruines, Lac Coupenotte Est, Lac Milobellus Nord"
+ },
+ {
+   "regional": 27,
+   "national": 520,
+   "Img.": "",
+   "nom": "Colombeau",
+   "localisations": "Miroir du Géant, Plaine Rocheuse, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Poichigeon au niveau 21"
+ },
+ {
+   "regional": 28,
+   "national": 521,
+   "Img.": "",
+   "nom": "Déflaisan",
+   "localisations": "Miroir du Géant, Oeil du Lac, Plaine Rocheuse, Plateau de Kickenham\nÉvolution de Colombeau au niveau 32"
+ },
+ {
+   "regional": 29,
+   "national": 827,
+   "Img.": "",
+   "nom": "Goupilou",
+   "localisations": "Route 1, Route 2, Fosse des Sables, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 30,
+   "national": 828,
+   "Img.": "",
+   "nom": "Roublenard",
+   "localisations": "Route 7, Route 9, Lac Milobellus Sud, Plaine Rocheuse, Plateau de Kickenham, Prairie Entre-Ponts\nÉvolution de Goupilou au niveau 18"
+ },
+ {
+   "regional": 31,
+   "national": 263,
+   "Img.": "",
+   "nom": "Zigzaton",
+   "localisations": "Route 2, Route 3, Coiffe du Géant, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 32,
+   "national": 264,
+   "Img.": "",
+   "nom": "Linéon",
+   "localisations": "Coiffe du Géant, Prairie Entre-Ponts\nÉvolution de Zigzaton au niveau 20"
+ },
+ {
+   "regional": 33,
+   "national": 862,
+   "Img.": "",
+   "nom": "Ixon",
+   "localisations": "Route 2, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Linéon de Galar au niveau 35, la nuit"
+ },
+ {
+   "regional": 34,
+   "national": 831,
+   "Img.": "",
+   "nom": "Moumouton",
+   "localisations": "Route 1, Route 4, Berges de Motorby"
+ },
+ {
+   "regional": 35,
+   "national": 832,
+   "Img.": "",
+   "nom": "Moumouflon",
+   "localisations": "Berges de Motorby, Fosse des Sables, Plaine Verdoyante, Plateau de Kickenham\nÉvolution de Moumouton au niveau 24"
+ },
+ {
+   "regional": 36,
+   "national": 270,
+   "Img.": "",
+   "nom": "Nénupiot",
+   "localisations": "Bouclier : Route 2, Bois de Clairjour, Lac Coupenotte Ouest, Plaine Verdoyante"
+ },
+ {
+   "regional": 37,
+   "national": 271,
+   "Img.": "",
+   "nom": "Lombre",
+   "localisations": "Bouclier : Route 5, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Sud, Siège du Géant\nÉvolution de Nénupiot au niveau 14"
+ },
+ {
+   "regional": 38,
+   "national": 272,
+   "Img.": "",
+   "nom": "Ludicolo",
+   "localisations": "Bouclier : Bois de Clairjour\nÉvolution de Lombre en utilisant une Pierre Eau"
+ },
+ {
+   "regional": 39,
+   "national": 273,
+   "Img.": "",
+   "nom": "Grainipiot",
+   "localisations": "Épée : Route 2, Bois de Clairjour, Lac Coupenotte Ouest"
+ },
+ {
+   "regional": 40,
+   "national": 274,
+   "Img.": "",
+   "nom": "Pifeuil",
+   "localisations": "Épée : Route 5, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Sud, Plaine Verdoyante, Siège du Géant\nÉvolution de Grainipiot au niveau 14"
+ },
+ {
+   "regional": 41,
+   "national": 275,
+   "Img.": "",
+   "nom": "Tengalice",
+   "localisations": "Épée : Bois de Clairjour\nÉvolution de Pifeuil en utilisant une Pierre Plante"
+ },
+ {
+   "regional": 42,
+   "national": 833,
+   "Img.": "",
+   "nom": "Khélocrok",
+   "localisations": "Route 2, Route 4, Route 5, Mine de Galar n°2, Skifford, Motorby, Abords de Motorby, Berges de Motorby, Coiffe du Géant, Miroir du Géant"
+ },
+ {
+   "regional": 43,
+   "national": 834,
+   "Img.": "",
+   "nom": "Torgamord",
+   "localisations": "Route 2, Route 6, Mine de Galar n°2, Coiffe du Géant, Fosse des Sables, Lac Coupenotte Ouest, Lac Ouragan, Miroir du Géant, Prairie Entre-Ponts\nÉvolution de Khélocrok au niveau 22"
+ },
+ {
+   "regional": 44,
+   "national": 509,
+   "Img.": "",
+   "nom": "Chacripan",
+   "localisations": "Route 2, Berges de Motorby, Bois de Clairjour, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Tour en ruines"
+ },
+ {
+   "regional": 45,
+   "national": 510,
+   "Img.": "",
+   "nom": "Léopardus",
+   "localisations": "Route 7, Route 9, Coiffe du Géant, Lac Milobellus Nord, Oeil du Lac, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Chacripan au niveau 20"
+ },
+ {
+   "regional": 46,
+   "national": 835,
+   "Img.": "",
+   "nom": "Voltoutou",
+   "localisations": "Route 2, Route 4, Berges de Motorby, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 47,
+   "national": 836,
+   "Img.": "",
+   "nom": "Fulgudog",
+   "localisations": "Berges de Motorby, Fosse des Sables, Lac Milobellus Nord, Lac Ouragan\nÉvolution de Voltoutou au niveau 25"
+ },
+ {
+   "regional": 48,
+   "national": 659,
+   "Img.": "",
+   "nom": "Sapereau",
+   "localisations": "Bois de Clairjour, Coiffe du Géant, Lac Milobellus Nord, Lac Coupenotte Est, Lac Coupenotte Ouest, Plaine Verdoyante"
+ },
+ {
+   "regional": 49,
+   "national": 660,
+   "Img.": "",
+   "nom": "Excavarenne",
+   "localisations": "Coiffe du Géant, Lac Coupenotte Ouest, Lac Milobellus Nord, Miroir du Géant, Oeil du Lac, Plaine Verdoyante, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Sapereau au niveau 20"
+ },
+ {
+   "regional": 50,
+   "national": 572,
+   "Img.": "",
+   "nom": "Chinchidou",
+   "localisations": "Route 5, Coiffe du Géant, Lac Coupenotte Est, Plaine Verdoyante"
+ },
+ {
+   "regional": 51,
+   "national": 573,
+   "Img.": "",
+   "nom": "Pashmilla",
+   "localisations": "Coiffe du Géant\nÉvolution de Chinchidou en utilisant une Pierre Éclat"
+ },
+ {
+   "regional": 52,
+   "national": 761,
+   "Img.": "",
+   "nom": "Croquine",
+   "localisations": "Bois de Clairjour, Lac Coupenotte Est, Lac Coupenotte Ouest, Plaine Rocheuse, Plaine Verdoyante, Tour en ruines"
+ },
+ {
+   "regional": 53,
+   "national": 762,
+   "Img.": "",
+   "nom": "Candine",
+   "localisations": "Oeil du Lac\nÉvolution de Croquine au niveau 18"
+ },
+ {
+   "regional": 54,
+   "national": 763,
+   "Img.": "",
+   "nom": "Sucreine",
+   "localisations": "Plaine Rocheuse\nÉvolution de Candine par montée de niveau en ayant appris Écrasement"
+ },
+ {
+   "regional": 55,
+   "national": 43,
+   "Img.": "",
+   "nom": "Mystherbe",
+   "localisations": "Bois de Clairjour, Lac Coupenotte Est, Plaine Verdoyante, Tour en ruines"
+ },
+ {
+   "regional": 56,
+   "national": 44,
+   "Img.": "",
+   "nom": "Ortide",
+   "localisations": "Coiffe du Géant, Lac Milobellus Sud, Miroir du Géant, Oeil du Lac\nÉvolution de Mystherbe au niveau 21"
+ },
+ {
+   "regional": 57,
+   "national": 45,
+   "Img.": "",
+   "nom": "Rafflesia",
+   "localisations": "Bois de Clairjour, Miroir du Géant, Plateau de Kickenham\nÉvolution de Ortide en utilisant une Pierre Plante"
+ },
+ {
+   "regional": 58,
+   "national": 182,
+   "Img.": "",
+   "nom": "Joliflor",
+   "localisations": "Miroir du Géant\nÉvolution de Ortide en utilisant une Pierre Soleil"
+ },
+ {
+   "regional": 59,
+   "national": 406,
+   "Img.": "",
+   "nom": "Rozbouton",
+   "localisations": "Route 4, Bois de Clairjour, Lac Coupenotte Est, Lac Coupenotte Ouest, Miroir du Géant\nReproduction de Rosélia ou Roserade avec Encens Fleur tenu"
+ },
+ {
+   "regional": 60,
+   "national": 315,
+   "Img.": "",
+   "nom": "Rosélia",
+   "localisations": "Fosse des Sables, Lac Milobellus Sud, Miroir du Géant, Oeil du Lac, Plaine Verdoyante\nÉvolution de Rozbouton par montée de niveau avec beaucoup d'amitié, le jour"
+ },
+ {
+   "regional": 61,
+   "national": 407,
+   "Img.": "",
+   "nom": "Roserade",
+   "localisations": "Plateau de Kickenham\nÉvolution de Rosélia en utilisant une Pierre Éclat"
+ },
+ {
+   "regional": 62,
+   "national": 278,
+   "Img.": "",
+   "nom": "Goélise",
+   "localisations": "Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Verdoyante, Tour en ruines"
+ },
+ {
+   "regional": 63,
+   "national": 279,
+   "Img.": "",
+   "nom": "Bekipan",
+   "localisations": "Route 9, Fosse des Sables, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan, Oeil du Lac, Plaine Verdoyante, Plateau de Kickenham, Prairie Entre-Ponts\nÉvolution de Goélise au niveau 25"
+ },
+ {
+   "regional": 64,
+   "national": 595,
+   "Img.": "",
+   "nom": "Statitik",
+   "localisations": "Route 4, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Nord, Lac Milobellus Sud, Lac Coupenotte Est, Lac Coupenotte Ouest, Miroir du Géant, Plaine Verdoyante"
+ },
+ {
+   "regional": 65,
+   "national": 596,
+   "Img.": "",
+   "nom": "Mygavolt",
+   "localisations": "Route 7, Coiffe du Géant, Lac Milobellus Sud, Lac Ouragan\nÉvolution de Statitik au niveau 36"
+ },
+ {
+   "regional": 66,
+   "national": 309,
+   "Img.": "",
+   "nom": "Dynavolt",
+   "localisations": "Route 4, Bois de Clairjour, Coiffe du Géant, Fosse des Sables, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Sud, Miroir du Géant, Plaine Verdoyante, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 67,
+   "national": 310,
+   "Img.": "",
+   "nom": "Élecsprint",
+   "localisations": "Coiffe du Géant, Oeil du Lac, Plaine Verdoyante, Siège du Géant\nÉvolution de Dynavolt au niveau 26"
+ },
+ {
+   "regional": 68,
+   "national": 37,
+   "Img.": "",
+   "nom": "Goupix",
+   "localisations": "Épée : Motorby, Route 3, Bois de Clairjour, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Oeil du Lac, Plaine Verdoyante, Siège du Géant, Tour en ruines\nBouclier : Motorby, Fosse des Sables, Miroir du Géant, Plateau de Kickenham"
+ },
+ {
+   "regional": 69,
+   "national": 38,
+   "Img.": "",
+   "nom": "Feunard",
+   "localisations": "Épée : Lac Ouragan\nForme Kanto : Évolution de Goupix en utilisant une Pierre Feu\nForme Alola : Évolution de Goupix d'Alola en utilisant une Pierre Glace"
+ },
+ {
+   "regional": 70,
+   "national": 58,
+   "Img.": "",
+   "nom": "Caninos",
+   "localisations": "Épée : Fosse des Sables, Miroir du Géant, Plateau de Kickenham\nBouclier : Route 3, Bois de Clairjour, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Oeil du Lac, Plaine Verdoyante, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 71,
+   "national": 59,
+   "Img.": "",
+   "nom": "Arcanin",
+   "localisations": "Bouclier : Lac Ouragan\nÉvolution de Caninos en utilisant une Pierre Feu"
+ },
+ {
+   "regional": 72,
+   "national": 582,
+   "Img.": "",
+   "nom": "Sorbébé",
+   "localisations": "Berges de Motorby, Bois de Clairjour, Coiffe du Géant, Fosse des Sables, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan, Miroir du Géant, Plaine Verdoyante, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 73,
+   "national": 583,
+   "Img.": "",
+   "nom": "Sorboul",
+   "localisations": "Route 8, Route 10, Bois de Clairjour, Fosse des Sables, Lac Milobellus Nord, Miroir du Géant, Oeil du Lac\nÉvolution de Sorbébé au niveau 35"
+ },
+ {
+   "regional": 74,
+   "national": 584,
+   "Img.": "",
+   "nom": "Sorbouboul",
+   "localisations": "Route 10, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Sud, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Sorboul au niveau 47"
+ },
+ {
+   "regional": 75,
+   "national": 220,
+   "Img.": "",
+   "nom": "Marcacrin",
+   "localisations": "Miroir du Géant, Plaine Verdoyante, Plateau de Kickenham, Siège du Géant"
+ },
+ {
+   "regional": 76,
+   "national": 221,
+   "Img.": "",
+   "nom": "Cochignon",
+   "localisations": "Fosse des Sables, Lac Coupenotte Est, Lac Ouragan, Plaine Verdoyante\nÉvolution de Marcacrin au niveau 33"
+ },
+ {
+   "regional": 77,
+   "national": 473,
+   "Img.": "",
+   "nom": "Mammochon",
+   "localisations": "Évolution de Cochignon par montée de niveau en ayant appris Pouvoir Antique"
+ },
+ {
+   "regional": 78,
+   "national": 225,
+   "Img.": "",
+   "nom": "Cadoizo",
+   "localisations": "Route 8, Bois de Clairjour, Coiffe du Géant, Fosse des Sables, Lac Milobellus Nord, Lac Milobellus Sud, Lac Coupenotte Ouest, Miroir du Géant, Oeil du Lac, Plaine Verdoyante, Plateau de Kickenham, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 79,
+   "national": 361,
+   "Img.": "",
+   "nom": "Stalgamin",
+   "localisations": "Route 8, Bois de Clairjour, Coiffe du Géant, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Verdoyante, Plateau de Kickenham, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 80,
+   "national": 362,
+   "Img.": "",
+   "nom": "Oniglali",
+   "localisations": "Route 9, Route 10, Coiffe du Géant, Lac Ouragan, Siège du Géant, Tour en ruines\nÉvolution de Stalgamin au niveau 42"
+ },
+ {
+   "regional": 81,
+   "national": 478,
+   "Img.": "",
+   "nom": "Momartik",
+   "localisations": "Évolution de Stalgamin femelle en utilisant une Pierre Aube"
+ },
+ {
+   "regional": 82,
+   "national": 343,
+   "Img.": "",
+   "nom": "Balbuto",
+   "localisations": "Bois de Clairjour, Coiffe du Géant, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Oeil du Lac, Plaine Rocheuse, Plaine Verdoyante, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 83,
+   "national": 344,
+   "Img.": "",
+   "nom": "Kaorine",
+   "localisations": "Bois de Clairjour, Fosse des Sables, Lac Ouragan, Oeil du Lac, Plaine Rocheuse, Prairie Entre-Ponts\nÉvolution de Balbuto au niveau 36"
+ },
+ {
+   "regional": 84,
+   "national": 749,
+   "Img.": "",
+   "nom": "Tiboudet",
+   "localisations": "Route 3, Bois de Clairjour, Coiffe du Géant, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Verdoyante, Siège du Géant"
+ },
+ {
+   "regional": 85,
+   "national": 750,
+   "Img.": "",
+   "nom": "Bourrinos",
+   "localisations": "Fosse des Sables, Lac Coupenotte Est, Oeil du Lac, Plaine Verdoyante, Siège du Géant\nÉvolution de Tiboudet au niveau 30"
+ },
+ {
+   "regional": 86,
+   "national": 557,
+   "Img.": "",
+   "nom": "Crabicoque",
+   "localisations": "Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Rocheuse, Plaine Verdoyante, Plateau de Kickenham, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 87,
+   "national": 558,
+   "Img.": "",
+   "nom": "Crabaraque",
+   "localisations": "Route 8, Lac Milobellus Sud, Oeil du Lac, Plaine Rocheuse, Plaine Verdoyante\nÉvolution de Crabicoque au niveau 34"
+ },
+ {
+   "regional": 88,
+   "national": 622,
+   "Img.": "",
+   "nom": "Gringolem",
+   "localisations": "Route 8, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Nord, Plaine Rocheuse, Plaine Verdoyante, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 89,
+   "national": 623,
+   "Img.": "",
+   "nom": "Golemastoc",
+   "localisations": "Fosse des Sables, Lac Ouragan, Plaine Rocheuse, Siège du Géant, Tour en ruines\nÉvolution de Gringolem au niveau 43"
+ },
+ {
+   "regional": 90,
+   "national": 517,
+   "Img.": "",
+   "nom": "Munna",
+   "localisations": "Forêt de Sleepwood, Coiffe du Géant, Lac Coupenotte Est, Oeil du Lac, Plaine Rocheuse, Plaine Verdoyante, Prairie Entre-Ponts, Siège du Géant"
+ },
+ {
+   "regional": 91,
+   "national": 518,
+   "Img.": "",
+   "nom": "Mushana",
+   "localisations": "Prairie Entre-Ponts, Siège du Géant\nÉvolution de Munna en utilisant une Pierre Lune"
+ },
+ {
+   "regional": 92,
+   "national": 177,
+   "Img.": "",
+   "nom": "Natu",
+   "localisations": "Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Miroir du Géant, Plaine Verdoyante, Siège du Géant"
+ },
+ {
+   "regional": 93,
+   "national": 178,
+   "Img.": "",
+   "nom": "Xatu",
+   "localisations": "Lac Coupenotte Est, Lac Milobellus Nord, Miroir du Géant, Siège du Géant\nÉvolution de Natu au niveau 25"
+ },
+ {
+   "regional": 94,
+   "national": 759,
+   "Img.": "",
+   "nom": "Nounourson",
+   "localisations": "Route 5, Bois de Clairjour, Lac Coupenotte Est, Lac Milobellus Nord, Plateau de Kickenham, Prairie Entre-Ponts, Siège du Géant"
+ },
+ {
+   "regional": 95,
+   "national": 760,
+   "Img.": "",
+   "nom": "Chelours",
+   "localisations": "Bois de Clairjour, Lac Ouragan, Oeil du Lac, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Nounourson au niveau 27"
+ },
+ {
+   "regional": 96,
+   "national": 459,
+   "Img.": "",
+   "nom": "Blizzi",
+   "localisations": "Route 8, Route 10, Bois de Clairjour, Coiffe du Géant, Fosse des Sables, Lac Coupenotte Est, Lac Milobellus Nord, Lac Milobellus Sud, Miroir du Géant, Oeil du Lac, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 97,
+   "national": 460,
+   "Img.": "",
+   "nom": "Blizzaroi",
+   "localisations": "Route 10, Fosse des Sables, Lac Ouragan, Miroir du Géant, Oeil du Lac, Plateau de Kickenham\nÉvolution de Blizzi au niveau 40"
+ },
+ {
+   "regional": 98,
+   "national": 98,
+   "Img.": "",
+   "nom": "Krabby",
+   "localisations": "Coiffe du Géant, Lac Coupenotte Ouest, Lac Milobellus Sud"
+ },
+ {
+   "regional": 99,
+   "national": 99,
+   "Img.": "",
+   "nom": "Krabboss",
+   "localisations": "Route 9, Lac Coupenotte Ouest, Lac Milobellus Sud, Oeil du Lac\nÉvolution de Krabby au niveau 28"
+ },
+ {
+   "regional": 100,
+   "national": 194,
+   "Img.": "",
+   "nom": "Axoloto",
+   "localisations": "Coiffe du Géant, Lac Coupenotte Ouest, Lac Milobellus Sud, Siège du Géant"
+ },
+ {
+   "regional": 101,
+   "national": 195,
+   "Img.": "",
+   "nom": "Maraiste",
+   "localisations": "Coiffe du Géant, Lac Coupenotte Ouest, Lac Ouragan, Siège du Géant\nÉvolution de Axoloto au niveau 20"
+ },
+ {
+   "regional": 102,
+   "national": 341,
+   "Img.": "",
+   "nom": "Écrapince",
+   "localisations": "Mine de Galar n°2, Coiffe du Géant, Lac Milobellus Sud"
+ },
+ {
+   "regional": 103,
+   "national": 342,
+   "Img.": "",
+   "nom": "Colhomard",
+   "localisations": "Greenbury, Lac Milobellus Sud, Oeil du Lac, Siège du Géant\nÉvolution de Écrapince au niveau 30"
+ },
+ {
+   "regional": 104,
+   "national": 290,
+   "Img.": "",
+   "nom": "Ningale",
+   "localisations": "Route 5, Lac Coupenotte Ouest, Lac Milobellus Sud"
+ },
+ {
+   "regional": 105,
+   "national": 291,
+   "Img.": "",
+   "nom": "Ninjask",
+   "localisations": "Plaine Rocheuse, Plaine Verdoyante\nÉvolution de Ningale au niveau 20"
+ },
+ {
+   "regional": 106,
+   "national": 292,
+   "Img.": "",
+   "nom": "Munja",
+   "localisations": "Évolution de Ningale au niveau 20 avec un emplacement libre dans l'équipe et une Poké Ball dans le sac"
+ },
+ {
+   "regional": 107,
+   "national": 236,
+   "Img.": "",
+   "nom": "Debugant",
+   "localisations": "Route 3, Bois de Clairjour, Lac Coupenotte Ouest, Lac Milobellus Sud, Plaine Rocheuse, Plaine Verdoyante, Siège du Géant"
+ },
+ {
+   "regional": 108,
+   "national": 106,
+   "Img.": "",
+   "nom": "Kicklee",
+   "localisations": "Épée : Fosse des Sables, Miroir du Géant\nÉvolution de Debugant au niveau 20, si Attaque > Défense"
+ },
+ {
+   "regional": 109,
+   "national": 107,
+   "Img.": "",
+   "nom": "Tygnon",
+   "localisations": "Bouclier : Fosse des Sables, Miroir du Géant\nÉvolution de Debugant au niveau 20, si Attaque < Défense"
+ },
+ {
+   "regional": 110,
+   "national": 237,
+   "Img.": "",
+   "nom": "Kapoera",
+   "localisations": "Lac Ouragan\nÉvolution de Debugant au niveau 20, si Défense = Attaque"
+ },
+ {
+   "regional": 111,
+   "national": 674,
+   "Img.": "",
+   "nom": "Pandespiègle",
+   "localisations": "Route 3, Lac Coupenotte Est, Lac Coupenotte Ouest, Plaine Verdoyante"
+ },
+ {
+   "regional": 112,
+   "national": 675,
+   "Img.": "",
+   "nom": "Pandarbare",
+   "localisations": "Bois de Clairjour, Lac Ouragan, Plaine Verdoyante, Prairie Entre-Ponts\nÉvolution de Pandespiègle au niveau 32 avec un nom Ténèbres dans l'équipe"
+ },
+ {
+   "regional": 113,
+   "national": 599,
+   "Img.": "",
+   "nom": "Tic",
+   "localisations": "Route 3, Bois de Clairjour, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Oeil du Lac, Plateau de Kickenham"
+ },
+ {
+   "regional": 114,
+   "national": 600,
+   "Img.": "",
+   "nom": "Clic",
+   "localisations": "Route 10, Fosse des Sables, Plateau de Kickenham\nÉvolution de Tic au niveau 38"
+ },
+ {
+   "regional": 115,
+   "national": 601,
+   "Img.": "",
+   "nom": "Cliticlic",
+   "localisations": "Lac Ouragan, Plateau de Kickenham\nÉvolution de Clic au niveau 49"
+ },
+ {
+   "regional": 116,
+   "national": 415,
+   "Img.": "",
+   "nom": "Apitrini",
+   "localisations": "Plaine Verdoyante"
+ },
+ {
+   "regional": 117,
+   "national": 416,
+   "Img.": "",
+   "nom": "Apireine",
+   "localisations": "Plaine Verdoyante\nÉvolution de Apitrini femelle au niveau 21"
+ },
+ {
+   "regional": 118,
+   "national": 436,
+   "Img.": "",
+   "nom": "Archéomire",
+   "localisations": "Lac Milobellus Sud, Plaine RocheuseB, Prairie Entre-Ponts, Siège du Géant"
+ },
+ {
+   "regional": 119,
+   "national": 437,
+   "Img.": "",
+   "nom": "Archéodong",
+   "localisations": "Route 8, Fosse des Sables, Lac Coupenotte Est, Lac Ouragan, Oeil du Lac, Plaine Rocheuse, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Archéomire au niveau 33"
+ },
+ {
+   "regional": 120,
+   "national": 280,
+   "Img.": "",
+   "nom": "Tarsal",
+   "localisations": "Bois de Clairjour, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Verdoyante, Tour en ruines"
+ },
+ {
+   "regional": 121,
+   "national": 281,
+   "Img.": "",
+   "nom": "Kirlia",
+   "localisations": "Plaine Verdoyante\nÉvolution de Tarsal au niveau 20"
+ },
+ {
+   "regional": 122,
+   "national": 282,
+   "Img.": "",
+   "nom": "Gardevoir",
+   "localisations": "Fosse des Sables, Lac Ouragan, Plaine Verdoyante\nÉvolution de Kirlia au niveau 30"
+ },
+ {
+   "regional": 123,
+   "national": 475,
+   "Img.": "",
+   "nom": "Gallame",
+   "localisations": "Prairie Entre-Ponts\nÉvolution de Kirlia mâle en utilisant une Pierre Aube"
+ },
+ {
+   "regional": 124,
+   "national": 425,
+   "Img.": "",
+   "nom": "Baudrive",
+   "localisations": "Route 5, Lac Milobellus Nord, Lac Milobellus Sud, Tour en ruines"
+ },
+ {
+   "regional": 125,
+   "national": 426,
+   "Img.": "",
+   "nom": "Grodrive",
+   "localisations": "Lac Milobellus Sud, Oeil du Lac, Tour en ruines\nÉvolution de Baudrive au niveau 28"
+ },
+ {
+   "regional": 126,
+   "national": 829,
+   "Img.": "",
+   "nom": "Tournicoton",
+   "localisations": "Route 2, Route 3, Berges de Motorby"
+ },
+ {
+   "regional": 127,
+   "national": 830,
+   "Img.": "",
+   "nom": "Blancoton",
+   "localisations": "Route 5, Berges de Motorby, Coiffe du Géant, Fosse des Sables, Plaine Rocheuse\nÉvolution de Tournicoton au niveau 20"
+ },
+ {
+   "regional": 128,
+   "national": 420,
+   "Img.": "",
+   "nom": "Ceribou",
+   "localisations": "Route 3, Berges de Motorby, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Nord, Lac Ouragan, Miroir du Géant, Oeil du Lac, Plaine Verdoyante, Plateau de Kickenham, Prairie Entre-Ponts, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 129,
+   "national": 421,
+   "Img.": "",
+   "nom": "Ceriflor",
+   "localisations": "Évolution de Ceribou au niveau 25"
+ },
+ {
+   "regional": 130,
+   "national": 434,
+   "Img.": "",
+   "nom": "Moufouette",
+   "localisations": "Route 3, Bois de Clairjour, Coiffe du Géant, Lac Milobellus Nord, Lac Milobellus Sud"
+ },
+ {
+   "regional": 131,
+   "national": 435,
+   "Img.": "",
+   "nom": "Moufflair",
+   "localisations": "Fosse des Sables, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan\nÉvolution de Moufouette au niveau 34"
+ },
+ {
+   "regional": 132,
+   "national": 535,
+   "Img.": "",
+   "nom": "Tritonde",
+   "localisations": "Bois de Clairjour, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Tour en ruines"
+ },
+ {
+   "regional": 133,
+   "national": 536,
+   "Img.": "",
+   "nom": "Batracné",
+   "localisations": "Coiffe du Géant, Fosse des Sables, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Miroir du Géant, Plateau de Kickenham, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Tritonde au niveau 25"
+ },
+ {
+   "regional": 134,
+   "national": 537,
+   "Img.": "",
+   "nom": "Crapustule",
+   "localisations": "Route 7, Bois de Clairjour, Coiffe du Géant, Fosse des Sables, Lac Milobellus Nord, Lac Ouragan, Miroir du Géant, Oeil du Lac, Prairie Entre-Ponts\nÉvolution de Batracné au niveau 36"
+ },
+ {
+   "regional": 135,
+   "national": 355,
+   "Img.": "",
+   "nom": "Skelénox",
+   "localisations": "Route 6, Berges de Motorby, Coiffe du Géant, Fosse des SablesÉ, Miroir du GéantÉ, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 136,
+   "national": 356,
+   "Img.": "",
+   "nom": "Téraclope",
+   "localisations": "Route 8, Fosse des Sables, Siège du Géant, Tour en ruines\nÉvolution de Skelénox au niveau 37"
+ },
+ {
+   "regional": 137,
+   "national": 477,
+   "Img.": "",
+   "nom": "Noctunoir",
+   "localisations": "Plaine Rocheuse\nÉvolution de Téraclope par échange avec Tissu Fauche tenu"
+ },
+ {
+   "regional": 138,
+   "national": 66,
+   "Img.": "",
+   "nom": "Machoc",
+   "localisations": "Route 3, Lac Milobellus Nord, Lac Milobellus Sud, Miroir du Géant, Plaine Rocheuse, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 139,
+   "national": 67,
+   "Img.": "",
+   "nom": "Machopeur",
+   "localisations": "Lac Milobellus Sud, Oeil du Lac, Plaine Rocheuse, Plateau de Kickenham, Siège du Géant\nÉvolution de Machoc au niveau 28"
+ },
+ {
+   "regional": 140,
+   "national": 68,
+   "Img.": "",
+   "nom": "Mackogneur",
+   "localisations": "Miroir du Géant\nÉvolution de Machopeur par échange"
+ },
+ {
+   "regional": 141,
+   "national": 92,
+   "Img.": "",
+   "nom": "Fantominus",
+   "localisations": "Lac Milobellus Nord, Plateau de Kickenham, Siège du Géant, Tour en ruines"
+ },
+ {
+   "regional": 142,
+   "national": 93,
+   "Img.": "",
+   "nom": "Spectrum",
+   "localisations": "Route 8, Plaine Verdoyante, Siège du Géant, Tour en ruines\nÉvolution de Fantominus au niveau 25"
+ },
+ {
+   "regional": 143,
+   "national": 94,
+   "Img.": "",
+   "nom": "Ectoplasma",
+   "localisations": "Coiffe du Géant\nÉvolution de Spectrum par échange"
+ },
+ {
+   "regional": 144,
+   "national": 129,
+   "Img.": "",
+   "nom": "Magicarpe",
+   "localisations": "Forêt de Sleepwood, Route 2, Route 4, Route 5, Route 6, Motorby, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Oeil du Lac, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 145,
+   "national": 130,
+   "Img.": "",
+   "nom": "Léviator",
+   "localisations": "Route 2, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan, Oeil du Lac, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Magicarpe au niveau 20"
+ },
+ {
+   "regional": 146,
+   "national": 118,
+   "Img.": "",
+   "nom": "Poissirène",
+   "localisations": "Route 4, Route 5, Route 6, Coiffe du Géant, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 147,
+   "national": 119,
+   "Img.": "",
+   "nom": "Poissoroy",
+   "localisations": "Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Poissirène au niveau 33"
+ },
+ {
+   "regional": 148,
+   "national": 223,
+   "Img.": "",
+   "nom": "Rémoraid",
+   "localisations": "Route 9, Lac Coupenotte Ouest, Lac Milobellus Sud"
+ },
+ {
+   "regional": 149,
+   "national": 224,
+   "Img.": "",
+   "nom": "Octillery",
+   "localisations": "Route 9, Lac Milobellus Sud, Oeil du Lac\nÉvolution de Rémoraid au niveau 25"
+ },
+ {
+   "regional": 150,
+   "national": 90,
+   "Img.": "",
+   "nom": "Kokiyas",
+   "localisations": "Lac Coupenotte Est, Lac Coupenotte Ouest, Siège du Géant"
+ },
+ {
+   "regional": 151,
+   "national": 91,
+   "Img.": "",
+   "nom": "Crustabri",
+   "localisations": "Lac Coupenotte Est, Lac Coupenotte Ouest, Siège du Géant\nÉvolution de Kokiyas en utilisant une Pierre Eau"
+ },
+ {
+   "regional": 152,
+   "national": 349,
+   "Img.": "",
+   "nom": "Barpau",
+   "localisations": "Route 2"
+ },
+ {
+   "regional": 153,
+   "national": 350,
+   "Img.": "",
+   "nom": "Milobellus",
+   "localisations": "Lac Ouragan, Lac Milobellus Sud\nÉvolution de Barpau par échange avec Bel'Écaille tenue"
+ },
+ {
+   "regional": 154,
+   "national": 550,
+   "Img.": "",
+   "nom": "Bargantua",
+   "localisations": "Skifford, Berges de Motorby, Lac Milobellus Nord"
+ },
+ {
+   "regional": 155,
+   "national": 746,
+   "Img.": "",
+   "nom": "Froussardine",
+   "localisations": "Route 9, Skifford, Lac Coupenotte Est, Lac Coupenotte Ouest, Oeil du Lac"
+ },
+ {
+   "regional": 156,
+   "national": 771,
+   "Img.": "",
+   "nom": "Concombaffe",
+   "localisations": "Route 9, Lac Milobellus Sud, Siège du Géant"
+ },
+ {
+   "regional": 157,
+   "national": 568,
+   "Img.": "",
+   "nom": "Miamiasme",
+   "localisations": "Route 3"
+ },
+ {
+   "regional": 158,
+   "national": 569,
+   "Img.": "",
+   "nom": "Miasmax",
+   "localisations": "Lac Coupenotte Est, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Miamiasme au niveau 36"
+ },
+ {
+   "regional": 159,
+   "national": 850,
+   "Img.": "",
+   "nom": "Grillepattes",
+   "localisations": "Motorby, Route 3"
+ },
+ {
+   "regional": 160,
+   "national": 851,
+   "Img.": "",
+   "nom": "Scolocendre",
+   "localisations": "Évolution de Grillepattes au niveau 28"
+ },
+ {
+   "regional": 161,
+   "national": 837,
+   "Img.": "",
+   "nom": "Charbi",
+   "localisations": "Route 3, Mine de Galar, Berges de Motorby, Coiffe du Géant"
+ },
+ {
+   "regional": 162,
+   "national": 838,
+   "Img.": "",
+   "nom": "Wagomine",
+   "localisations": "Mine de Galar, Coiffe du Géant, Plaine Rocheuse, Prairie Entre-Ponts\nÉvolution de Charbi au niveau 18"
+ },
+ {
+   "regional": 163,
+   "national": 839,
+   "Img.": "",
+   "nom": "Monthracite",
+   "localisations": "Coiffe du Géant, Fosse des Sables, Lac Ouragan\nÉvolution de Wagomine au niveau 34"
+ },
+ {
+   "regional": 164,
+   "national": 50,
+   "Img.": "",
+   "nom": "Taupiqueur",
+   "localisations": "Route 4, Mine de Galar, Miroir du Géant, Plaine Verdoyante"
+ },
+ {
+   "regional": 165,
+   "national": 51,
+   "Img.": "",
+   "nom": "Triopikeur",
+   "localisations": "Route 6, Coiffe du Géant, Fosse des Sables, Lac Ouragan, Miroir du Géant, Plateau de Kickenham\nÉvolution de Taupiqueur au niveau 26"
+ },
+ {
+   "regional": 166,
+   "national": 529,
+   "Img.": "",
+   "nom": "Rototaupe",
+   "localisations": "Mine de Galar, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Plateau de Kickenham"
+ },
+ {
+   "regional": 167,
+   "national": 530,
+   "Img.": "",
+   "nom": "Minotaupe",
+   "localisations": "Coiffe du Géant, Lac Ouragan, Miroir du Géant\nÉvolution de Rototaupe au niveau 31"
+ },
+ {
+   "regional": 168,
+   "national": 524,
+   "Img.": "",
+   "nom": "Nodulithe",
+   "localisations": "Mine de Galar, Abords de Motorby, Plaine Rocheuse, Plaine Verdoyante"
+ },
+ {
+   "regional": 169,
+   "national": 525,
+   "Img.": "",
+   "nom": "Géolithe",
+   "localisations": "Route 8, Coiffe du Géant, Lac Ouragan, Miroir du Géant, Plaine Rocheuse\nÉvolution de Nodulithe au niveau 25"
+ },
+ {
+   "regional": 170,
+   "national": 526,
+   "Img.": "",
+   "nom": "Gigalithe",
+   "localisations": "Fosse des Sables\nÉvolution de Géolithe par échange"
+ },
+ {
+   "regional": 171,
+   "national": 532,
+   "Img.": "",
+   "nom": "Charpenti",
+   "localisations": "Mine de Galar"
+ },
+ {
+   "regional": 172,
+   "national": 533,
+   "Img.": "",
+   "nom": "Ouvrifier",
+   "localisations": "Route 8, Fosse des Sables, Plaine RocheuseÉ\nÉvolution de Charpenti au niveau 25"
+ },
+ {
+   "regional": 173,
+   "national": 534,
+   "Img.": "",
+   "nom": "Bétochef",
+   "localisations": "Berges de Motorby\nÉvolution de Ouvrifier par échange"
+ },
+ {
+   "regional": 174,
+   "national": 527,
+   "Img.": "",
+   "nom": "Chovsourir",
+   "localisations": "Mine de Galar, Miroir du Géant, Prairie Entre-Ponts, Tour en ruines"
+ },
+ {
+   "regional": 175,
+   "national": 528,
+   "Img.": "",
+   "nom": "Rhinolove",
+   "localisations": "Évolution de Chovsourir par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 176,
+   "national": 714,
+   "Img.": "",
+   "nom": "Sonistrelle",
+   "localisations": "Mine de Galar n°2, Prairie Entre-Ponts, Tour en ruines"
+ },
+ {
+   "regional": 177,
+   "national": 715,
+   "Img.": "",
+   "nom": "Bruyverne",
+   "localisations": "Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Sonistrelle au niveau 48"
+ },
+ {
+   "regional": 178,
+   "national": 95,
+   "Img.": "",
+   "nom": "Onix",
+   "localisations": "Berges de Motorby, Lac Coupenotte Est, Plaine Verdoyante, Siège du Géant"
+ },
+ {
+   "regional": 179,
+   "national": 208,
+   "Img.": "",
+   "nom": "Steelix",
+   "localisations": "Miroir du Géant, Siège du Géant\nÉvolution de Onix par échange avec Peau Métal tenue"
+ },
+ {
+   "regional": 180,
+   "national": 846,
+   "Img.": "",
+   "nom": "Embrochet",
+   "localisations": "Route 2, Skifford, Berges de Motorby"
+ },
+ {
+   "regional": 181,
+   "national": 847,
+   "Img.": "",
+   "nom": "Hastacuda",
+   "localisations": "Route 2, Berges de Motorby, Fosse des Sables, Lac Ouragan\nÉvolution de Embrochet au niveau 26"
+ },
+ {
+   "regional": 182,
+   "national": 52,
+   "Img.": "",
+   "nom": "Miaouss",
+   "localisations": "Forme Galar : Route 4\nForme Kanto : Échange interne"
+ },
+ {
+   "regional": 183,
+   "national": 863,
+   "Img.": "",
+   "nom": "Berserkatt",
+   "localisations": "Route 7, Route 9, Lac Ouragan, Miroir du Géant\nÉvolution de Miaouss de Galar au niveau 28"
+ },
+ {
+   "regional": 184,
+   "national": 53,
+   "Img.": "",
+   "nom": "Persian",
+   "localisations": "Forme Kanto : Évolution de Miaouss au niveau 28\nForme Alola : Évolution de Miaouss d'Alola par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 185,
+   "national": 868,
+   "Img.": "",
+   "nom": "Crèmy",
+   "localisations": "Route 4, Miroir du Géant, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 186,
+   "national": 869,
+   "Img.": "",
+   "nom": "Charmilly",
+   "localisations": "Évolution de Crèmy en tournant sur soi-même avec un objet en Sucre tenu."
+ },
+ {
+   "regional": 187,
+   "national": 742,
+   "Img.": "",
+   "nom": "Bombydou",
+   "localisations": "Route 4, Berges de Motorby, Miroir du Géant, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 188,
+   "national": 743,
+   "Img.": "",
+   "nom": "Rubombelle",
+   "localisations": "Berges de Motorby, Plaine Rocheuse, Prairie Entre-Ponts\nÉvolution de Bombydou au niveau 25"
+ },
+ {
+   "regional": 189,
+   "national": 597,
+   "Img.": "",
+   "nom": "Grindur",
+   "localisations": "Route 4, Berges de Motorby, Prairie Entre-Ponts, Plaine Rocheuse"
+ },
+ {
+   "regional": 190,
+   "national": 598,
+   "Img.": "",
+   "nom": "Noacier",
+   "localisations": "Fosse des Sables, Prairie Entre-Ponts\nÉvolution de Grindur au niveau 40"
+ },
+ {
+   "regional": 191,
+   "national": 710,
+   "Img.": "",
+   "nom": "Pitrouille",
+   "localisations": "Route 4, Miroir du Géant, Plateau de Kickenham"
+ },
+ {
+   "regional": 192,
+   "national": 711,
+   "Img.": "",
+   "nom": "Banshitrouye",
+   "localisations": "Plateau de Kickenham\nÉvolution de Pitrouille par échange"
+ },
+ {
+   "regional": 193,
+   "national": 172,
+   "Img.": "",
+   "nom": "Pichu",
+   "localisations": "Offert sur HOME\nReproduction de Pikachu ou Raichu"
+ },
+ {
+   "regional": 194,
+   "national": 25,
+   "Img.": "",
+   "nom": "Pikachu",
+   "localisations": "Route 4, Plaine Rocheuse, Plaine Verdoyante ; offert au Sentier de la Gare ; offert sur HOME\nÉvolution de Pichu par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 195,
+   "national": 26,
+   "Img.": "",
+   "nom": "Raichu",
+   "localisations": "Évolution de Pikachu en utilisant une Pierre Foudre"
+ },
+ {
+   "regional": 196,
+   "national": 133,
+   "Img.": "",
+   "nom": "Évoli",
+   "localisations": "Route 4 ; offert au Sentier de la Gare ; offert sur HOME"
+ },
+ {
+   "regional": 197,
+   "national": 134,
+   "Img.": "",
+   "nom": "Aquali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli en utilisant une Pierre Eau"
+ },
+ {
+   "regional": 198,
+   "national": 135,
+   "Img.": "",
+   "nom": "Voltali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli en utilisant une Pierre Foudre"
+ },
+ {
+   "regional": 199,
+   "national": 136,
+   "Img.": "",
+   "nom": "Pyroli",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli en utilisant une Pierre Feu"
+ },
+ {
+   "regional": 200,
+   "national": 196,
+   "Img.": "",
+   "nom": "Mentali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli par montée de niveau avec beaucoup d'amitié, le jour"
+ },
+ {
+   "regional": 201,
+   "national": 197,
+   "Img.": "",
+   "nom": "Noctali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli par montée de niveau avec beaucoup d'amitié, la nuit"
+ },
+ {
+   "regional": 202,
+   "national": 470,
+   "Img.": "",
+   "nom": "Phyllali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli en utilisant une Pierre Plante"
+ },
+ {
+   "regional": 203,
+   "national": 471,
+   "Img.": "",
+   "nom": "Givrali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli en utilisant une Pierre Glace"
+ },
+ {
+   "regional": 204,
+   "national": 700,
+   "Img.": "",
+   "nom": "Nymphali",
+   "localisations": "Lac Ouragan\nÉvolution de Évoli par montée de niveau en ayant appris une attaque Fée et avec beaucoup d'amitié."
+ },
+ {
+   "regional": 205,
+   "national": 840,
+   "Img.": "",
+   "nom": "Verpom",
+   "localisations": "Route 5, Fosse des Sables, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 206,
+   "national": 841,
+   "Img.": "",
+   "nom": "Pomdrapi",
+   "localisations": "Évolution de Verpom en utilisant une Pomme Acidulée"
+ },
+ {
+   "regional": 207,
+   "national": 842,
+   "Img.": "",
+   "nom": "Dratatin",
+   "localisations": "Évolution de Verpom en utilisant une Pomme Sucrée"
+ },
+ {
+   "regional": 208,
+   "national": 677,
+   "Img.": "",
+   "nom": "Psystigri",
+   "localisations": "Route 5, Berges de Motorby, Plateau de Kickenham"
+ },
+ {
+   "regional": 209,
+   "national": 678,
+   "Img.": "",
+   "nom": "Mistigrix",
+   "localisations": "Route 7, Fosse des Sables\nÉvolution de Psystigri au niveau 25"
+ },
+ {
+   "regional": 210,
+   "national": 684,
+   "Img.": "",
+   "nom": "Sucroquin",
+   "localisations": "Épée : Route 5, Forêt de Lumirinth, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 211,
+   "national": 685,
+   "Img.": "",
+   "nom": "Cupcanaille",
+   "localisations": "Évolution de Sucroquin par échange avec Chantibonbon tenu"
+ },
+ {
+   "regional": 212,
+   "national": 682,
+   "Img.": "",
+   "nom": "Fluvetin",
+   "localisations": "Bouclier : Route 5, Forêt de Lumirinth, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 213,
+   "national": 683,
+   "Img.": "",
+   "nom": "Cocotine",
+   "localisations": "Évolution de Fluvetin par échange avec Sachet Senteur tenu"
+ },
+ {
+   "regional": 214,
+   "national": 751,
+   "Img.": "",
+   "nom": "Araqua",
+   "localisations": "Route 5, Berges de Motorby, Plaine Rocheuse"
+ },
+ {
+   "regional": 215,
+   "national": 752,
+   "Img.": "",
+   "nom": "Tarenbulle",
+   "localisations": "Lac Ouragan, Plaine Rocheuse\nÉvolution de Araqua au niveau 22"
+ },
+ {
+   "regional": 216,
+   "national": 360,
+   "Img.": "",
+   "nom": "Okéoké",
+   "localisations": "Reproduction de Qulbutoké avec Encens Doux tenu"
+ },
+ {
+   "regional": 217,
+   "national": 202,
+   "Img.": "",
+   "nom": "Qulbutoké",
+   "localisations": "Route 5, Berges de Motorby, Fosse des Sables, Lac Ouragan, Miroir du Géant, Plateau de Kickenham, Prairie Entre-Ponts\nÉvolution de Okéoké au niveau 15"
+ },
+ {
+   "regional": 218,
+   "national": 83,
+   "Img.": "",
+   "nom": "Canarticho",
+   "localisations": "Épée : Route 5, Miroir du Géant"
+ },
+ {
+   "regional": 219,
+   "national": 865,
+   "Img.": "",
+   "nom": "Palarticho",
+   "localisations": "Évolution de Canarticho de Galar après avoir fait 3 coups critiques en un seul combat"
+ },
+ {
+   "regional": 220,
+   "national": 170,
+   "Img.": "",
+   "nom": "Loupio",
+   "localisations": "Skifford, Lac Coupenotte Est, Lac Coupenotte Ouest, Miroir du Géant"
+ },
+ {
+   "regional": 221,
+   "national": 171,
+   "Img.": "",
+   "nom": "Lanturn",
+   "localisations": "Fosse des Sables, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Sud, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Loupio au niveau 27"
+ },
+ {
+   "regional": 222,
+   "national": 453,
+   "Img.": "",
+   "nom": "Cradopaud",
+   "localisations": "Bouclier : Mine de Galar n°2, Abords de Motorby, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 223,
+   "national": 454,
+   "Img.": "",
+   "nom": "Coatox",
+   "localisations": "Bouclier : Plaine Rocheuse\nÉvolution de Cradopaud au niveau 37"
+ },
+ {
+   "regional": 224,
+   "national": 559,
+   "Img.": "",
+   "nom": "Baggiguane",
+   "localisations": "Épée : Mine de Galar n°2, Abords de Motorby, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 225,
+   "national": 560,
+   "Img.": "",
+   "nom": "Baggaïd",
+   "localisations": "Évolution de Baggiguane au niveau 39"
+ },
+ {
+   "regional": 226,
+   "national": 618,
+   "Img.": "",
+   "nom": "Limonde",
+   "localisations": "Forêt de Sleepwood, Mine de Galar n°2, Fosse des Sables, Lac Ouragan"
+ },
+ {
+   "regional": 227,
+   "national": 213,
+   "Img.": "",
+   "nom": "Caratroc",
+   "localisations": "Mine de Galar n°2, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Tour en ruines"
+ },
+ {
+   "regional": 228,
+   "national": 339,
+   "Img.": "",
+   "nom": "Barloche",
+   "localisations": "Forêt de Sleepwood, Motorby, Mine de Galar n°2, Lac Milobellus Nord, Lac Milobellus Sud, Plaine Rocheuse"
+ },
+ {
+   "regional": 229,
+   "national": 340,
+   "Img.": "",
+   "nom": "Barbicha",
+   "localisations": "Forêt de Sleepwood, Lac Milobellus Sud\nÉvolution de Barloche au niveau 30"
+ },
+ {
+   "regional": 230,
+   "national": 422,
+   "Img.": "",
+   "nom": "Sancoki",
+   "localisations": "Mine de Galar n°2, Berges de Motorby, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 231,
+   "national": 423,
+   "Img.": "",
+   "nom": "Tritosor",
+   "localisations": "Route 9, Mine de Galar n°2, Fosse des Sables, Miroir du Géant\nÉvolution de Sancoki au niveau 30"
+ },
+ {
+   "regional": 232,
+   "national": 767,
+   "Img.": "",
+   "nom": "Sovkipou",
+   "localisations": "Mine de Galar n°2, Berges de Motorby, Miroir du Géant, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 233,
+   "national": 768,
+   "Img.": "",
+   "nom": "SarmuraÏ",
+   "localisations": "Coiffe du Géant, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Sovkipou au niveau 30"
+ },
+ {
+   "regional": 234,
+   "national": 688,
+   "Img.": "",
+   "nom": "Opermine",
+   "localisations": "Mine de Galar n°2, Berges de Motorby, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 235,
+   "national": 689,
+   "Img.": "",
+   "nom": "Golgopathe",
+   "localisations": "Route 9, Fosse des Sables, Lac Ouragan\nÉvolution de Opermine au niveau 39"
+ },
+ {
+   "regional": 236,
+   "national": 222,
+   "Img.": "",
+   "nom": "Corayon",
+   "localisations": "Bouclier : Miroir du Géant"
+ },
+ {
+   "regional": 237,
+   "national": 864,
+   "Img.": "",
+   "nom": "Corayôme",
+   "localisations": "Évolution de Corayon de Galar au niveau 38"
+ },
+ {
+   "regional": 238,
+   "national": 859,
+   "Img.": "",
+   "nom": "Grimalin",
+   "localisations": "Abords de Motorby, Forêt de Lumirinth, Miroir du Géant, Plaine Rocheuse, Plateau de Kickenham\nBouclier : Échange interne"
+ },
+ {
+   "regional": 239,
+   "national": 860,
+   "Img.": "",
+   "nom": "Fourbelin",
+   "localisations": "Forêt de Lumirinth\nÉvolution de Grimalin au niveau 32"
+ },
+ {
+   "regional": 240,
+   "national": 861,
+   "Img.": "",
+   "nom": "Angoliath",
+   "localisations": "Lac Ouragan, Plaine Rocheuse\nÉvolution de Fourbelin au niveau 42"
+ },
+ {
+   "regional": 241,
+   "national": 856,
+   "Img.": "",
+   "nom": "Bibichut",
+   "localisations": "Abords de Motorby, Plaine Rocheuse, Plateau de Kickenham\nÉpée : Échange interne"
+ },
+ {
+   "regional": 242,
+   "national": 857,
+   "Img.": "",
+   "nom": "Chapotus",
+   "localisations": "Forêt de Lumirinth, Fosse des Sables\nÉvolution de Bibichut au niveau 32"
+ },
+ {
+   "regional": 243,
+   "national": 858,
+   "Img.": "",
+   "nom": "Sorcilence",
+   "localisations": "Lac Ouragan\nÉvolution de Chapotus au niveau 42"
+ },
+ {
+   "regional": 244,
+   "national": 757,
+   "Img.": "",
+   "nom": "Tritox",
+   "localisations": "Abords de MotorbyB, Berges de MotorbyB, Plaine Rocheuse"
+ },
+ {
+   "regional": 245,
+   "national": 758,
+   "Img.": "",
+   "nom": "Malamandre",
+   "localisations": "Évolution de Tritox femelle au niveau 33"
+ },
+ {
+   "regional": 246,
+   "national": 624,
+   "Img.": "",
+   "nom": "Scalpion",
+   "localisations": "Route 8, Abords de Motorby, Berges de Motorby, Coiffe du Géant, Miroir du Géant, Plaine Rocheuse"
+ },
+ {
+   "regional": 247,
+   "national": 625,
+   "Img.": "",
+   "nom": "Scalproie",
+   "localisations": "Berges de Motorby, Lac Ouragan, Siège du Géant\nÉvolution de Scalpion au niveau 52"
+ },
+ {
+   "regional": 248,
+   "national": 538,
+   "Img.": "",
+   "nom": "Judokrak",
+   "localisations": "Bouclier : Route 8, Abords de Motorby, Berges de Motorby, Miroir du Géant, Prairie Entre-Ponts\nÉpée : Échange interne"
+ },
+ {
+   "regional": 249,
+   "national": 539,
+   "Img.": "",
+   "nom": "Karaclée",
+   "localisations": "Épée : Route 8, Abords de Motorby, Berges de Motorby, Miroir du Géant, Prairie Entre-Ponts\nBouclier : Échange interne"
+ },
+ {
+   "regional": 250,
+   "national": 109,
+   "Img.": "",
+   "nom": "Smogo",
+   "localisations": "Abords de Motorby, Berges de Motorby, Fosse des Sables, Miroir du Géant"
+ },
+ {
+   "regional": 251,
+   "national": 110,
+   "Img.": "",
+   "nom": "Smogogo",
+   "localisations": "Forêt de Sleepwood, Lac Coupenotte Est, Lac Ouragan, Miroir du Géant\nÉvolution de Smogo au niveau 35"
+ },
+ {
+   "regional": 252,
+   "national": 438,
+   "Img.": "",
+   "nom": "Manzaï",
+   "localisations": "Plaine Rocheuse, Prairie Entre-Ponts\nReproduction de Simularbre avec Encens Roc tenu"
+ },
+ {
+   "regional": 253,
+   "national": 185,
+   "Img.": "",
+   "nom": "Simularbre",
+   "localisations": "Abords de Motorby, Berges de Motorby, Fosse des Sables, Plateau de Kickenham, Prairie Entre-Ponts\nÉvolution de Manzaï par montée de niveau en ayant appris l'attaque Copie"
+ },
+ {
+   "regional": 254,
+   "national": 173,
+   "Img.": "",
+   "nom": "Mélo",
+   "localisations": "Reproduction de Mélofée ou Mélodelfe"
+ },
+ {
+   "regional": 255,
+   "national": 35,
+   "Img.": "",
+   "nom": "Mélofée",
+   "localisations": "Berges de Motorby, Coiffe du Géant\nÉvolution de Mélo par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 256,
+   "national": 36,
+   "Img.": "",
+   "nom": "Mélodelfe",
+   "localisations": "Berges de Motorby\nÉvolution de Mélofée en utilisant une Pierre Lune"
+ },
+ {
+   "regional": 257,
+   "national": 175,
+   "Img.": "",
+   "nom": "Togepi",
+   "localisations": "Prairie Entre-Ponts, Échange interne\nReproduction de Togetic ou Togekiss"
+ },
+ {
+   "regional": 258,
+   "national": 176,
+   "Img.": "",
+   "nom": "Togetic",
+   "localisations": "Plaine Rocheuse\nÉvolution de Togepi par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 259,
+   "national": 468,
+   "Img.": "",
+   "nom": "Togekiss",
+   "localisations": "Fosse des Sables\nÉvolution de Togetic en utilisant une Pierre Éclat"
+ },
+ {
+   "regional": 260,
+   "national": 446,
+   "Img.": "",
+   "nom": "Goinfrex",
+   "localisations": "Berges de Motorby\nReproduction de Ronflex avec Encens Plein tenu"
+ },
+ {
+   "regional": 261,
+   "national": 143,
+   "Img.": "",
+   "nom": "Ronflex",
+   "localisations": "Berges de Motorby\nÉvolution de Goinfrex par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 262,
+   "national": 546,
+   "Img.": "",
+   "nom": "Doudouvet",
+   "localisations": "Plaine Rocheuse, Échange interne"
+ },
+ {
+   "regional": 263,
+   "national": 547,
+   "Img.": "",
+   "nom": "Farfaduvet",
+   "localisations": "Évolution de Doudouvet en utilisant une Pierre Soleil"
+ },
+ {
+   "regional": 264,
+   "national": 111,
+   "Img.": "",
+   "nom": "Rhinocorne",
+   "localisations": "Route 8, Berges de Motorby, Coiffe du Géant, Miroir du Géant, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 265,
+   "national": 112,
+   "Img.": "",
+   "nom": "Rhinoféros",
+   "localisations": "Route 10, Fosse des Sables, Lac Ouragan, Plaine Rocheuse, Prairie Entre-Ponts, Siège du Géant\nÉvolution de Rhinocorne au niveau 42"
+ },
+ {
+   "regional": 266,
+   "national": 464,
+   "Img.": "",
+   "nom": "Rhinastoc",
+   "localisations": "Évolution de Rhinoféros par échange avec Protecteur tenu"
+ },
+ {
+   "regional": 267,
+   "national": 574,
+   "Img.": "",
+   "nom": "Scrutella",
+   "localisations": "Épée : Coiffe du Géant"
+ },
+ {
+   "regional": 268,
+   "national": 575,
+   "Img.": "",
+   "nom": "Mesmérella",
+   "localisations": "Épée : Coiffe du Géant, Fosse des Sables, Miroir du Géant\nÉvolution de Scrutella au niveau 32"
+ },
+ {
+   "regional": 269,
+   "national": 576,
+   "Img.": "",
+   "nom": "Sidérella",
+   "localisations": "Épée : Lac Ouragan\nÉvolution de Mesmérella au niveau 41"
+ },
+ {
+   "regional": 270,
+   "national": 577,
+   "Img.": "",
+   "nom": "Nucléos",
+   "localisations": "Bouclier : Coiffe du Géant"
+ },
+ {
+   "regional": 271,
+   "national": 578,
+   "Img.": "",
+   "nom": "Méios",
+   "localisations": "Bouclier : Fosse des Sables, Miroir du Géant\nÉvolution de Nucléos au niveau 32"
+ },
+ {
+   "regional": 272,
+   "national": 579,
+   "Img.": "",
+   "nom": "Symbios",
+   "localisations": "Bouclier : Lac Ouragan\nÉvolution de Méios au niveau 41"
+ },
+ {
+   "regional": 273,
+   "national": 588,
+   "Img.": "",
+   "nom": "Carabing",
+   "localisations": "Route 7, Berges de Motorby, Coiffe du GéantÉ, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 274,
+   "national": 589,
+   "Img.": "",
+   "nom": "Lançargot",
+   "localisations": "Évolution de Carabing en l'échangeant contre Escargaume"
+ },
+ {
+   "regional": 275,
+   "national": 616,
+   "Img.": "",
+   "nom": "Escargaume",
+   "localisations": "Route 7, Berges de Motorby, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 276,
+   "national": 617,
+   "Img.": "",
+   "nom": "Limaspeed",
+   "localisations": "Évolution de Escargaume en l'échangeant contre Carabing"
+ },
+ {
+   "regional": 277,
+   "national": 605,
+   "Img.": "",
+   "nom": "Lewsor",
+   "localisations": "Berges de Motorby, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 278,
+   "national": 606,
+   "Img.": "",
+   "nom": "Neitram",
+   "localisations": "Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Lewsor au niveau 42"
+ },
+ {
+   "regional": 279,
+   "national": 613,
+   "Img.": "",
+   "nom": "Polarhume",
+   "localisations": "Route 10, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 280,
+   "national": 614,
+   "Img.": "",
+   "nom": "Polagriffe",
+   "localisations": "Route 10, Coiffe du Géant, Prairie Entre-Ponts\nÉvolution de Polarhume au niveau 37"
+ },
+ {
+   "regional": 281,
+   "national": 627,
+   "Img.": "",
+   "nom": "Furaiglon",
+   "localisations": "Épée : Route 8, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 282,
+   "national": 628,
+   "Img.": "",
+   "nom": "Gueriaigle",
+   "localisations": "Épée : Fosse des Sables, Lac Ouragan\nÉvolution de Furaiglon au niveau 54"
+ },
+ {
+   "regional": 283,
+   "national": 629,
+   "Img.": "",
+   "nom": "Vostourno",
+   "localisations": "Bouclier : Route 8, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 284,
+   "national": 630,
+   "Img.": "",
+   "nom": "Vaututrice",
+   "localisations": "Bouclier : Fosse des Sables, Lac Ouragan\nÉvolution de Vostourno au niveau 54"
+ },
+ {
+   "regional": 285,
+   "national": 451,
+   "Img.": "",
+   "nom": "Rapion",
+   "localisations": "Route 6, Miroir du Géant, Berges de Motorby"
+ },
+ {
+   "regional": 286,
+   "national": 452,
+   "Img.": "",
+   "nom": "Drascore",
+   "localisations": "Route 8, Lac Ouragan, Berges de Motorby\nÉvolution de Rapion au niveau 40"
+ },
+ {
+   "regional": 287,
+   "national": 607,
+   "Img.": "",
+   "nom": "Funécire",
+   "localisations": "Motorby, Berges de Motorby, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 288,
+   "national": 608,
+   "Img.": "",
+   "nom": "Mélancolux",
+   "localisations": "Lac Ouragan\nÉvolution de Funécire au niveau 41"
+ },
+ {
+   "regional": 289,
+   "national": 609,
+   "Img.": "",
+   "nom": "Lugulabre",
+   "localisations": "Lac Ouragan\nÉvolution de Mélancolux en utilisant une Pierre Nuit"
+ },
+ {
+   "regional": 290,
+   "national": 686,
+   "Img.": "",
+   "nom": "Sepiatop",
+   "localisations": "Route 7, Route 9, Miroir du Géant, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 291,
+   "national": 687,
+   "Img.": "",
+   "nom": "Sepiatroce",
+   "localisations": "Évolution de Sepiatop au niveau 30 avec la console ou les manettes retournées"
+ },
+ {
+   "regional": 292,
+   "national": 215,
+   "Img.": "",
+   "nom": "Farfuret",
+   "localisations": "Route 8, Route 10, Berges de Motorby, Coiffe du Géant, Fosse des Sables, Miroir du Géant, Plaine Rocheuse, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 293,
+   "national": 461,
+   "Img.": "",
+   "nom": "Dimoret",
+   "localisations": "Prairie Entre-Ponts\nÉvolution de Farfuret par montée de niveau avec Griffe Rasoir tenue la nuit"
+ },
+ {
+   "regional": 294,
+   "national": 302,
+   "Img.": "",
+   "nom": "Ténéfix",
+   "localisations": "Bouclier : Fosse des Sables, Miroir du Géant"
+ },
+ {
+   "regional": 295,
+   "national": 303,
+   "Img.": "",
+   "nom": "Mysdibule",
+   "localisations": "Épée : Fosse des Sables, Miroir du Géant, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 296,
+   "national": 556,
+   "Img.": "",
+   "nom": "Maracachi",
+   "localisations": "Route 6, Plaine Rocheuse, Plateau de Kickenham, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 297,
+   "national": 561,
+   "Img.": "",
+   "nom": "Cryptéro",
+   "localisations": "Berges de Motorby, Fosse des Sables, Lac Ouragan, Plaine Rocheuse"
+ },
+ {
+   "regional": 298,
+   "national": 447,
+   "Img.": "",
+   "nom": "Riolu",
+   "localisations": "Coiffe du Géant\nReproduction de Lucario"
+ },
+ {
+   "regional": 299,
+   "national": 448,
+   "Img.": "",
+   "nom": "Lucario",
+   "localisations": "Lac Milobellus Nord\nÉvolution de Riolu par montée de niveau avec beaucoup d'amitié le jour"
+ },
+ {
+   "regional": 300,
+   "national": 324,
+   "Img.": "",
+   "nom": "Chartor",
+   "localisations": "Route 6, Berges de Motorby, Coiffe du Géant, Miroir du Géant"
+ },
+ {
+   "regional": 301,
+   "national": 778,
+   "Img.": "",
+   "nom": "Mimiqui",
+   "localisations": "Miroir du Géant, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 302,
+   "national": 878,
+   "Img.": "",
+   "nom": "Charibari",
+   "localisations": "Prairie Entre-Ponts"
+ },
+ {
+   "regional": 303,
+   "national": 879,
+   "Img.": "",
+   "nom": "Pachyradjah",
+   "localisations": "Lac Ouragan, Plateau de Kickenham\nÉvolution de Charibari au niveau 34"
+ },
+ {
+   "regional": 304,
+   "national": 211,
+   "Img.": "",
+   "nom": "Qwilfish",
+   "localisations": "Route 9, Fosse des Sables, Lac Ouragan, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 305,
+   "national": 592,
+   "Img.": "",
+   "nom": "Viskuse",
+   "localisations": "Fosse des Sables, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Miroir du Géant, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 306,
+   "national": 593,
+   "Img.": "",
+   "nom": "Moyade",
+   "localisations": "Route 9, Lac Coupenotte Est, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Milobellus Sud, Lac Ouragan, Prairie Entre-Ponts\nÉvolution de Viskuse au niveau 40"
+ },
+ {
+   "regional": 307,
+   "national": 747,
+   "Img.": "",
+   "nom": "Vorastérie",
+   "localisations": "Route 9, Berges de Motorby, Miroir du Géant"
+ },
+ {
+   "regional": 308,
+   "national": 748,
+   "Img.": "",
+   "nom": "Prédastérie",
+   "localisations": "Route 9\nÉvolution de Vorastérie au niveau 38"
+ },
+ {
+   "regional": 309,
+   "national": 845,
+   "Img.": "",
+   "nom": "Nigosier",
+   "localisations": "Route 9, Lac Ouragan, Oeil du Lac, Plaine Rocheuse, Prairie Entre-Ponts"
+ },
+ {
+   "regional": 310,
+   "national": 848,
+   "Img.": "",
+   "nom": "Toxizap",
+   "localisations": "Offert à la Route 5 ; Route 7, Berges de Motorby, Coiffe du Géant, Plaine Rocheuse, Plateau de Kickenham, Prairie Entre-Ponts\nReproduction de Salarsen"
+ },
+ {
+   "regional": 311,
+   "national": 849,
+   "Img.": "",
+   "nom": "Salarsen",
+   "localisations": "Évolution de Toxizap au niveau 30"
+ },
+ {
+   "regional": 312,
+   "national": 843,
+   "Img.": "",
+   "nom": "Dunaja",
+   "localisations": "Route 6"
+ },
+ {
+   "regional": 313,
+   "national": 844,
+   "Img.": "",
+   "nom": "Dunaconda",
+   "localisations": "Route 8, Fosse des Sables, Lac Ouragan\nÉvolution de Dunaja au niveau 36"
+ },
+ {
+   "regional": 314,
+   "national": 449,
+   "Img.": "",
+   "nom": "Hippopotas",
+   "localisations": "Route 6, Fosse des Sables"
+ },
+ {
+   "regional": 315,
+   "national": 450,
+   "Img.": "",
+   "nom": "Hippodocus",
+   "localisations": "Route 8, Lac Ouragan, Miroir du Géant\nÉvolution de Hippopotas au niveau 34"
+ },
+ {
+   "regional": 316,
+   "national": 632,
+   "Img.": "",
+   "nom": "Fermite",
+   "localisations": "Route 6, Lac Ouragan, Miroir du Géant"
+ },
+ {
+   "regional": 317,
+   "national": 631,
+   "Img.": "",
+   "nom": "Aflamanoir",
+   "localisations": "Route 6, Lac Ouragan, Miroir du Géant"
+ },
+ {
+   "regional": 318,
+   "national": 694,
+   "Img.": "",
+   "nom": "Galvaran",
+   "localisations": "Route 6, Miroir du Géant"
+ },
+ {
+   "regional": 319,
+   "national": 695,
+   "Img.": "",
+   "nom": "Iguolta",
+   "localisations": "Évolution de Galvaran en utilisant une Pierre Soleil"
+ },
+ {
+   "regional": 320,
+   "national": 701,
+   "Img.": "",
+   "nom": "Brutalibré",
+   "localisations": "Route 6, Plateau de Kickenham"
+ },
+ {
+   "regional": 321,
+   "national": 328,
+   "Img.": "",
+   "nom": "Kraknoix",
+   "localisations": "Route 6, Plateau de KickenhamB"
+ },
+ {
+   "regional": 322,
+   "national": 329,
+   "Img.": "",
+   "nom": "Vibraninf",
+   "localisations": "Évolution de Kraknoix au niveau 35"
+ },
+ {
+   "regional": 323,
+   "national": 330,
+   "Img.": "",
+   "nom": "Libégon",
+   "localisations": "Fosse des Sables, Lac Ouragan\nÉvolution de Vibraninf au niveau 45"
+ },
+ {
+   "regional": 324,
+   "national": 610,
+   "Img.": "",
+   "nom": "Coupenotte",
+   "localisations": "Route 6, Oeil du Lac, Plateau de KickenhamÉ"
+ },
+ {
+   "regional": 325,
+   "national": 611,
+   "Img.": "",
+   "nom": "Incisache",
+   "localisations": "Évolution de Coupenotte au niveau 38"
+ },
+ {
+   "regional": 326,
+   "national": 612,
+   "Img.": "",
+   "nom": "Tranchodon",
+   "localisations": "Lac Ouragan, Oeil du Lac\nÉvolution de Incisache au niveau 48"
+ },
+ {
+   "regional": 327,
+   "national": 562,
+   "Img.": "",
+   "nom": "Tutafeh",
+   "localisations": "Forme Galar : Route 6\nForme Unys : Échange interne"
+ },
+ {
+   "regional": 328,
+   "national": 867,
+   "Img.": "",
+   "nom": "Tutétékri",
+   "localisations": "Évolution de Tutafeh de Galar en ayant perdu 49 PV ou plus et en passant sous l'arche en pierre dans la Fosse des Sables"
+ },
+ {
+   "regional": 329,
+   "national": 563,
+   "Img.": "",
+   "nom": "Tutankafer",
+   "localisations": "Évolution de Tutafeh au niveau 34"
+ },
+ {
+   "regional": 330,
+   "national": 679,
+   "Img.": "",
+   "nom": "Monorpale",
+   "localisations": "Plateau de Kickenham"
+ },
+ {
+   "regional": 331,
+   "national": 680,
+   "Img.": "",
+   "nom": "Dimoclès",
+   "localisations": "Coiffe du Géant, Lac Ouragan\nÉvolution de Monorpale au niveau 35"
+ },
+ {
+   "regional": 332,
+   "national": 681,
+   "Img.": "",
+   "nom": "Exagide",
+   "localisations": "Coiffe du Géant\nÉvolution de Dimoclès en utilisant une Pierre Nuit"
+ },
+ {
+   "regional": 333,
+   "national": 77,
+   "Img.": "",
+   "nom": "Ponyta",
+   "localisations": "Bouclier : Forêt de Lumirinth"
+ },
+ {
+   "regional": 334,
+   "national": 78,
+   "Img.": "",
+   "nom": "Galopa",
+   "localisations": "Évolution de Ponyta au niveau 40"
+ },
+ {
+   "regional": 335,
+   "national": 854,
+   "Img.": "",
+   "nom": "Théffroi",
+   "localisations": "Forêt de Lumirinth"
+ },
+ {
+   "regional": 336,
+   "national": 855,
+   "Img.": "",
+   "nom": "Polthégeist",
+   "localisations": "Évolution de Théffroi contrefaçon en utilisant une Théière Fêlée\nÉvolution de Théffroi authentique en utilisant une Théière Ébréchée"
+ },
+ {
+   "regional": 337,
+   "national": 876,
+   "Img.": "",
+   "nom": "Wimessir",
+   "localisations": "Forêt de Lumirinth, Lac Ouragan (mâle : Épée, femelle : Bouclier)"
+ },
+ {
+   "regional": 338,
+   "national": 708,
+   "Img.": "",
+   "nom": "Brocélôme",
+   "localisations": "Forêt de Lumirinth"
+ },
+ {
+   "regional": 339,
+   "national": 709,
+   "Img.": "",
+   "nom": "Desséliande",
+   "localisations": "Évolution de Brocélôme par échange"
+ },
+ {
+   "regional": 340,
+   "national": 755,
+   "Img.": "",
+   "nom": "Spododo",
+   "localisations": "Miroir du Géant, Plateau de Kickenham"
+ },
+ {
+   "regional": 341,
+   "national": 756,
+   "Img.": "",
+   "nom": "Lampignon",
+   "localisations": "Forêt de Lumirinth, Lac Ouragan\nÉvolution de Spododo au niveau 24"
+ },
+ {
+   "regional": 342,
+   "national": 765,
+   "Img.": "",
+   "nom": "Gouroutan",
+   "localisations": "Bouclier : Forêt de Lumirinth"
+ },
+ {
+   "regional": 343,
+   "national": 766,
+   "Img.": "",
+   "nom": "Quartermac",
+   "localisations": "Épée : Forêt de Lumirinth"
+ },
+ {
+   "regional": 344,
+   "national": 877,
+   "Img.": "",
+   "nom": "Morpeko",
+   "localisations": "Route 7, Route 9, Lac Ouragan"
+ },
+ {
+   "regional": 345,
+   "national": 870,
+   "Img.": "",
+   "nom": "Hexadron",
+   "localisations": "Route 8, Lac Ouragan"
+ },
+ {
+   "regional": 346,
+   "national": 780,
+   "Img.": "",
+   "nom": "Draïeul",
+   "localisations": "Bouclier : Lac Ouragan"
+ },
+ {
+   "regional": 347,
+   "national": 776,
+   "Img.": "",
+   "nom": "Boumata",
+   "localisations": "Épée : Lac Ouragan"
+ },
+ {
+   "regional": 348,
+   "national": 777,
+   "Img.": "",
+   "nom": "Togedemaru",
+   "localisations": "Route 8, Lac Ouragan"
+ },
+ {
+   "regional": 349,
+   "national": 872,
+   "Img.": "",
+   "nom": "Frissonille",
+   "localisations": "Route 8, Route 10, Lac Ouragan"
+ },
+ {
+   "regional": 350,
+   "national": 873,
+   "Img.": "",
+   "nom": "Beldeneige",
+   "localisations": "Évolution de Frissonille par montée de niveau avec beaucoup d'amitié la nuit"
+ },
+ {
+   "regional": 351,
+   "national": 852,
+   "Img.": "",
+   "nom": "Poulpaf",
+   "localisations": "Route 9"
+ },
+ {
+   "regional": 352,
+   "national": 853,
+   "Img.": "",
+   "nom": "Krakos",
+   "localisations": "Route 9, Lac Coupenotte Ouest, Lac Ouragan\nÉvolution de Poulpaf par montée de niveau en ayant appris Provoc"
+ },
+ {
+   "regional": 353,
+   "national": 871,
+   "Img.": "",
+   "nom": "Wattapik",
+   "localisations": "Route 9"
+ },
+ {
+   "regional": 354,
+   "national": 458,
+   "Img.": "",
+   "nom": "Babimanta",
+   "localisations": "Route 9, Berges de Motorby, Lac Ouragan\nReproduction de Démanta avec Encens Vague tenu"
+ },
+ {
+   "regional": 355,
+   "national": 226,
+   "Img.": "",
+   "nom": "Démanta",
+   "localisations": "Route 9, Lac Ouragan\nÉvolution de Babimanta par montée de niveau avec Rémoraid dans l'équipe"
+ },
+ {
+   "regional": 356,
+   "national": 320,
+   "Img.": "",
+   "nom": "Wailmer",
+   "localisations": "Route 9, Berges de Motorby"
+ },
+ {
+   "regional": 357,
+   "national": 321,
+   "Img.": "",
+   "nom": "Wailord",
+   "localisations": "Route 9\nÉvolution de Wailmer au niveau 40"
+ },
+ {
+   "regional": 358,
+   "national": 712,
+   "Img.": "",
+   "nom": "Grelaçon",
+   "localisations": "Route 9, Lac Ouragan"
+ },
+ {
+   "regional": 359,
+   "national": 713,
+   "Img.": "",
+   "nom": "Séracrawl",
+   "localisations": "Lac Ouragan\nÉvolution de Grelaçon au niveau 37"
+ },
+ {
+   "regional": 360,
+   "national": 781,
+   "Img.": "",
+   "nom": "Sinistrail",
+   "localisations": "Route 9"
+ },
+ {
+   "regional": 361,
+   "national": 131,
+   "Img.": "",
+   "nom": "Lokhlass",
+   "localisations": "Route 2, Route 9, Lac Coupenotte Ouest, Lac Milobellus Nord, Lac Ouragan"
+ },
+ {
+   "regional": 362,
+   "national": 337,
+   "Img.": "",
+   "nom": "Séléroc",
+   "localisations": "Bouclier : Route 8, Coiffe du Géant"
+ },
+ {
+   "regional": 363,
+   "national": 338,
+   "Img.": "",
+   "nom": "Solaroc",
+   "localisations": "Épée : Route 8, Coiffe du Géant"
+ },
+ {
+   "regional": 364,
+   "national": 439,
+   "Img.": "",
+   "nom": "Mime Jr.",
+   "localisations": "Plaine Verdoyante\nReproduction de M. Mime avec Encens Bizarre tenu"
+ },
+ {
+   "regional": 365,
+   "national": 122,
+   "Img.": "",
+   "nom": "M. Mime",
+   "localisations": "Forme Galar : Route 10, Lac Ouragan\nÉvolution de Mime Jr. par montée de niveau en ayant appris Copie\nForme Kanto : Échange interne"
+ },
+ {
+   "regional": 366,
+   "national": 866,
+   "Img.": "",
+   "nom": "M. Glaquette",
+   "localisations": "Évolution de M. Mime de Galar au niveau 42"
+ },
+ {
+   "regional": 367,
+   "national": 554,
+   "Img.": "",
+   "nom": "Darumarond",
+   "localisations": "Épée : Route 8, Route 10"
+ },
+ {
+   "regional": 368,
+   "national": 555,
+   "Img.": "",
+   "nom": "Darumacho",
+   "localisations": "Forme de Galar : Évolution de Darumarond de Galar en utilisant une Pierre Glace.\nForme d'Unys : Évolution de Darumarond au niveau 35"
+ },
+ {
+   "regional": 369,
+   "national": 874,
+   "Img.": "",
+   "nom": "Dolman",
+   "localisations": "Épée : Route 10, Lac Ouragan"
+ },
+ {
+   "regional": 370,
+   "national": 875,
+   "Img.": "",
+   "nom": "Bekaglaçon",
+   "localisations": "Bouclier : Route 10, Lac Ouragan"
+ },
+ {
+   "regional": 371,
+   "national": 884,
+   "Img.": "",
+   "nom": "Duralugon",
+   "localisations": "Route 10, Lac Ouragan, Siège du Géant, Échange interne"
+ },
+ {
+   "regional": 372,
+   "national": 479,
+   "Img.": "",
+   "nom": "Motisma",
+   "localisations": "Lac Ouragan ; offert sur HOME"
+ },
+ {
+   "regional": 373,
+   "national": 132,
+   "Img.": "",
+   "nom": "Métamorph",
+   "localisations": "Lac Ouragan"
+ },
+ {
+   "regional": 374,
+   "national": 880,
+   "Img.": "",
+   "nom": "Galvagon",
+   "localisations": "Réanimation de Fossiles Dragon + Oiseau sur la Route 6"
+ },
+ {
+   "regional": 375,
+   "national": 881,
+   "Img.": "",
+   "nom": "Galvagla",
+   "localisations": "Réanimation de Fossiles Aileron + Oiseau sur la Route 6"
+ },
+ {
+   "regional": 376,
+   "national": 882,
+   "Img.": "",
+   "nom": "Hydragon",
+   "localisations": "Réanimation de Fossiles Dragon + Poisson sur la Route 6"
+ },
+ {
+   "regional": 377,
+   "national": 883,
+   "Img.": "",
+   "nom": "Hydragla",
+   "localisations": "Réanimation de Fossiles Aileron + Poisson sur la Route 6"
+ },
+ {
+   "regional": 378,
+   "national": 4,
+   "Img.": "",
+   "nom": "Salamèche",
+   "localisations": "Offert dans la maison de Nabil (post-ligue) ; offert sur HOME"
+ },
+ {
+   "regional": 379,
+   "national": 5,
+   "Img.": "",
+   "nom": "Reptincel",
+   "localisations": "Évolution de Salamèche au niveau 16"
+ },
+ {
+   "regional": 380,
+   "national": 6,
+   "Img.": "",
+   "nom": "Dracaufeu",
+   "localisations": "Évolution de Reptincel au niveau 36"
+ },
+ {
+   "regional": 381,
+   "national": 772,
+   "Img.": "",
+   "nom": "Type:0",
+   "localisations": "Offert à la Tour de Combat"
+ },
+ {
+   "regional": 382,
+   "national": 773,
+   "Img.": "",
+   "nom": "Silvallié",
+   "localisations": "Évolution de Type:0 par montée de niveau avec beaucoup d'amitié"
+ },
+ {
+   "regional": 383,
+   "national": 246,
+   "Img.": "",
+   "nom": "Embrylex",
+   "localisations": "Bouclier : Lac Ouragan"
+ },
+ {
+   "regional": 384,
+   "national": 247,
+   "Img.": "",
+   "nom": "Ymphect",
+   "localisations": "Bouclier : Lac Ouragan\nÉvolution de Embrylex au niveau 30"
+ },
+ {
+   "regional": 385,
+   "national": 248,
+   "Img.": "",
+   "nom": "Tyranocif",
+   "localisations": "Bouclier : Fosse des Sables\nÉvolution de Ymphect au niveau 55"
+ },
+ {
+   "regional": 386,
+   "national": 633,
+   "Img.": "",
+   "nom": "Solochi",
+   "localisations": "Épée : Lac Ouragan"
+ },
+ {
+   "regional": 387,
+   "national": 634,
+   "Img.": "",
+   "nom": "Diamat",
+   "localisations": "Épée : Lac Ouragan\nÉvolution de Solochi au niveau 50"
+ },
+ {
+   "regional": 388,
+   "national": 635,
+   "Img.": "",
+   "nom": "Trioxhydre",
+   "localisations": "Évolution de Diamat au niveau 64"
+ },
+ {
+   "regional": 389,
+   "national": 704,
+   "Img.": "",
+   "nom": "Mucuscule",
+   "localisations": "Bouclier : Lac Ouragan"
+ },
+ {
+   "regional": 390,
+   "national": 705,
+   "Img.": "",
+   "nom": "Colimucus",
+   "localisations": "Bouclier : Lac Ouragan\nÉvolution de Mucuscule au niveau 40"
+ },
+ {
+   "regional": 391,
+   "national": 706,
+   "Img.": "",
+   "nom": "Muplodocus",
+   "localisations": "Évolution de Colimucus au niveau 50, dans un lieu avec de la pluie naturelle"
+ },
+ {
+   "regional": 392,
+   "national": 782,
+   "Img.": "",
+   "nom": "Bébécaille",
+   "localisations": "Épée : Lac Ouragan"
+ },
+ {
+   "regional": 393,
+   "national": 783,
+   "Img.": "",
+   "nom": "Écaïd",
+   "localisations": "Épée : Lac Ouragan\nÉvolution de Bébécaille au niveau 35"
+ },
+ {
+   "regional": 394,
+   "national": 784,
+   "Img.": "",
+   "nom": "Ékaïser",
+   "localisations": "Épée : Fosse des Sables\nÉvolution de Écaïd au niveau 45"
+ },
+ {
+   "regional": 395,
+   "national": 885,
+   "Img.": "",
+   "nom": "Fantyrm",
+   "localisations": "Lac Ouragan"
+ },
+ {
+   "regional": 396,
+   "national": 886,
+   "Img.": "",
+   "nom": "Dispareptil",
+   "localisations": "Lac Ouragan\nÉvolution de Fantyrm au niveau 50"
+ },
+ {
+   "regional": 397,
+   "national": 887,
+   "Img.": "",
+   "nom": "Lanssorien",
+   "localisations": "Évolution de Dispareptil au niveau 60"
+ },
+ {
+   "regional": 398,
+   "national": 888,
+   "Img.": "",
+   "nom": "Zacian",
+   "localisations": "Épée : Kickenham (pendant la quête post-ligue)"
+ },
+ {
+   "regional": 399,
+   "national": 889,
+   "Img.": "",
+   "nom": "Zamazenta",
+   "localisations": "Bouclier : Kickenham (pendant la quête post-ligue)"
+ },
+ {
+   "regional": 400,
+   "national": 890,
+   "Img.": "",
+   "nom": "Éthernatos",
+   "localisations": "Kickenham (sommet de la tour)"
+ }
+]

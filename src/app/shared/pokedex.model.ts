@@ -3,7 +3,8 @@ export class Pokedex {
     // From pokemon
     public codeAPI: string,
     public codeNav: string,
-    public nomAffichage: string
+    public nomAffichage: string,
+    public jeu: string
   ) {
   }
 }
