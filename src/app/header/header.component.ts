@@ -2,6 +2,7 @@ import {Component, ElementRef, NgZone, OnInit, ViewChild} from '@angular/core';
 import {PokemonService} from '../shared/pokemon.service';
 import {Meta} from '@angular/platform-browser';
 import {PwaService} from '../shared/pwa.service';
+import {PokedexService} from '../shared/pokedex.service';
 
 @Component({
   selector: 'app-header',
@@ -24,7 +25,7 @@ export class HeaderComponent implements OnInit {
     if (localStorage.getItem('saveSelectedVersion') == null) {
       localStorage.setItem('saveSelectedVersion', 'true');
     }
-    if(localStorage.getItem('SelectedVersion')==null){
+    if (localStorage.getItem('SelectedVersion') == null) {
       localStorage.setItem('SelectedVersion', 'sword-shield');
     }
     this.megaSwitch = localStorage.getItem('megaEnabled') == 'true';
@@ -45,7 +46,8 @@ export class HeaderComponent implements OnInit {
     );
   }
 
-  constructor(public pokemonService: PokemonService, public Pwa: PwaService, private meta: Meta, private lc: NgZone) {
+  constructor(public pokemonService: PokemonService, public pokedexService: PokedexService, public Pwa: PwaService,
+              private meta: Meta, private lc: NgZone) {
   }
 
 

@@ -2,8 +2,9 @@
   <div class="pokemon-card-info">
     <div class="id-name">
       <span class="card-id">
-        {{getIdRegional()}}
-        <img class="icon" *ngIf="isPokemonCapture()" alt="" src="assets/icons/icon-72x72.png">
+        {{this.pokedexService.getIdRegional(this.pokemon, this.region)}}
+        <img class="icon" *ngIf="isPokemonCapture()" alt="" src="assets/pokeball/masterball.png">
+<!--        <img class="icon" *ngIf="!isPokemonCapture() && region" alt="" src="assets/pokeball/pokeball.png" (click)="capturePokemon()">-->
       </span>
 
       <div class="card-name text-capitalize text-left text-truncate">{{pokemon.name}}</div>

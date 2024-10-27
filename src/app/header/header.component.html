@@ -16,10 +16,15 @@
         </div>
       </form>
     </li>
-    <button type="button" class="btn" routerLink="/pokedex">National</button>
-    <button type="button" class="btn" routerLink="/pokedex/galar">Galar</button>
-    <button type="button" class="btn" routerLink="/pokedex/isolarmure">Isolarmure</button>
-    <button type="button" class="btn" routerLink="/pokedex/couronneige">Couronneige</button>
+  </ul>
+  <ul class="navbar-nav mt-1">
+    <div class="dropdown">
+      <button class="dropbtn">Pokedex</button>
+      <div class="dropdown-content">
+        <a routerLink="/pokedex">National</a>
+        <a *ngFor="let region of this.pokedexService.pokedex" [routerLink]="'/pokedex/'.concat(region.codeNav)">{{region.nomAffichage}}</a>
+      </div>
+    </div>
   </ul>
   <a class="navbar-brand ml-auto" data-toggle="modal" data-target="#aboutModal" #menu>PokéDex</a>
 </nav>

@@ -1,6 +1,8 @@
 import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
 import {Pokemon} from '../../shared/pokemon.model';
 import {PokemonCapture} from '../../shared/pokemon-capture.model';
+import {GALAR} from '../../shared/pokemon-capture.const';
+import {PokedexService} from '../../shared/pokedex.service';
 
 @Component({
   selector: 'app-pokemon-item',
@@ -14,6 +16,10 @@ export class PokemonItemComponent {
   @Input() region: string;
   @Input() pokemonsCapture: PokemonCapture[];
 
+
+  constructor(public pokedexService: PokedexService) {
+  }
+
   pad(number, length) {
     let str = '' + number;
     while (str.length < length) {
@@ -22,25 +28,19 @@ export class PokemonItemComponent {
     return str;
   }
 
-  getIdRegional(): number {
-    switch (this.region) {
-      case 'galar' :
-        return this.pokemon.galarId;
-      case 'isolarmure' :
-        return this.pokemon.isolarmureId;
-      case 'couronneige' :
-        return this.pokemon.couronneigeId;
-      default:
-        return this.pokemon.id;
-    }
-  }
-
   isPokemonCapture(): boolean {
     let isPokemonCapture = false;
     if (this.pokemonsCapture) {
-      const pokemonCapture = this.pokemonsCapture.find(pc => pc.id === this.getIdRegional());
+      const pokemonCapture = this.pokemonsCapture.find(pc => pc.id === this.pokedexService.getIdRegional(this.pokemon, this.region));
       isPokemonCapture = pokemonCapture ? pokemonCapture.capture : false;
     }
     return isPokemonCapture;
+  }
+
+  capturePokemon() {
+    this.pokemonsCapture.find(capture => capture.id === this.pokedexService.getIdRegional(this.pokemon, this.region)).capture = true;
+
+    localStorage.removeItem(this.region);
+    localStorage.setItem(this.region, JSON.stringify(this.pokemonsCapture));
   }
 }

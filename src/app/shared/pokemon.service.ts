@@ -7,7 +7,7 @@ import {NotificationsService} from 'angular2-notifications';
 import {Move} from './moves.model';
 import {Machine} from './machine.model';
 import {PokemonMove} from './pokemon-move.model';
-import {FrenchNationalPokemon} from './french-national-pokemon.model';
+import {PokemonPokedex} from './pokemon-pokedex.model';
 
 @Injectable({
   providedIn: 'root'
@@ -32,7 +32,6 @@ export class PokemonService {
   firstTime = false;
   megaEvolutionMainSwitch;
   versionMainSwitch;
-  frenchPokemon: FrenchNationalPokemon[] = [];
   renamedNames = {
     29: 'Nidoran♀',
     32: 'Nidoran♂',
@@ -115,8 +114,6 @@ export class PokemonService {
       }
     });
     this.isMobile = this.isMobileBrowser(); //  Mobile Browser Check
-
-    this.getFrenchPokemonFromJSON();
   }
 
   isMobileBrowser() {
@@ -172,15 +169,12 @@ export class PokemonService {
         for (let i = 0; i < 1025; i++) {
           const pokemonData = this.pokemonJSON[(i + 1).toString()];
           const pokemonSpeciesData = this.pokemonSpeciesJSON[i];
-          const frenchVersion = this.frenchPokemon.find(fp => fp.nationalId === pokemonData['id']);
-
+          const pokedex: PokemonPokedex[] = pokemonSpeciesData['pokedex'];
           this.pokemons.push(new Pokemon(
             // from pokemon
-            frenchVersion.frenchName,
+            pokemonSpeciesData['name'],
             pokemonData['id'],
-            frenchVersion.galarId,
-            frenchVersion.isolarmureId,
-            frenchVersion.couronneigeId,
+            pokedex,
             // null,
             pokemonData['T'],
             pokemonData['Ab'],
@@ -329,22 +323,5 @@ export class PokemonService {
         sub.next(navigator.onLine);
         sub.complete();
       }));
-  }
-
-  getFrenchPokemonFromJSON() {
-    this.http.get('assets/data/french pokemon.json').subscribe(
-      (response: Array<Object>) => {
-        for (let i = 0; i < response.length; i++) {
-          const pokemonData = response[i];
-          this.frenchPokemon.push(new FrenchNationalPokemon(
-            pokemonData['French Name'],
-            pokemonData['National Dex'],
-            pokemonData['Galar Dex(SwSh)'],
-            pokemonData['Isle of Armor Dex(SwSh)'],
-            pokemonData['Crown Tund Dex(SwSh)']
-          ));
-        }
-      }
-    );
   }
 }

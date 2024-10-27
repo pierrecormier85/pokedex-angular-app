@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { PokemonService } from './shared/pokemon.service';
 import { HeaderComponent } from './header/header.component';
+import {COURONNEIGE, GALAR, ISOLARMURE} from './shared/pokemon-capture.const';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -48,6 +49,19 @@ export class AppComponent implements AfterViewInit {
         });
       }
     }, 100);
+
+    if (!localStorage.getItem('galar')) {
+      console.log(GALAR);
+      localStorage.setItem('galar', JSON.stringify(GALAR));
+    }
+
+    if (!localStorage.getItem('isolarmure')) {
+      localStorage.setItem('isolarmure', JSON.stringify(ISOLARMURE));
+    }
+
+    if (!localStorage.getItem('couronneige')) {
+      localStorage.setItem('couronneige', JSON.stringify(COURONNEIGE));
+    }
   }
 }
 

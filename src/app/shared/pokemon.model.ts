@@ -1,11 +1,11 @@
+import {PokemonPokedex} from './pokemon-pokedex.model';
+
 export class Pokemon {
   constructor(
     // From pokemon
     public name: string,
     public id: number,
-    public galarId: number,
-    public isolarmureId: number,
-    public couronneigeId: number,
+    public pokedex: PokemonPokedex[],
     // public sprite, // no
     public types,
     public abilities,

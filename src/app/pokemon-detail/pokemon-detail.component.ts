@@ -430,9 +430,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.pokemon = new Pokemon(
       pokemonFromList.name,
       pokemonFromList.id,
-      pokemonFromList.galarId,
-      pokemonFromList.isolarmureId,
-      pokemonFromList.couronneigeId,
+      pokemonFromList.pokedex,
       pokemonFromList.types,
       pokemonFromList.abilities,
       pokemonFromList.height,
@@ -457,9 +455,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     this.pokemonForms[0] = new Pokemon(
       this.pokemon.name,
       this.pokemon.id,
-      this.pokemon.galarId,
-      this.pokemon.isolarmureId,
-      this.pokemon.couronneigeId,
+      this.pokemon.pokedex,
       this.pokemon.types,
       this.pokemon.abilities,
       this.pokemon.height,
@@ -716,9 +712,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.pokemonForms[i] = new Pokemon(
         form['N'],
         form['id'],
-        null,
-        null,
-        null,
+        this.pokemon.pokedex,
         form['T'],
         form['Ab'],
         form['H'],
@@ -867,40 +861,20 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     switch (this.exceptionalChainType) {
       case '': // Normal Case
         do {
-          this.evolutionChain.push([
-            chain['species']['name'], // 0
-            chain['species']['id'], // 1
-            chain['is_baby'], // 2
-            chain['evolution_details'] // 3
-          ]);
+          this.evolutionChain.push(this.constructEvolutionChain(chain));
           chain = chain['evolves_to'][0];
         } while (chain !== undefined);
         break;
       case '112':
         nextChain = chain;
-        this.evolutionChain.push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain.push(this.constructEvolutionChain(nextChain));
         nextChain = chain['evolves_to'][0];
-        this.evolutionChain.push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain.push(this.constructEvolutionChain(nextChain));
         this.evolutionChain[2] = [];
         i = 0;
         while (chain['evolves_to'][0]['evolves_to'][i] !== undefined) {
           nextChain = chain['evolves_to'][0]['evolves_to'][i];
-          this.evolutionChain[2].push([
-            nextChain['species']['name'], // 0
-            nextChain['species']['id'], // 1
-            nextChain['is_baby'], // 2
-            nextChain['evolution_details'] // 3
-          ]);
+          this.evolutionChain[2].push(this.constructEvolutionChain(nextChain));
           i++;
         }
         break;
@@ -908,65 +882,41 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       case '13':
       case '18':
         nextChain = chain;
-        this.evolutionChain.push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain.push(this.constructEvolutionChain(nextChain));
         this.evolutionChain[1] = [];
         i = 0;
         while (chain['evolves_to'][i] !== undefined) {
           nextChain = chain['evolves_to'][i];
-          this.evolutionChain[1].push([
-            nextChain['species']['name'], // 0
-            nextChain['species']['id'], // 1
-            nextChain['is_baby'], // 2
-            nextChain['evolution_details'] // 3
-          ]);
+          this.evolutionChain[1].push(this.constructEvolutionChain(nextChain));
           i++;
         }
         break;
       case '122':
         nextChain = chain;
-        this.evolutionChain.push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain.push(this.constructEvolutionChain(nextChain));
         this.evolutionChain[1] = [];
         nextChain = chain['evolves_to'][0]; // silcoon
-        this.evolutionChain[1].push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain[1].push(this.constructEvolutionChain(nextChain));
         nextChain = chain['evolves_to'][1]; // cascoon
-        this.evolutionChain[1].push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain[1].push(this.constructEvolutionChain(nextChain));
         this.evolutionChain[2] = [];
         nextChain = chain['evolves_to'][0]['evolves_to'][0]; // Beautifly
-        this.evolutionChain[2].push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain[2].push(this.constructEvolutionChain(nextChain));
         nextChain = chain['evolves_to'][1]['evolves_to'][0]; // Dustox
-        this.evolutionChain[2].push([
-          nextChain['species']['name'], // 0
-          nextChain['species']['id'], // 1
-          nextChain['is_baby'], // 2
-          nextChain['evolution_details'] // 3
-        ]);
+        this.evolutionChain[2].push(this.constructEvolutionChain(nextChain));
     }
     this.generateEvolutionMethods();
+  }
+
+  private constructEvolutionChain(chain) {
+    const id = chain['species']['id'];
+    const pokemon = this.pokemonService.pokemons.find(pkm => pkm.id === id);
+    return[
+      pokemon.name, // 0
+      id, // 1
+      chain['is_baby'], // 2
+      chain['evolution_details'] // 3
+    ];
   }
 
   generateEvolutionMethods() {
