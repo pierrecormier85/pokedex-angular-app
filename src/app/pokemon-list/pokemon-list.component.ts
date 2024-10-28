@@ -3,7 +3,7 @@ import {Pokemon} from '../shared/pokemon.model';
 import {PokemonService} from '../shared/pokemon.service';
 import {VirtualScrollerComponent} from 'ngx-virtual-scroller';
 import {ActivatedRoute} from '@angular/router';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import {PokemonCapture} from '../shared/pokemon-capture.model';
 import {PokedexService} from '../shared/pokedex.service';
 

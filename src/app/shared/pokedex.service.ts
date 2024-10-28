@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Pokemon} from './pokemon.model';
 import {Pokedex} from './pokedex.model';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import {PokemonLocalisation} from './pokemon-localisation.model';
 
 @Injectable({
