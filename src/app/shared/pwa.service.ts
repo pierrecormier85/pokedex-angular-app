@@ -8,7 +8,7 @@ export class PwaService {
   promptEvent;
 
   constructor(private swUpdate: SwUpdate) {
-    swUpdate.available.subscribe(event => {
+    swUpdate.versionUpdates.subscribe(event => {
       if (confirm('App has been Updated. Reload App Now ? ')) {
         window.location.reload();
       }
