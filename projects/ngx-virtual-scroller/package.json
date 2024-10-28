@@ -1,0 +1,44 @@
+{
+  "name": "@talentia/ngx-virtual-scroller",
+  "version": "4.0.6",
+  "description": "Angular module for virtual -infinite- list. Supports horizontal/vertical, variable heights, & multi-column",
+  "license": "MIT",
+  "keywords": [
+    "virtual scroll",
+    "scroll",
+    "ngx",
+    "angular",
+    "angular 2"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "17.4.0"   
+  },
+  "author": {
+    "name": "Leonardo Cavone",
+    "url": "https://github.com/Talentia-Software-OSS"
+  },
+  "contributors": [
+    {
+      "name": "Rinto Jose"
+    },
+    {
+      "name": "Devin Garner"
+    },
+    {
+      "name": "Pavel Kukushkin"
+    }
+  ],
+  "homepage": "https://github.com/Talentia-Software-OSS/ngx-virtual-scroller",
+  "repository": {
+    "url": "https://github.com/Talentia-Software-OSS/ngx-virtual-scroller.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Talentia-Software-OSS/ngx-virtual-scroller/issues"
+  },
+  "sideEffects": false
+}
