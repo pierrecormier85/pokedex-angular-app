@@ -10,6 +10,11 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "paths": {
+      "ngx-virtual-scroller": [
+        "dist/ngx-virtual-scroller"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "typeRoots": [
