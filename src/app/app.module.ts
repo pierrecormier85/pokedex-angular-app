@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RouteReuseStrategy } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -23,34 +23,28 @@ import { PokemonItemComponent } from './pokemon-list/pokemon-item/pokemon-item.c
 import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
 import {CommonModule} from '@angular/common';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    PokemonListComponent,
-    PokemonItemComponent,
-    PokemonDetailComponent,
-    SearchFilterPipe,
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CommonModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-    VirtualScrollerModule,
-    // ScrollingModule,
-    SimpleNotificationsModule.forRoot({ preventDuplicates: true }),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerWhenStable:5000' })
-  ],
-  providers: [
-    {
-      provide: RouteReuseStrategy,
-      useClass: CustomRouteReuseStrategy
-    }
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HeaderComponent,
+        PokemonListComponent,
+        PokemonItemComponent,
+        PokemonDetailComponent,
+        SearchFilterPipe,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        BrowserAnimationsModule,
+        CommonModule,
+        AppRoutingModule,
+        FormsModule,
+        VirtualScrollerModule,
+        // ScrollingModule,
+        SimpleNotificationsModule.forRoot({ preventDuplicates: true }),
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerWhenStable:5000' })], providers: [
+        {
+            provide: RouteReuseStrategy,
+            useClass: CustomRouteReuseStrategy
+        },
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 export class AppModule {
 }
