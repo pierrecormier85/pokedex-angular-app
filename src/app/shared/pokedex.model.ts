@@ -4,7 +4,8 @@ export class Pokedex {
     public codeAPI: string,
     public codeNav: string,
     public nomAffichage: string,
-    public jeu: string
+    public jeu: string,
+    public nomJeuAffichage: string,
   ) {
   }
 }

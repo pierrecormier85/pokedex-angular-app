@@ -432,7 +432,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   pokemonLocalisations: PokemonLocalisation[];
 
   constructor(private activatedRoute: ActivatedRoute,
-              private pokemonService: PokemonService, private pokedexService: PokedexService) {
+              private pokemonService: PokemonService, public pokedexService: PokedexService) {
     this.megaEvolveAnimationEnabled = !this.pokemonService.isMobile;
   }
 
