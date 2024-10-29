@@ -51,7 +51,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 13,
-    'capture': false
+    'capture': true
   },
   {
     'id': 14,
@@ -67,7 +67,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 17,
-    'capture': false
+    'capture': true
   },
   {
     'id': 18,
@@ -75,7 +75,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 19,
-    'capture': false
+    'capture': true
   },
   {
     'id': 20,
@@ -103,7 +103,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 26,
-    'capture': false
+    'capture': true
   },
   {
     'id': 27,
@@ -167,7 +167,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 40,
-    'capture': false
+    'capture': true
   },
   {
     'id': 41,
@@ -227,11 +227,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 55,
-    'capture': false
+    'capture': true
   },
   {
     'id': 56,
-    'capture': false
+    'capture': true
   },
   {
     'id': 57,
@@ -259,7 +259,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 63,
-    'capture': false
+    'capture': true
   },
   {
     'id': 64,
@@ -295,7 +295,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 70,
-    'capture': false
+    'capture': true
   },
   {
     'id': 71,
@@ -319,7 +319,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 76,
-    'capture': false
+    'capture': true
   },
   {
     'id': 77,
@@ -327,7 +327,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 78,
-    'capture': false
+    'capture': true
   },
   {
     'id': 79,
@@ -343,7 +343,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 82,
-    'capture': false
+    'capture': true
   },
   {
     'id': 83,
@@ -355,7 +355,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 85,
-    'capture': false
+    'capture': true
   },
   {
     'id': 86,
@@ -363,7 +363,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 87,
-    'capture': false
+    'capture': true
   },
   {
     'id': 88,
@@ -419,11 +419,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 101,
-    'capture': false
+    'capture': true
   },
   {
     'id': 102,
-    'capture': false
+    'capture': true
   },
   {
     'id': 103,
@@ -511,7 +511,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 124,
-    'capture': false
+    'capture': true
   },
   {
     'id': 125,
@@ -559,7 +559,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 135,
-    'capture': false
+    'capture': true
   },
   {
     'id': 136,
@@ -571,11 +571,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 138,
-    'capture': false
+    'capture': true
   },
   {
     'id': 139,
-    'capture': false
+    'capture': true
   },
   {
     'id': 140,
@@ -595,7 +595,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 144,
-    'capture': false
+    'capture': true
   },
   {
     'id': 145,
@@ -603,11 +603,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 146,
-    'capture': false
+    'capture': true
   },
   {
     'id': 147,
-    'capture': false
+    'capture': true
   },
   {
     'id': 148,
@@ -619,7 +619,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 150,
-    'capture': false
+    'capture': true
   },
   {
     'id': 151,
@@ -631,7 +631,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 153,
-    'capture': false
+    'capture': true
   },
   {
     'id': 154,
@@ -691,11 +691,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 165,
-    'capture': false
-  },
-  {
-    'id': 165,
-    'capture': false
+    'capture': true
   },
   {
     'id': 166,
@@ -703,7 +699,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 167,
-    'capture': false
+    'capture': true
   },
   {
     'id': 168,
@@ -879,7 +875,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 196,
-    'capture': false
+    'capture': true
   },
   {
     'id': 197,
@@ -891,7 +887,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 199,
-    'capture': false
+    'capture': true
   },
   {
     'id': 200,
@@ -899,7 +895,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 201,
-    'capture': false
+    'capture': true
   },
   {
     'id': 202,
@@ -907,11 +903,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 203,
-    'capture': false
+    'capture': true
   },
   {
     'id': 204,
-    'capture': false
+    'capture': true
   },
   {
     'id': 205,
@@ -987,7 +983,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 221,
-    'capture': false
+    'capture': true
   },
   {
     'id': 222,
@@ -1027,19 +1023,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 230,
-    'capture': false
-  },
-  {
-    'id': 230,
-    'capture': false
+    'capture': true
   },
   {
     'id': 231,
-    'capture': false
-  },
-  {
-    'id': 231,
-    'capture': false
+    'capture': true
   },
   {
     'id': 232,
@@ -1055,10 +1043,6 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 235,
-    'capture': true
-  },
-  {
-    'id': 236,
     'capture': true
   },
   {
@@ -1119,10 +1103,6 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 250,
-    'capture': false
-  },
-  {
-    'id': 251,
     'capture': true
   },
   {
@@ -1131,7 +1111,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 252,
-    'capture': false
+    'capture': true
   },
   {
     'id': 253,
@@ -1251,7 +1231,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 282,
-    'capture': false
+    'capture': true
   },
   {
     'id': 283,
@@ -1263,7 +1243,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 285,
-    'capture': false
+    'capture': true
   },
   {
     'id': 286,
@@ -1291,7 +1271,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 292,
-    'capture': false
+    'capture': true
   },
   {
     'id': 293,
@@ -1311,7 +1291,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 297,
-    'capture': false
+    'capture': true
   },
   {
     'id': 298,
@@ -1571,11 +1551,11 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 355,
-    'capture': false
+    'capture': true
   },
   {
     'id': 356,
-    'capture': false
+    'capture': true
   },
   {
     'id': 357,
@@ -1603,7 +1583,7 @@ export const GALAR: PokemonCapture[] = [
   },
   {
     'id': 363,
-    'capture': false
+    'capture': true
   },
   {
     'id': 364,
@@ -1987,7 +1967,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 42,
-    'capture': false
+    'capture': true
   },
   {
     'id': 43,
@@ -2007,11 +1987,11 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 47,
-    'capture': false
+    'capture': true
   },
   {
     'id': 48,
-    'capture': false
+    'capture': true
   },
   {
     'id': 49,
@@ -2019,7 +1999,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 50,
-    'capture': false
+    'capture': true
   },
   {
     'id': 51,
@@ -2055,7 +2035,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 59,
-    'capture': false
+    'capture': true
   },
   {
     'id': 60,
@@ -2187,7 +2167,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 91,
-    'capture': false
+    'capture': true
   },
   {
     'id': 92,
@@ -2199,11 +2179,11 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 94,
-    'capture': false
+    'capture': true
   },
   {
     'id': 95,
-    'capture': false
+    'capture': true
   },
   {
     'id': 96,
@@ -2327,7 +2307,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 123,
-    'capture': false
+    'capture': true
   },
   {
     'id': 124,
@@ -2375,7 +2355,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 135,
-    'capture': false
+    'capture': true
   },
   {
     'id': 136,
@@ -2575,7 +2555,7 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 180,
-    'capture': false
+    'capture': true
   },
   {
     'id': 181,
@@ -2611,11 +2591,11 @@ export const ISOLARMURE: PokemonCapture[] = [
   },
   {
     'id': 189,
-    'capture': false
+    'capture': true
   },
   {
     'id': 190,
-    'capture': false
+    'capture': true
   },
   {
     'id': 191,
@@ -2738,7 +2718,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 9,
-    'capture': false
+    'capture': true
   },
   {
     'id': 10,
@@ -2818,7 +2798,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 28,
-    'capture': false
+    'capture': true
   },
   {
     'id': 29,
@@ -2954,7 +2934,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 62,
-    'capture': false
+    'capture': true
   },
   {
     'id': 63,
@@ -3014,7 +2994,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 74,
-    'capture': false
+    'capture': true
   },
   {
     'id': 75,
@@ -3026,11 +3006,11 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 77,
-    'capture': false
+    'capture': true
   },
   {
     'id': 78,
-    'capture': false
+    'capture': true
   },
   {
     'id': 79,
@@ -3038,7 +3018,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 80,
-    'capture': false
+    'capture': true
   },
   {
     'id': 81,
@@ -3046,7 +3026,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 82,
-    'capture': false
+    'capture': true
   },
   {
     'id': 83,
@@ -3226,7 +3206,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 120,
-    'capture': false
+    'capture': true
   },
   {
     'id': 121,
@@ -3350,7 +3330,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 151,
-    'capture': false
+    'capture': true
   },
   {
     'id': 152,
@@ -3510,7 +3490,7 @@ export const COURONNEIGE: PokemonCapture[] = [
   },
   {
     'id': 189,
-    'capture': false
+    'capture': true
   },
   {
     'id': 190,
