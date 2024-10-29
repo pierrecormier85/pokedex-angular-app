@@ -2,6 +2,7 @@ import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { PokemonService } from './shared/pokemon.service';
 import { HeaderComponent } from './header/header.component';
 import {COURONNEIGE, GALAR, ISOLARMURE} from './shared/pokemon-capture.const';
+import {PokedexService} from './shared/pokedex.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,7 +13,7 @@ export class AppComponent implements AfterViewInit {
   loaded = false;
   @ViewChild('header') headerComponent: HeaderComponent;
 
-  constructor(private pokemonService: PokemonService) {
+  constructor(private pokemonService: PokemonService, public pokedexService: PokedexService) {
     this.pokemonService.EverythingLoaded.subscribe(res => {
       this.loaded = res;
     });

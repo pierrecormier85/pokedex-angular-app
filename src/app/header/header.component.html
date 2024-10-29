@@ -1,4 +1,9 @@
 <nav class="navbar sticky-top navbar-expand" id="header" [ngClass]="color">
+  <ul class="navbar-nav mt-1">
+    <button mat-icon-button>
+      <mat-icon (click)="this.drawer.toggle()">menu</mat-icon>
+    </button>
+  </ul>
   <ul class="navbar-nav mt-2">
     <button type="button" class="btn back-arrow" routerLink="/pokedex" [ngClass]="{'back-arrow-fade': showSearch}">
       <i class="icon-left-big"></i></button>
@@ -16,15 +21,6 @@
         </div>
       </form>
     </li>
-  </ul>
-  <ul class="navbar-nav mt-1">
-    <div class="dropdown">
-      <button class="dropbtn">Pokedex</button>
-      <div class="dropdown-content">
-        <a routerLink="/pokedex">National</a>
-        <a *ngFor="let region of this.pokedexService.pokedex" [routerLink]="'/pokedex/'.concat(region.codeNav)">{{region.nomAffichage}}</a>
-      </div>
-    </div>
   </ul>
   <a class="navbar-brand ml-auto" data-toggle="modal" data-target="#aboutModal" #menu>PokéDex</a>
 </nav>

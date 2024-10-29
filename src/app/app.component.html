@@ -1,10 +1,23 @@
 <div class="page-wrapper">
   <main class="page-content">
-    <app-header #header></app-header>
-    <div class="container-fluid" [ngClass]="{'disableClicks':!loaded}">
-      <div class="lds-dual-ring" *ngIf="!loaded"></div>
-      <router-outlet></router-outlet>
-    </div>
+    <mat-drawer-container [hasBackdrop]="true">
+      <mat-drawer #drawer mode="over">
+        <button mat-icon-button>
+          <mat-icon (click)="this.drawer.close()">menu</mat-icon>
+        </button>
+        <mat-nav-list>
+          <a mat-list-item [routerLink]="'/pokedex'">National</a>
+          <a mat-list-item *ngFor="let region of this.pokedexService.pokedex" [routerLink]="'/pokedex/'.concat(region.codeNav)">{{region.nomAffichage}}</a>
+        </mat-nav-list>
+      </mat-drawer>
+      <mat-drawer-content>
+        <app-header [drawer]="drawer" #header></app-header>
+        <div class="container-fluid" [ngClass]="{'disableClicks':!loaded}">
+          <div class="lds-dual-ring" *ngIf="!loaded"></div>
+          <router-outlet></router-outlet>
+        </div>
+      </mat-drawer-content>
+    </mat-drawer-container>
   </main>
 </div>
 <simple-notifications></simple-notifications>

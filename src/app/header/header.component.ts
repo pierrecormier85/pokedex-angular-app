@@ -1,8 +1,9 @@
-import {Component, ElementRef, NgZone, OnInit, ViewChild} from '@angular/core';
+import {Component, ElementRef, Input, NgZone, OnInit, ViewChild} from '@angular/core';
 import {PokemonService} from '../shared/pokemon.service';
 import {Meta} from '@angular/platform-browser';
 import {PwaService} from '../shared/pwa.service';
 import {PokedexService} from '../shared/pokedex.service';
+import {MatDrawer, MatSidenav} from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-header',
@@ -17,6 +18,8 @@ export class HeaderComponent implements OnInit {
   megaSwitch;
   versionSwitch;
   @ViewChild('menu') menu: ElementRef;
+
+  @Input() public drawer: MatDrawer;
 
   ngOnInit(): void {
     if (localStorage.getItem('megaEnabled') == null) {
