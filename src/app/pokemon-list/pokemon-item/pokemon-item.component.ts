@@ -1,7 +1,6 @@
 import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
 import {Pokemon} from '../../shared/pokemon.model';
 import {PokemonCapture} from '../../shared/pokemon-capture.model';
-import {GALAR} from '../../shared/pokemon-capture.const';
 import {PokedexService} from '../../shared/pokedex.service';
 
 @Component({

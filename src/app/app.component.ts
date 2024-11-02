@@ -1,8 +1,9 @@
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { PokemonService } from './shared/pokemon.service';
-import { HeaderComponent } from './header/header.component';
-import {COURONNEIGE, GALAR, ISOLARMURE} from './shared/pokemon-capture.const';
+import {AfterViewInit, Component, ViewChild} from '@angular/core';
+import {PokemonService} from './shared/pokemon.service';
+import {HeaderComponent} from './header/header.component';
+import {COURONNEIGE, ISOLARMURE} from './shared/pokemon-capture.const';
 import {PokedexService} from './shared/pokedex.service';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -31,11 +32,11 @@ export class AppComponent implements AfterViewInit {
         toast.click.subscribe((event) => {
           const toast2 = this.pokemonService._notifications.info('Hate Waiting ?',
             'Don\'t Worry, This app can work OFFLINE thereafter...', {
-            timeOut: 0,
-            showProgressBar: true,
-            pauseOnHover: true,
-            clickToClose: true,
-          });
+              timeOut: 0,
+              showProgressBar: true,
+              pauseOnHover: true,
+              clickToClose: true,
+            });
           toast2.click.subscribe((event2) => {
             const toast2 = this.pokemonService._notifications.info('It\'s Installable too!', 'Images once loaded will be available for offline usage.', {
               timeOut: 0,
@@ -50,11 +51,6 @@ export class AppComponent implements AfterViewInit {
         });
       }
     }, 100);
-
-    if (!localStorage.getItem('galar')) {
-      console.log(GALAR);
-      localStorage.setItem('galar', JSON.stringify(GALAR));
-    }
 
     if (!localStorage.getItem('isolarmure')) {
       localStorage.setItem('isolarmure', JSON.stringify(ISOLARMURE));
