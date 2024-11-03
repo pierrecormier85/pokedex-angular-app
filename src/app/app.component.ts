@@ -1,7 +1,6 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {PokemonService} from './shared/pokemon.service';
 import {HeaderComponent} from './header/header.component';
-import {COURONNEIGE, ISOLARMURE} from './shared/pokemon-capture.const';
 import {PokedexService} from './shared/pokedex.service';
 
 @Component({
@@ -51,14 +50,6 @@ export class AppComponent implements AfterViewInit {
         });
       }
     }, 100);
-
-    if (!localStorage.getItem('isolarmure')) {
-      localStorage.setItem('isolarmure', JSON.stringify(ISOLARMURE));
-    }
-
-    if (!localStorage.getItem('couronneige')) {
-      localStorage.setItem('couronneige', JSON.stringify(COURONNEIGE));
-    }
   }
 }
 

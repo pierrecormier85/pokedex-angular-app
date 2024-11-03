@@ -2,6 +2,7 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
 import {Pokemon} from '../../shared/pokemon.model';
 import {PokemonCapture} from '../../shared/pokemon-capture.model';
 import {PokedexService} from '../../shared/pokedex.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-pokemon-item',
@@ -13,10 +14,11 @@ export class PokemonItemComponent {
 
   @Input() pokemon: Pokemon;
   @Input() region: string;
+  @Input() afficherCapture: boolean;
   @Input() pokemonsCapture: PokemonCapture[];
 
 
-  constructor(public pokedexService: PokedexService) {
+  constructor(public pokedexService: PokedexService, private router: Router) {
   }
 
   pad(number, length) {
@@ -36,10 +38,16 @@ export class PokemonItemComponent {
     return isPokemonCapture;
   }
 
-  capturePokemon() {
-    this.pokemonsCapture.find(capture => capture.id === this.pokedexService.getIdRegional(this.pokemon, this.region)).capture = true;
+  capturePokemon(capture: boolean) {
+    this.pokemonsCapture.find(capture => capture.id === this.pokedexService.getIdRegional(this.pokemon, this.region)).capture = capture;
 
     localStorage.removeItem(this.region);
     localStorage.setItem(this.region, JSON.stringify(this.pokemonsCapture));
+  }
+
+  afficherDetailsPokemon() {
+    if (!this.afficherCapture) {
+      this.router.navigate(['/pokemon', this.pokemon.id]);
+    }
   }
 }

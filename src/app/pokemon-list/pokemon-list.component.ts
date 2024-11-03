@@ -3,7 +3,7 @@ import {Pokemon} from '../shared/pokemon.model';
 import {PokemonService} from '../shared/pokemon.service';
 import {VirtualScrollerComponent} from 'ngx-virtual-scroller';
 import {ActivatedRoute} from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {PokemonCapture} from '../shared/pokemon-capture.model';
 import {PokedexService} from '../shared/pokedex.service';
 
@@ -24,6 +24,7 @@ export class PokemonListComponent implements OnInit, OnDestroy {
   scrolled = true;
   resizeTimeout: any = 250;
   masquerCapture = false;
+  afficherCapture = false;
 
   @ViewChild(VirtualScrollerComponent)
   private virtualScroller: VirtualScrollerComponent;
@@ -108,8 +109,9 @@ export class PokemonListComponent implements OnInit, OnDestroy {
     this.searchItemSubscription.unsubscribe();
   }
 
-  checkMasquerCapture(values: any) {
-    if (values.currentTarget.checked) {
+  doMasquerCapture() {
+    this.masquerCapture = !this.masquerCapture;
+    if (this.masquerCapture) {
       this.pokemons = this.pokemonService.pokemons
         .filter(pokemon => this.pokedexService.getIdRegional(pokemon, this.regionPokedex))
         .filter(pokemon => !this.isPokemonCapture(pokemon))
@@ -121,7 +123,14 @@ export class PokemonListComponent implements OnInit, OnDestroy {
         .sort((a, b) =>
           this.pokedexService.getIdRegional(a, this.regionPokedex) - this.pokedexService.getIdRegional(b, this.regionPokedex));
     }
-    this.pokemonService.versionSwitchSubscription.next(values.currentTarget.checked);
+  }
+
+  activeAfficherCapture() {
+    this.afficherCapture = !this.afficherCapture;
+
+    if (!this.afficherCapture && this.masquerCapture) {
+      this.doMasquerCapture();
+    }
   }
 
   isPokemonCapture(pokemon: Pokemon): boolean {
