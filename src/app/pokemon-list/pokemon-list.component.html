@@ -1,17 +1,22 @@
 <div class="pokemon-list faded" #scrollingBlock [ngClass]="{fade:scrolled}">
-  <div *ngIf="regionPokedex">
-    <label style="font-size: medium; margin-right: 10px;" for="masquerCapture">Masquer capturer</label>
-    <input id="masquerCapture" type="checkbox" class="switch" checked name="versionSwitch" [(ngModel)]="masquerCapture"
-           (change)="checkMasquerCapture($event)">
-  </div>
   <virtual-scroller #scroll [items]="pokemons| searchFilter: searchItem" [parentScroll]="scrollingBlock"
                     scrollAnimationTime="0">
     <app-pokemon-item *ngFor="let pokemon of scroll.viewPortItems; trackBy: trackByPokemonID; let i = index;"
-                      [pokemon]="pokemon" [region]="regionPokedex"
+                      [pokemon]="pokemon" [region]="regionPokedex" [afficherCapture]="afficherCapture"
                       [pokemonsCapture]="pokemonsCapture"></app-pokemon-item>
   </virtual-scroller>
 </div>
 
+<button class="activeCapture" mat-fab *ngIf="regionPokedex" (click)="activeAfficherCapture()"
+        matTooltip="{{this.afficherCapture ? 'Désactiver le mode capture': 'Activer le mode capture'}}">
+  <img *ngIf="!afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball.png" />
+  <img *ngIf="afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball_hisui.png" />
+</button>
+<button class="showCapture" mat-fab *ngIf="afficherCapture" (click)="doMasquerCapture()"
+        matTooltip="{{this.masquerCapture ? 'Afficher tout les pokémon': 'Masquer les pokémon capturés'}}">
+  <img *ngIf="!masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball.png" />
+  <img *ngIf="masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball_hisui.png" />
+</button>
 
 <!-- Simple Scrolling -->
 <!-- <div class="row justify-content-center">

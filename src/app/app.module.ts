@@ -25,6 +25,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
+import {MatTooltip} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatButtonModule,
     MatListModule,
+    MatTooltip,
   ],
   providers: [
     {

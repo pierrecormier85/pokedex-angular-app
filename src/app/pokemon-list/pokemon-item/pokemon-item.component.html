@@ -1,18 +1,23 @@
 <!--<div class="pokemon-card">-->
-<div class="pokemon-card" routerLink="/pokemon/{{pokemon.id}}">
+<div class="pokemon-card" (click)="afficherDetailsPokemon()">
   <div class="pokemon-card-info">
     <div class="id-name">
       <span class="card-id">
         {{this.pokedexService.getIdRegional(this.pokemon, this.region)}}
-        <img class="icon" *ngIf="isPokemonCapture()" alt="" src="assets/pokeball/masterball.png">
-<!--        <img class="icon" *ngIf="!isPokemonCapture() && region" alt="" src="assets/pokeball/pokeball.png" (click)="capturePokemon()">-->
+        <img class="icon" *ngIf="afficherCapture && isPokemonCapture()" alt="" src="assets/pokeball/masterball.png"
+             (click)="capturePokemon(false)">
+        <img class="icon" *ngIf="afficherCapture && !isPokemonCapture() && region" alt=""
+             src="assets/pokeball/pokeball.png" (click)="capturePokemon(true)">
       </span>
 
       <div class="card-name text-capitalize text-left text-truncate">{{pokemon.name}}</div>
     </div>
     <div class="icons">
-      <div class="icon {{type['n']}}" *ngFor="let type of pokemon.types"><img alt="" src="assets/type-icons/png/{{type['n']}}.png"></div>
+      <div class="icon {{type['n']}}" *ngFor="let type of pokemon.types"><img alt=""
+                                                                              src="assets/type-icons/png/{{type['n']}}.png">
+      </div>
     </div>
   </div>
-  <img class="pokemon-card-img mx-auto" alt="" src="assets/thumbnails-compressed/{{this.pad(this.pokemon.id, 4) + '.png'}}">
+  <img class="pokemon-card-img mx-auto" alt=""
+       src="assets/thumbnails-compressed/{{this.pad(this.pokemon.id, 4) + '.png'}}">
 </div>
