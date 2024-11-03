@@ -59,6 +59,10 @@ export class PokemonListComponent implements OnInit, OnDestroy {
 
         if (this.regionPokedex) {
           this.pokemonsCapture = JSON.parse(localStorage.getItem(this.regionPokedex));
+
+          if (!this.pokemonsCapture) {
+            this.pokemonsCapture = [];
+          }
         }
       }
     );
