@@ -4,7 +4,6 @@ import {PokemonService} from '../shared/pokemon.service';
 import {Pokemon} from '../shared/pokemon.model';
 import {Subject} from 'rxjs';
 import {PokedexService} from '../shared/pokedex.service';
-import {PokemonLocalisation} from '../shared/pokemon-localisation.model';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -354,7 +353,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   eggMovesList = [];
   tutorMovesList = [];
   selectedMove = 'level-up';
-  selectedMoveFirstColHeader = {'level-up': 'Level', 'machine': '#', 'egg': '-', 'tutor': '-', 'localisation': '-'};
+  selectedMoveFirstColHeader = {'level-up': 'Level', 'machine': '#', 'egg': '-', 'tutor': '-'};
 
   selectedGameVersion;
 
@@ -381,6 +380,10 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'sword-shield': 20,
     'isolarmure': 21,
     'couronneige': 22,
+    'legends-arceus': 23,
+    'scarlet-violet': 24,
+    'the-teal-mask': 25,
+    'the-indigo-disk': 26
   };
   generations = {
     'generation-i': 1,
@@ -390,7 +393,8 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'generation-v': 5,
     'generation-vi': 6,
     'generation-vii': 7,
-    'generation-viii': 8
+    'generation-viii': 8,
+    'generation-ix': 9
   };
   versionToGeneration = {
     'red-blue': 1,
@@ -413,6 +417,10 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     'sword-shield': 8,
     'isolarmure': 8,
     'couronneige': 8,
+    'legends-arceus': 8,
+    'scarlet-violet': 9,
+    'the-teal-mask': 9,
+    'the-indigo-disk': 9
   };
 
   currentMoveData;
@@ -428,8 +436,6 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   moveContestType = ['cool', 'beauty', 'cute', 'smart', 'tough'];
 
   isOnline;
-
-  pokemonLocalisations: PokemonLocalisation[];
 
   constructor(private activatedRoute: ActivatedRoute,
               private pokemonService: PokemonService, public pokedexService: PokedexService) {
@@ -1411,12 +1417,6 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
           this.moveDetails = this.moveTutorDetails;
           this.selectedMove = 'tutor';
           break;
-        case 'localisation':
-          this.movesList = [];
-          this.moveDetails = [];
-          this.pokemonLocalisations = await this.pokedexService.getRegionalLocalisation(this.selectedGameVersion);
-          this.selectedMove = 'localisation';
-          break;
       }
     }
   }
@@ -1443,7 +1443,6 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.selectedGameVersion = name;
       this.currentMoveID = null;
       this.getMoves();
-      this.pokemonLocalisations = await this.pokedexService.getRegionalLocalisation(this.selectedGameVersion);
       this.delayMovesListLoad = true;
     }
   }
@@ -1549,18 +1548,6 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
         return isPokemonCapture ? 'Oui' : 'Non';
       }
 
-    }
-  }
-
-  getLocalisation() {
-    if (this.pokemonLocalisations) {
-      const pokedex = this.pokedexService.pokedex.find(pkx => pkx.jeu === this.selectedGameVersion);
-      const code = pokedex ? pokedex.codeNav : '';
-      const pokemonLocalisation = this.pokemonLocalisations.find(pl => pl.regional === this.pokedexService.getIdRegional(this.pokemon, code));
-
-      if (pokemonLocalisation) {
-        return pokemonLocalisation.localisations;
-      }
     }
   }
 

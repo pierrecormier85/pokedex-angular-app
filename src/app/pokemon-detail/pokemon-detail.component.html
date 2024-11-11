@@ -729,13 +729,8 @@
                     [ngClass]="selectedMove=='tutor' ? pokemon.color : null">Tutor
             </button>
           </div>
-          <div class="col">
-            <button class="btn rounded-pill font-weight-bold" (click)="selectMovesByLearnMethod('localisation')"
-                    [ngClass]="selectedMove=='localisation' ? pokemon.color : null">Localisation
-            </button>
-          </div>
         </div>
-        <div class="inner scrollableTable" *ngIf="selectedMove !=='localisation'">
+        <div class="inner scrollableTable">
           <div class="table-responsive {{pokemon.color}}" style="position: relative;">
             <div class="lds-dual-ring" *ngIf="!movesListLoaded"></div>
             <table class="table table-fixed">
@@ -788,33 +783,6 @@
                   </ng-container>
                   <ng-template #noMovesLearnt>No moves learned by this method in the selected games found.
                   </ng-template>
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="inner scrollableTable" *ngIf="selectedMove ==='localisation'">
-          <div class="table-responsive {{pokemon.color}}" style="position: relative;">
-            <table class="table table-fixed">
-              <thead>
-              <tr>
-                <th scope="col" class="col-2 text-truncate text-center">Infos</th>
-                <th scope="col" class="col-10 text-truncate text-center">Détails</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr class="disableClicking" *ngIf="isPresent()">
-                <td class="col-2 text-center">Capture</td>
-                <td class="col-10 text-center">{{ isCapture() }}</td>
-              </tr>
-              <tr class="disableClicking" *ngIf="isPresent()">
-                <td class="col-2 text-center">Localisation</td>
-                <td class="col-10 text-center">{{ getLocalisation() }}</td>
-              </tr>
-              <tr class="disableClicking" *ngIf="!isPresent()">
-                <td class="col text-center NotFoundText" style="padding-top: 8.5rem;">
-                  Le pokémon n'est pas présent dans le jeu.
                 </td>
               </tr>
               </tbody>

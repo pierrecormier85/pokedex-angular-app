@@ -2,7 +2,6 @@ import {Injectable} from '@angular/core';
 import {Pokemon} from './pokemon.model';
 import {Pokedex} from './pokedex.model';
 import {HttpClient} from '@angular/common/http';
-import {PokemonLocalisation} from './pokemon-localisation.model';
 
 @Injectable({
   providedIn: 'root'
@@ -154,14 +153,6 @@ export class PokedexService {
     } else {
       return pokemon.id;
     }
-  }
-
-  async getRegionalLocalisation(jeu: string) {
-    const result = this.http.get<PokemonLocalisation[]>(`assets/data/${this.getCodeFromJeu(jeu)}_localisation.json`).toPromise();
-
-    return result.then(pokemonLocalisations => pokemonLocalisations).catch(error => {
-      return [];
-    });
   }
 
   getCodeFromJeu(jeu: string) {

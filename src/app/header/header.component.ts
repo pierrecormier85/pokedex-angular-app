@@ -2,8 +2,8 @@ import {Component, ElementRef, Input, NgZone, OnInit, ViewChild} from '@angular/
 import {PokemonService} from '../shared/pokemon.service';
 import {Meta} from '@angular/platform-browser';
 import {PwaService} from '../shared/pwa.service';
-import {PokedexService} from '../shared/pokedex.service';
-import {MatDrawer, MatSidenav} from '@angular/material/sidenav';
+import {MatDrawer} from '@angular/material/sidenav';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -49,8 +49,8 @@ export class HeaderComponent implements OnInit {
     );
   }
 
-  constructor(public pokemonService: PokemonService, public pokedexService: PokedexService, public Pwa: PwaService,
-              private meta: Meta, private lc: NgZone) {
+  constructor(public pokemonService: PokemonService, public Pwa: PwaService,
+              private meta: Meta, private lc: NgZone, private router: Router) {
   }
 
 
@@ -139,5 +139,15 @@ export class HeaderComponent implements OnInit {
       )
       ;
     }, 50);
+  }
+
+  goBack() {
+    const region = localStorage.getItem('pokedex');
+
+    if (region) {
+      this.router.navigate(['/pokedex', region]);
+    } else {
+      this.router.navigate(['/pokedex']);
+    }
   }
 }

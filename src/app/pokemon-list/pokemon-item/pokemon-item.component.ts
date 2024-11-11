@@ -39,7 +39,8 @@ export class PokemonItemComponent {
   }
 
   capturePokemon(capture: boolean) {
-    const pokemonCapture = this.pokemonsCapture.find(capture => capture.id === this.pokedexService.getIdRegional(this.pokemon, this.region));
+    const pokemonCapture =
+      this.pokemonsCapture.find(capture => capture.id === this.pokedexService.getIdRegional(this.pokemon, this.region));
 
     if (pokemonCapture) {
       pokemonCapture.capture = capture;

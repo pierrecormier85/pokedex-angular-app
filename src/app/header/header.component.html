@@ -5,7 +5,7 @@
     </button>
   </ul>
   <ul class="navbar-nav mt-2">
-    <button type="button" class="btn back-arrow" routerLink="/pokedex" [ngClass]="{'back-arrow-fade': showSearch}">
+    <button type="button" class="btn back-arrow" (click)="goBack()" [ngClass]="{'back-arrow-fade': showSearch}">
       <i class="icon-left-big"></i></button>
     <li class="nav-item search-bar-form" [ngClass]="{'search-fade': !showSearch}" style="display: inline-flex">
       <form>

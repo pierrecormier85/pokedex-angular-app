@@ -57,12 +57,16 @@ export class PokemonListComponent implements OnInit, OnDestroy {
         this.regionPokedex = params['region'];
         this.initPokemonList();
 
+        localStorage.removeItem('pokedex');
+
         if (this.regionPokedex) {
           this.pokemonsCapture = JSON.parse(localStorage.getItem(this.regionPokedex));
 
           if (!this.pokemonsCapture) {
             this.pokemonsCapture = [];
           }
+
+          localStorage.setItem('pokedex', this.regionPokedex);
         }
       }
     );
@@ -131,10 +135,6 @@ export class PokemonListComponent implements OnInit, OnDestroy {
 
   activeAfficherCapture() {
     this.afficherCapture = !this.afficherCapture;
-
-    if (!this.afficherCapture && this.masquerCapture) {
-      this.doMasquerCapture();
-    }
   }
 
   isPokemonCapture(pokemon: Pokemon): boolean {

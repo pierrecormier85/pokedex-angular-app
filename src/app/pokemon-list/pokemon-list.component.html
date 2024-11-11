@@ -1,10 +1,7 @@
-<div class="pokemon-list faded" #scrollingBlock [ngClass]="{fade:scrolled}">
-  <virtual-scroller #scroll [items]="pokemons| searchFilter: searchItem" [parentScroll]="scrollingBlock"
-                    scrollAnimationTime="0">
-    <app-pokemon-item *ngFor="let pokemon of scroll.viewPortItems; trackBy: trackByPokemonID; let i = index;"
-                      [pokemon]="pokemon" [region]="regionPokedex" [afficherCapture]="afficherCapture"
-                      [pokemonsCapture]="pokemonsCapture"></app-pokemon-item>
-  </virtual-scroller>
+<div class="row justify-content-center">
+   <app-pokemon-item *ngFor="let pokemon of pokemons | searchFilter: searchItem; let i = index;"
+                     [pokemon]="pokemon" [region]="regionPokedex" [afficherCapture]="afficherCapture"
+                     [pokemonsCapture]="pokemonsCapture"></app-pokemon-item>
 </div>
 
 <button class="activeCapture" mat-fab *ngIf="regionPokedex" (click)="activeAfficherCapture()"
@@ -12,21 +9,8 @@
   <img *ngIf="!afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball.png" />
   <img *ngIf="afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball_hisui.png" />
 </button>
-<button class="showCapture" mat-fab *ngIf="afficherCapture" (click)="doMasquerCapture()"
+<button class="showCapture" mat-fab *ngIf="regionPokedex" (click)="doMasquerCapture()"
         matTooltip="{{this.masquerCapture ? 'Afficher tout les pokémon': 'Masquer les pokémon capturés'}}">
   <img *ngIf="!masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball.png" />
   <img *ngIf="masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball_hisui.png" />
 </button>
-
-<!-- Simple Scrolling -->
-<!-- <div class="row justify-content-center">
-   <app-pokemon-item *ngFor="let pokemon of pokemons | searchFilter: searchItem; let i = index;"
-                     [pokemon]="pokemon"></app-pokemon-item>
-</div> -->
-
-<!--Angular CDK Virtual Scroll-->
-<!-- <cdk-virtual-scroll-viewport style="height: 90vh" itemSize="128" minBufferPx="150" maxBufferPx="250">
- <span *cdkVirtualFor="let pokemon of pokemons |  searchFilter: searchItem ; let i = index; templateCacheSize: 0">
-   <app-pokemon-item [pokemon]="pokemon"></app-pokemon-item>
- </span>
-</cdk-virtual-scroll-viewport> -->
