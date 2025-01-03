@@ -6,11 +6,11 @@
 
 <button class="activeCapture" mat-fab *ngIf="regionPokedex" (click)="activeAfficherCapture()"
         matTooltip="{{this.afficherCapture ? 'Désactiver le mode capture': 'Activer le mode capture'}}">
-  <img *ngIf="!afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball.png" />
-  <img *ngIf="afficherCapture" class="icon" src="assets/pokeball/icon_poke_ball_hisui.png" />
+  <img *ngIf="!afficherCapture" class="icon" src="../../../assets/pokedex/pokeball/icon_poke_ball.png" />
+  <img *ngIf="afficherCapture" class="icon" src="../../../assets/pokedex/pokeball/icon_poke_ball_hisui.png" />
 </button>
 <button class="showCapture" mat-fab *ngIf="regionPokedex" (click)="doMasquerCapture()"
         matTooltip="{{this.masquerCapture ? 'Afficher tout les pokémon': 'Masquer les pokémon capturés'}}">
-  <img *ngIf="!masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball.png" />
-  <img *ngIf="masquerCapture" class="icon" src="assets/pokeball/icon_hyper_ball_hisui.png" />
+  <img *ngIf="!masquerCapture" class="icon" src="../../../assets/pokedex/pokeball/icon_hyper_ball.png" />
+  <img *ngIf="masquerCapture" class="icon" src="../../../assets/pokedex/pokeball/icon_hyper_ball_hisui.png" />
 </button>

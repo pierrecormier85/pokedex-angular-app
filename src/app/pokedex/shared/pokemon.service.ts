@@ -127,7 +127,7 @@ export class PokemonService {
   }
 
   getPokemonSpeciesFromJSON() {
-    this.http.get('assets/data/pokemon-species.json').subscribe(
+    this.http.get('assets/pokedex/data/pokemon-species.json').subscribe(
       (response) => {
         this.pokemonSpeciesJSON = response['pokemon-species'];
       }
@@ -136,7 +136,7 @@ export class PokemonService {
 
   getPokemonMovesFromCSV() {
     this.pokemonMovesCSV = {};
-    this.http.get('assets/data/pokemon-moves.csv', {responseType: 'text'})
+    this.http.get('assets/pokedex/data/pokemon-moves.csv', {responseType: 'text'})
       .subscribe(
         data => {
           const allTextLines = data.split(/\r\n|\r|\n/);
@@ -162,7 +162,7 @@ export class PokemonService {
   }
 
   getPokemonFromJSON() {
-    this.http.get('assets/data/pokemon.json').subscribe(
+    this.http.get('assets/pokedex/data/pokemon.json').subscribe(
       (response) => {
         this.getMoveDetailsFromCSV();
         this.pokemonJSON = response['pokemon'];
@@ -206,7 +206,7 @@ export class PokemonService {
 
   getMoveDetailsFromCSV() {
     this.movesDetails = [];
-    this.http.get('assets/data/moves.csv', {responseType: 'text'})
+    this.http.get('assets/pokedex/data/moves.csv', {responseType: 'text'})
       .subscribe(
         data => {
           this.getMachinesFromCSV();
@@ -233,7 +233,7 @@ export class PokemonService {
 
   getMachinesFromCSV() {
     this.machineDetails = [];
-    this.http.get('assets/data/machines.csv', {responseType: 'text'})
+    this.http.get('assets/pokedex/data/machines.csv', {responseType: 'text'})
       .subscribe(
         data => {
           this.getMovesFlavorFromJSON();
@@ -255,7 +255,7 @@ export class PokemonService {
   }
 
   getMovesFlavorFromJSON() {
-    this.http.get('assets/data/move.json').subscribe(
+    this.http.get('assets/pokedex/data/move.json').subscribe(
       (response) => {
         this.getEvoChainFromJSON();
         this.moveJSON = response['moves'];
@@ -264,7 +264,7 @@ export class PokemonService {
   }
 
   getEvoChainFromJSON() {
-    this.http.get('assets/data/evolution-chain.json').subscribe(
+    this.http.get('assets/pokedex/data/evolution-chain.json').subscribe(
       (response) => {
         this.getAbilityFromJSON();
         this.evolutionChains = response['evolution-chains'];
@@ -273,7 +273,7 @@ export class PokemonService {
   }
 
   getAbilityFromJSON() {
-    this.http.get('assets/data/ability.json').subscribe(
+    this.http.get('assets/pokedex/data/ability.json').subscribe(
       (response) => {
         this.abilityJSON = response['abilities'];
         this.EverythingLoaded.next(true);
@@ -283,14 +283,14 @@ export class PokemonService {
 
   requestALL() {
     const requests = [];
-    requests.push(this.http.get('assets/data/pokemon-species.json'));
-    requests.push(this.http.get('assets/data/pokemon-moves.csv', {responseType: 'text'}));
-    // requests.push(this.http.get('assets/data/pokemon.json'));
-    // requests.push(this.http.get('assets/data/moves.csv', {responseType: 'text'}));
-    // requests.push(this.http.get('assets/data/machines.csv', {responseType: 'text'}));
-    // requests.push(this.http.get('assets/data/move.json'));
-    // requests.push(this.http.get('assets/data/evolution-chain.json'));
-    // requests.push(this.http.get('assets/data/ability.json'));
+    requests.push(this.http.get('assets/pokedex/data/pokemon-species.json'));
+    requests.push(this.http.get('assets/pokedex/data/pokemon-moves.csv', {responseType: 'text'}));
+    // requests.push(this.http.get('assets/pokedex/data/pokemon.json'));
+    // requests.push(this.http.get('assets/pokedex/data/moves.csv', {responseType: 'text'}));
+    // requests.push(this.http.get('assets/pokedex/data/machines.csv', {responseType: 'text'}));
+    // requests.push(this.http.get('assets/pokedex/data/move.json'));
+    // requests.push(this.http.get('assets/pokedex/data/evolution-chain.json'));
+    // requests.push(this.http.get('assets/pokedex/data/ability.json'));
     this.pokemonMovesCSV = {};
     forkJoin(requests).subscribe(([species, movesCSV]: [any, string]) => {
       this.getPokemonFromJSON();

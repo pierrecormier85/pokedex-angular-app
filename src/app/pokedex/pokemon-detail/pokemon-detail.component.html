@@ -1,4 +1,4 @@
-<link rel="prefetch" href="assets/Mega-Evolution-Sigil.png"/>
+<link rel="prefetch" href="../../../assets/Mega-Evolution-Sigil.png"/>
 <div class="col-12 fadeIn MainDiv" *ngIf="pokemon!==undefined">
   <br>
   <h1 class="text-center text-uppercase Section-Heading" [ngClass]="{fOut:!visible}">{{ pokemon.name }}</h1>
@@ -51,7 +51,7 @@
               <div class="row" style="flex-wrap: nowrap" data-toggle="modal" data-target="#typesModal">
                 <div class="text-capitalize row icon {{type['n']}}" *ngFor="let type of pokemon.types"><span
                   class="col-8 text-white">{{ type['n'] }}</span><span
-                  class="col-4"><img alt="" class="img-fluid" src="assets/type-icons/png/{{type['n']}}.png"></span>
+                  class="col-4"><img alt="" class="img-fluid" src="assets/pokedex/type-icons/png/{{type['n']}}.png"></span>
                 </div>
               </div>
             </td>
@@ -74,7 +74,7 @@
         <img alt="" class="Image img-fluid mx-auto my-auto d-block fadeInOut" [src]="pokemonImageUrl"
              (load)="imagePreload()"
              [ngClass]="{fadeImg: !imageLoading,fOut :!imageVisible}">
-        <img alt="" class="mega-sigil" src="assets/Mega-Evolution-Sigil.png" *ngIf="megaEvolving"
+        <img alt="" class="mega-sigil" src="../../../assets/Mega-Evolution-Sigil.png" *ngIf="megaEvolving"
              [ngClass]="{'fIn': SigilVisible, 'sigil-end': sigilEnd}">
         <div class="megaSphere" *ngIf="megaEvolving" [ngClass]="{'fIn': SphereVisible}"></div>
       </div>
@@ -197,7 +197,7 @@
               <div *ngIf="evolutionChain.length===1" class="DNE">This Pokémon does not evolve.</div>
               <div>
                 <img alt="" class="evo-img mx-auto d-block"
-                     src="assets/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
+                     src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
                      routerLink="/pokemon/{{stage[1]}}" (click)="selectEvolution(stage[1])">
               </div>
               <div class="evo-id text-center">#{{ stage[1] }}</div>
@@ -210,11 +210,11 @@
                    *ngIf="pokemonService.pokemons[stage[1]-1]!=undefined">
                 <div class="icon {{type['n']}}" *ngFor="let type of pokemonService.pokemons[stage[1]-1].types"><img
                   alt=""
-                  src="assets/type-icons/png/{{type['n']}}.png"></div>
+                  src="assets/pokedex/type-icons/png/{{type['n']}}.png"></div>
               </div>
             </div>
             <div class='col-sm arrow-div evo-desc' *ngIf="i<evolutionChain.length-1">
-              <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+              <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
               {{ evolutionDesc[i] }}
             </div>
           </ng-container>
@@ -226,7 +226,7 @@
               <div class="col-sm evo-div" style="padding: 10px;">
                 <div>
                   <img alt="" class="evo-img mx-auto d-block"
-                       src="assets/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
+                       src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
                        routerLink="/pokemon/{{stage[1]}}" (click)="selectEvolution(stage[1])">
                 </div>
                 <div class="evo-id text-center">#{{ stage[1] }}</div>
@@ -239,12 +239,12 @@
                      *ngIf="pokemonService.pokemons[stage[1]-1]!=undefined">
                   <div class="icon {{type['n']}}" *ngFor="let type of pokemonService.pokemons[stage[1]-1].types"><img
                     alt=""
-                    src="assets/type-icons/png/{{type['n']}}.png"></div>
+                    src="assets/pokedex/type-icons/png/{{type['n']}}.png"></div>
                 </div>
               </div>
               <ng-container *ngIf="i<evolutionChain.length-2; else MultiArrowStage">
                 <div class='col-sm arrow-div evo-desc'>
-                  <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                  <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                   {{ evolutionDesc[i] }}
                 </div>
               </ng-container>
@@ -253,7 +253,7 @@
                   <ng-container *ngFor="let evolutionSideDesc of evolutionDesc[i];">
                     <div class="arrow-div" *ngIf="i<evolutionChain.length-1">
                       <div class='col-sm evo-desc'>
-                        <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                        <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                         {{ evolutionSideDesc }}
                       </div>
                     </div>
@@ -267,7 +267,7 @@
                   <div class="col-sm evo-div" style="padding: 10px;">
                     <div>
                       <img alt="" class="evo-img mx-auto d-block"
-                           src="assets/thumbnails-compressed/{{this.pad(sideStage[1], 4) + '.png'}}"
+                           src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(sideStage[1], 4) + '.png'}}"
                            routerLink="/pokemon/{{sideStage[1]}}" (click)="selectEvolution(sideStage[1])">
                     </div>
                     <div class="evo-id text-center">#{{ sideStage[1] }}</div>
@@ -281,7 +281,7 @@
                          *ngIf="pokemonService.pokemons[sideStage[1]-1]!=undefined">
                       <div class="icon {{type['n']}}"
                            *ngFor="let type of pokemonService.pokemons[sideStage[1]-1].types"><img alt=""
-                                                                                                   src="assets/type-icons/png/{{type['n']}}.png">
+                                                                                                   src="assets/pokedex/type-icons/png/{{type['n']}}.png">
                       </div>
                     </div>
                   </div>
@@ -296,7 +296,7 @@
               <div class="col-sm evo-div" style="padding: 10px;">
                 <div>
                   <img alt="" class="evo-img mx-auto d-block"
-                       src="assets/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
+                       src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(stage[1], 4) + '.png'}}"
                        routerLink="/pokemon/{{stage[1]}}" (click)="selectEvolution(stage[1])">
                 </div>
                 <div class="evo-id text-center">#{{ stage[1] }}</div>
@@ -309,12 +309,12 @@
                      *ngIf="pokemonService.pokemons[stage[1]-1]!=undefined">
                   <div class="icon {{type['n']}}" *ngFor="let type of pokemonService.pokemons[stage[1]-1].types"><img
                     alt=""
-                    src="assets/type-icons/png/{{type['n']}}.png"></div>
+                    src="assets/pokedex/type-icons/png/{{type['n']}}.png"></div>
                 </div>
               </div>
               <ng-container *ngIf="i<evolutionChain.length-3; else MultiArrowStage">
                 <div class='col-sm arrow-div evo-desc'>
-                  <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                  <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                   {{ evolutionDesc[i] }}
                 </div>
               </ng-container>
@@ -323,7 +323,7 @@
                   <ng-container *ngFor="let evolutionSideDesc of evolutionDesc[i];">
                     <div class="arrow-div" *ngIf="i<evolutionChain.length-1">
                       <div class='col-sm evo-desc'>
-                        <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                        <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                         {{ evolutionSideDesc }}
                       </div>
                     </div>
@@ -337,7 +337,7 @@
                   <div class="col-sm evo-div" style="padding: 10px;">
                     <div>
                       <img alt="" class="evo-img mx-auto d-block"
-                           src="assets/thumbnails-compressed/{{this.pad(sideStage[1], 4) + '.png'}}"
+                           src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(sideStage[1], 4) + '.png'}}"
                            routerLink="/pokemon/{{sideStage[1]}}" (click)="selectEvolution(sideStage[1])">
                     </div>
                     <div class="evo-id text-center">#{{ sideStage[1] }}</div>
@@ -351,7 +351,7 @@
                          *ngIf="pokemonService.pokemons[sideStage[1]-1]!=undefined">
                       <div class="icon {{type['n']}}"
                            *ngFor="let type of pokemonService.pokemons[sideStage[1]-1].types"><img alt=""
-                                                                                                   src="assets/type-icons/png/{{type['n']}}.png">
+                                                                                                   src="assets/pokedex/type-icons/png/{{type['n']}}.png">
                       </div>
                     </div>
                   </div>
@@ -359,7 +359,7 @@
               </div>
               <ng-container *ngIf="i<evolutionChain.length-3; else MultiArrowStage">
                 <div class='col-sm arrow-div evo-desc'>
-                  <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                  <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                   {{ evolutionDesc[i] }}
                 </div>
               </ng-container>
@@ -368,7 +368,7 @@
                   <ng-container *ngFor="let evolutionSideDesc of evolutionDesc[i];">
                     <div class="arrow-div" *ngIf="i<evolutionChain.length-1">
                       <div class='col-sm evo-desc'>
-                        <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                        <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                         {{ evolutionSideDesc }}
                       </div>
                     </div>
@@ -384,7 +384,7 @@
               <div class="col-sm evo-div" style="padding: 10px;">
                 <div>
                   <img alt="" class="evo-img mx-auto d-block"
-                       src="assets/thumbnails-compressed/{{this.pad(row1[1], 4) + '.png'}}"
+                       src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(row1[1], 4) + '.png'}}"
                        routerLink="/pokemon/{{row1[1]}}" (click)="selectEvolution(row1[1])">
                 </div>
                 <div class="evo-id text-center">#{{ row1[1] }}</div>
@@ -397,7 +397,7 @@
                      *ngIf="pokemonService.pokemons[row1[1]-1]!=undefined">
                   <div class="icon {{type['n']}}" *ngFor="let type of pokemonService.pokemons[row1[1]-1].types"><img
                     alt=""
-                    src="assets/type-icons/png/{{type['n']}}.png"></div>
+                    src="assets/pokedex/type-icons/png/{{type['n']}}.png"></div>
                 </div>
               </div>
             </ng-container>
@@ -406,7 +406,7 @@
             <ng-container *ngFor="let evolutionSideDesc of evolutionDesc[0].slice(0,3);let i = index;">
               <div class="arrow-div">
                 <div class='col-sm evo-desc' [ngClass]="{'corner1':i===0,'corner2':i==2}">
-                  <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                  <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                   {{ evolutionSideDesc }}
                 </div>
               </div>
@@ -416,7 +416,7 @@
             <div class="col-sm evo-div text-capitalize" style="padding: 10px;">
               <div>
                 <img alt="" class="evo-img mx-auto d-block"
-                     src="assets/thumbnails-compressed/{{this.pad(evolutionChain[1][3][1], 4) + '.png'}}"
+                     src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(evolutionChain[1][3][1], 4) + '.png'}}"
                      routerLink="/pokemon/{{evolutionChain[1][3][1]}}"
                      (click)="selectEvolution(evolutionChain[1][3][1])">
               </div>
@@ -430,20 +430,20 @@
                    *ngIf="pokemonService.pokemons[evolutionChain[1][3][1]-1]!=undefined">
                 <div class="icon {{type['n']}}"
                      *ngFor="let type of pokemonService.pokemons[evolutionChain[1][3][1]-1].types"><img alt=""
-                                                                                                        src="assets/type-icons/png/{{type['n']}}.png">
+                                                                                                        src="assets/pokedex/type-icons/png/{{type['n']}}.png">
                 </div>
               </div>
             </div>
             <div class="arrow-div">
               <div class='col-sm evo-desc'>
-                <img alt="" src="assets/right-arrow.png" class="evo-arrow" style="transform: rotate(180deg)">
+                <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow" style="transform: rotate(180deg)">
                 {{ evolutionDesc[0][3] }}
               </div>
             </div>
             <div class="col-sm evo-div text-capitalize" style="padding: 10px;">
               <div>
                 <img alt="" class="evo-img mx-auto d-block"
-                     src="assets/thumbnails-compressed/{{this.pad(evolutionChain[0][1], 4) + '.png'}}"
+                     src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(evolutionChain[0][1], 4) + '.png'}}"
                      routerLink="/pokemon/{{evolutionChain[0][1]}}" (click)="selectEvolution(evolutionChain[0][1])">
               </div>
               <div class="evo-id text-center">#{{ evolutionChain[0][1] }}</div>
@@ -456,20 +456,20 @@
                    *ngIf="pokemonService.pokemons[evolutionChain[0][1]-1]!=undefined">
                 <div class="icon {{type['n']}}"
                      *ngFor="let type of pokemonService.pokemons[evolutionChain[0][1]-1].types"><img alt=""
-                                                                                                     src="assets/type-icons/png/{{type['n']}}.png">
+                                                                                                     src="assets/pokedex/type-icons/png/{{type['n']}}.png">
                 </div>
               </div>
             </div>
             <div class="arrow-div">
               <div class='col-sm evo-desc'>
-                <img alt="" src="assets/right-arrow.png" class="evo-arrow" style="transform: rotate(0deg)">
+                <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow" style="transform: rotate(0deg)">
                 {{ evolutionDesc[0][4] }}
               </div>
             </div>
             <div class="col-sm evo-div text-capitalize" style="padding: 10px;">
               <div>
                 <img alt="" class="evo-img mx-auto d-block"
-                     src="assets/thumbnails-compressed/{{this.pad(evolutionChain[1][4][1], 4) + '.png'}}"
+                     src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(evolutionChain[1][4][1], 4) + '.png'}}"
                      routerLink="/pokemon/{{evolutionChain[1][4][1]}}"
                      (click)="selectEvolution(evolutionChain[1][4][1])">
               </div>
@@ -483,7 +483,7 @@
                    *ngIf="pokemonService.pokemons[evolutionChain[1][4][1]-1]!=undefined">
                 <div class="icon {{type['n']}}"
                      *ngFor="let type of pokemonService.pokemons[evolutionChain[1][4][1]-1].types"><img alt=""
-                                                                                                        src="assets/type-icons/png/{{type['n']}}.png">
+                                                                                                        src="assets/pokedex/type-icons/png/{{type['n']}}.png">
                 </div>
               </div>
             </div>
@@ -492,7 +492,7 @@
             <ng-container *ngFor="let evolutionSideDesc of evolutionDesc[0].slice(5,8);let i = index;">
               <div class="arrow-div">
                 <div class='col-sm evo-desc' [ngClass]="{'corner3':i===0,'corner3-4':i==1,'corner4':i==2}">
-                  <img alt="" src="assets/right-arrow.png" class="evo-arrow">
+                  <img alt="" src="../../../assets/right-arrow.png" class="evo-arrow">
                   {{ evolutionSideDesc }}
                 </div>
               </div>
@@ -503,7 +503,7 @@
               <div class="col-sm evo-div" style="padding: 10px;">
                 <div>
                   <img alt="" class="evo-img mx-auto d-block"
-                       src="assets/thumbnails-compressed/{{this.pad(row1[1], 4) + '.png'}}"
+                       src="../../../assets/pokedex/thumbnails-compressed/{{this.pad(row1[1], 4) + '.png'}}"
                        routerLink="/pokemon/{{row1[1]}}" (click)="selectEvolution(row1[1])">
                 </div>
                 <div class="evo-id text-center">#{{ row1[1] }}</div>
@@ -516,7 +516,7 @@
                      *ngIf="pokemonService.pokemons[row1[1]-1]!=undefined">
                   <div class="icon {{type['n']}}" *ngFor="let type of pokemonService.pokemons[row1[1]-1].types"><img
                     alt=""
-                    src="assets/type-icons/png/{{type['n']}}.png"></div>
+                    src="assets/pokedex/type-icons/png/{{type['n']}}.png"></div>
                 </div>
               </div>
             </ng-container>
@@ -650,7 +650,7 @@
               <td>
                 <div class="typeDefencesRow" style="padding: 0;" *ngIf="typeDefences!=undefined">
                   <div class="icon {{type}}" *ngFor="let type of typeDefences['0x']"><img alt=""
-                                                                                          src="assets/type-icons/png/{{type}}.png">
+                                                                                          src="assets/pokedex/type-icons/png/{{type}}.png">
                   </div>
                 </div>
               </td>
@@ -660,7 +660,7 @@
               <td>
                 <div class="typeDefencesRow" style="padding: 0;" *ngIf="typeDefences!=undefined">
                   <div class="icon {{type}}" *ngFor="let type of typeDefences['0.25x']"><img alt=""
-                                                                                             src="assets/type-icons/png/{{type}}.png">
+                                                                                             src="assets/pokedex/type-icons/png/{{type}}.png">
                   </div>
                 </div>
               </td>
@@ -670,7 +670,7 @@
               <td>
                 <div class="typeDefencesRow" style="padding: 0;" *ngIf="typeDefences!=undefined">
                   <div class="icon {{type}}" *ngFor="let type of typeDefences['0.5x']"><img alt=""
-                                                                                            src="assets/type-icons/png/{{type}}.png">
+                                                                                            src="assets/pokedex/type-icons/png/{{type}}.png">
                   </div>
                 </div>
               </td>
@@ -680,7 +680,7 @@
               <td>
                 <div class="typeDefencesRow" style="padding: 0;" *ngIf="typeDefences!=undefined">
                   <div class="icon {{type}}" *ngFor="let type of typeDefences['2x']"><img alt=""
-                                                                                          src="assets/type-icons/png/{{type}}.png">
+                                                                                          src="assets/pokedex/type-icons/png/{{type}}.png">
                   </div>
                 </div>
               </td>
@@ -690,7 +690,7 @@
               <td>
                 <div class="typeDefencesRow" style="padding: 0;" *ngIf="typeDefences!=undefined">
                   <div class="icon {{type}}" *ngFor="let type of typeDefences['4x']"><img alt=""
-                                                                                          src="assets/type-icons/png/{{type}}.png">
+                                                                                          src="assets/pokedex/type-icons/png/{{type}}.png">
                   </div>
 
                 </div>
@@ -762,12 +762,12 @@
                   <td class="col-1 Col3 text-center">
                     <div class="moveTypes" style="padding: 0;">
                       <div class="icon {{types[move[2].type_id-1]}}"><img alt=""
-                                                                          src="assets/type-icons/png/{{types[move[2].type_id-1]}}.png">
+                                                                          src="assets/pokedex/type-icons/png/{{types[move[2].type_id-1]}}.png">
                       </div>
                     </div>
                   </td>
                   <td class="col-1 Col4 text-center"><img alt="" class="img-fluid damage-icon"
-                                                          src="assets/damage-category-icons/{{getDamageClass(move[2].damage_class_id)}}.png">
+                                                          src="../../../assets/pokedex/damage-category-icons/{{getDamageClass(move[2].damage_class_id)}}.png">
                   </td>
                   <td class="col-1 Col5 text-center">{{ move[2].power }}</td>
                   <td class="col-1 Col6 text-center">{{ move[2].pp }}</td>
@@ -932,14 +932,14 @@
                 <span
                   class="col-8 text-white text-capitalize">{{ types[movesList[currentMoveID][2].type_id - 1] }}</span>
                 <span class="col-4"><img alt="" class="img-fluid"
-                                         src="assets/type-icons/png/{{types[movesList[currentMoveID][2].type_id-1]}}.png">
+                                         src="assets/pokedex/type-icons/png/{{types[movesList[currentMoveID][2].type_id-1]}}.png">
                 </span>
               </div>
               <div class="row icon {{getDamageClass(movesList[currentMoveID][2].damage_class_id)}} moveDetails"><span
                 class="col-8 text-white">{{ getDamageClass(movesList[currentMoveID][2].damage_class_id) }}</span>
                 <span class="col-4">
                   <img alt="" class="img-fluid damage-cat"
-                       src="assets/damage-category-icons/{{getDamageClass(movesList[currentMoveID][2].damage_class_id)}}-white.png"
+                       src="../../../assets/pokedex/damage-category-icons/{{getDamageClass(movesList[currentMoveID][2].damage_class_id)}}-white.png"
                        style="width: 80%;margin-left: 0;margin-right: 2px;"></span>
               </div>
               <ng-container *ngIf="movesList[currentMoveID][2].contest_type_id!=='-'">

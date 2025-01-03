@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
-import {PokemonService} from './shared/pokemon.service';
+import {PokemonService} from './pokedex/shared/pokemon.service';
 import {HeaderComponent} from './header/header.component';
-import {PokedexService} from './shared/pokedex.service';
+import {PokedexService} from './pokedex/shared/pokedex.service';
 
 @Component({
   selector: 'app-root',

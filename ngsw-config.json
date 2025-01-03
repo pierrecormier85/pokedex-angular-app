@@ -21,9 +21,9 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/type-icons/png/*.png", 
-          "/assets/damage-category-icons/*.png",
-          "/assets/data/*.(csv|json)",
+          "/assets/pokedex/type-icons/png/*.png",
+          "/assets/pokedex/damage-category-icons/*.png",
+          "/assets/pokedex/data/*.(csv|json)",
           "/assets/*.png",
           "/assets/fonts/AlleynW01-Regular/AlleynW01-Regular.woff2",
           "/assets/fontello/font/pokedex-fontello.woff2"

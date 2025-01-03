@@ -540,7 +540,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       this.evoChainsFetched = true;
     }
     if (this.pokemon.is_default) {
-      this.pokemonImageUrl = 'assets/thumbnails-compressed/' + this.pad(this.pokemon.id, 4) + '.png';
+      this.pokemonImageUrl = 'assets/pokedex/thumbnails-compressed/' + this.pad(this.pokemon.id, 4) + '.png';
     }
     // }
     this.getGenera();
@@ -829,7 +829,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
         const str = this.pokemonForms[i].name.replace(regExp, '$2');
         this.pokemonImageUrl = 'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/' +
           this.pad(this.pokemon.id, 3) + '-' + this.capitalizeSplitJoin(str, '-', '-') + '.png';
-        // this.pokemonImageUrl = 'assets/images/' + this.pad(this.pokemon.id, 3) + '-' + this.capitalizeSplitJoin(str, '-', '-') + '.png';
+        // this.pokemonImageUrl = 'assets/pokedex/images/' + this.pad(this.pokemon.id, 3) + '-' + this.capitalizeSplitJoin(str, '-', '-') + '.png';
       }
       // For Default Forms and Initializing Fields
       this.initializePokemonFields();

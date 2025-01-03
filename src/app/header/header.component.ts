@@ -1,7 +1,7 @@
 import {Component, ElementRef, Input, NgZone, OnInit, ViewChild} from '@angular/core';
-import {PokemonService} from '../shared/pokemon.service';
+import {PokemonService} from '../pokedex/shared/pokemon.service';
 import {Meta} from '@angular/platform-browser';
-import {PwaService} from '../shared/pwa.service';
+import {PwaService} from '../pokedex/shared/pwa.service';
 import {MatDrawer} from '@angular/material/sidenav';
 import {Router} from '@angular/router';
 
