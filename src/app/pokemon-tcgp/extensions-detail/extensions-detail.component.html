@@ -1,1 +1,14 @@
-<p>extensions-detail works!</p>
+
+<h3>Details</h3>
+<app-extension-complete-tableau-resume *ngIf="extensionDetail?.type == 'complete'"
+                                       [cartesTrouveesDetail]="cartesTrouveesDetail"></app-extension-complete-tableau-resume>
+<app-demi-extension-tableau-resume *ngIf="extensionDetail?.type == 'demi'"
+                                   [cartesTrouveesDetail]="cartesTrouveesDetail"></app-demi-extension-tableau-resume>
+<app-extension-promo-tableau-resume *ngIf="extensionDetail?.type == 'promo'"
+                                    [cartesTrouveesDetail]="cartesTrouveesDetail"></app-extension-promo-tableau-resume>
+
+<h3>Liste des cartes</h3>
+<div class="row justify-content-center">
+  <app-carte-tcgp-item *ngFor="let carte of extensionDetail?.cards" [extensionCode]="extensionCode"
+                       [carte]="carte" [cartesTrouvees]="cartesTrouvees" (cartesTrouveesEvent)="mettreAJourCarteTrouvees($event)"></app-carte-tcgp-item>
+</div>

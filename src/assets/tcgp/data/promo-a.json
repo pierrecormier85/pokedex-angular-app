@@ -1,0 +1,272 @@
+{
+	"codename": "P-A",
+	"seriesName": "Promo-A",
+  "type": "promo",
+	"normalCardCount": 0,
+	"cards": [
+		{
+			"number": "1",
+			"name": "Potion",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "2",
+			"name": "Vitesse +",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "3",
+			"name": "Scrute Main",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "4",
+			"name": "Pokédex",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "5",
+			"name": "Poké Ball",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "6",
+			"name": "Carton Rouge",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "7",
+			"name": "Recherche Professorales",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "8",
+			"name": "Pokédex",
+			"subseries": "Campaign",
+			"rarity": "PROMO",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "9",
+			"name": "Pikachu ex",
+			"subseries": "Shop",
+			"rarity": "PROMO",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "10",
+			"name": "Mewtwo",
+			"subseries": "Missions",
+			"rarity": "PROMO",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "11",
+			"name": "Leveinard",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "12",
+			"name": "Miaouss",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "13",
+			"name": "Papilusion",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "14",
+			"name": "Lokhlass ex",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "15",
+			"name": "Pikachu",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "16",
+			"name": "Mélofée",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "17",
+			"name": "Férosinge",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "18",
+			"name": "Florizarre",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "19",
+			"name": "Amphinobi",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Water",
+			"generation": 6
+		},
+		{
+			"number": "20",
+			"name": "Spectrum",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "21",
+			"name": "Onix",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "22",
+			"name": "Rondoudou",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "23",
+			"name": "Bulbizarre",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "24",
+			"name": "Magnéti",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "25",
+			"name": "Sulfura ex",
+			"subseries": "Missions",
+			"rarity": "PROMO",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "26",
+			"name": "Pikachu",
+			"subseries": "Campaign",
+			"rarity": "PROMO",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "27",
+			"name": "Vipélierre",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "28",
+			"name": "Pyrax",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Fire",
+			"generation": 5
+		},
+		{
+			"number": "29",
+			"name": "Tortank",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "30",
+			"name": "Évoli",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "31",
+			"name": "Pashmilla",
+			"subseries": "Promo Pack",
+			"rarity": "PROMO",
+			"type": "Colorless",
+			"generation": 5
+		},
+		{
+			"number": "32",
+			"name": "Salamèche",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "33",
+			"name": "Carapuce",
+			"subseries": "Wonder Pick",
+			"rarity": "PROMO",
+			"type": "Water",
+			"generation": 1
+		}
+	]
+}

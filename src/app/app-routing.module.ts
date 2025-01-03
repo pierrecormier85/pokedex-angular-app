@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {PokemonListComponent} from './pokedex/pokemon-list/pokemon-list.component';
 import {PokemonDetailComponent} from './pokedex/pokemon-detail/pokemon-detail.component';
 import {ExtensionsListComponent} from './pokemon-tcgp/extensions-list/extensions-list.component';
+import {ExtensionsDetailComponent} from './pokemon-tcgp/extensions-detail/extensions-detail.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'pokedex/:region', component: PokemonListComponent},
   {path: 'pokemon/:id', component: PokemonDetailComponent},
   {path: 'tcgp', component: ExtensionsListComponent},
+  {path: 'tcgp/:extension', component: ExtensionsDetailComponent},
   {path: '**', redirectTo: '/pokedex'}
 ];
 

@@ -1,0 +1,53 @@
+.extension-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.5rem 0.3rem 0.3rem 0.3rem;
+  font-size: medium;
+  color: gray;
+  transition: background-color 3000ms ease;
+
+  .extension-card-info {
+    display: flex;
+
+    .id-name {
+      flex: 0 0 75%;
+      flex-grow: 1;
+      text-align: left;
+      position: relative;
+      top: -6px;
+    }
+  }
+
+  .extension-card-img {
+    height: 75px;
+  }
+}
+
+.extension-card:hover {
+  background-color: #dbdbdb;
+  transition: background-color 300ms ease;
+}
+
+@media (max-width: 500px) {
+  .extension-card {
+    font-size: x-small;
+
+    .extension-card-info {
+      .id-name {
+        position: unset;
+        top: unset;
+
+        .card-name {
+          font-size: 0.75rem;
+        }
+      }
+    }
+
+    .extension-card-img {
+      height: 50px;
+    }
+  }
+
+}

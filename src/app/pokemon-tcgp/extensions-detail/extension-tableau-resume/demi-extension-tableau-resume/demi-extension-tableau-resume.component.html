@@ -1,0 +1,19 @@
+<table mat-table [dataSource]="cartesTrouveesDetail" class="mat-elevation-z8">
+  <ng-container matColumnDef="pack">
+    <th mat-header-cell *matHeaderCellDef> Pack </th>
+    <td mat-cell *matCellDef="let element"> Pack </td>
+  </ng-container>
+
+  <ng-container *ngFor="let rarete of listeRarete" matColumnDef="{{rarete}}">
+    <th mat-header-cell *matHeaderCellDef> {{ rarete }} </th>
+    <td mat-cell *matCellDef="let element"> {{getRareteDetail(element, rarete)}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="total">
+    <th mat-header-cell *matHeaderCellDef> Total </th>
+    <td mat-cell *matCellDef="let element"> {{getTotal(element)}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

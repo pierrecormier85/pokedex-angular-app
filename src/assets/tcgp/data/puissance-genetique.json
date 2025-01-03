@@ -1,0 +1,2296 @@
+{
+	"codename": "A1",
+	"seriesName": "Genetic Apex",
+  "type": "complete",
+	"normalCardCount": 226,
+	"cards": [
+		{
+			"number": "1",
+			"name": "Bulbizarre",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "2",
+			"name": "Herbizarre",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "3",
+			"name": "Florizarre",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "4",
+			"name": "Florizarre ex",
+			"subseries": "Mewtwo",
+			"rarity": "4d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "5",
+			"name": "Chenipan",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "6",
+			"name": "Chrysacier",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "7",
+			"name": "Papilusion",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "8",
+			"name": "Aspicot",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "9",
+			"name": "Coconfort",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "10",
+			"name": "Dardagnan",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "11",
+			"name": "Mystherbe",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "12",
+			"name": "Ortide",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "13",
+			"name": "Rafflesia",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "14",
+			"name": "Paras",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "15",
+			"name": "Parasect",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "16",
+			"name": "Mimitoss",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "17",
+			"name": "Aéromite",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "18",
+			"name": "Chétiflor",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "19",
+			"name": "Boustiflor",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "20",
+			"name": "Empiflor",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "21",
+			"name": "Noeunoeuf",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "22",
+			"name": "Noadkoko",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "23",
+			"name": "Noadkoko ex",
+			"subseries": "Dracaufeu",
+			"rarity": "4d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "24",
+			"name": "Saquedeneu",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "25",
+			"name": "Insécateur",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "26",
+			"name": "Scarabrute",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "27",
+			"name": "Doudouvet",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "28",
+			"name": "Farfaduvet",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "29",
+			"name": "Chlorobule",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "30",
+			"name": "Fragilady",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "31",
+			"name": "Cabriolaine",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 6
+		},
+		{
+			"number": "32",
+			"name": "Chevroum",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 6
+		},
+		{
+			"number": "33",
+			"name": "Salamèche",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "34",
+			"name": "Reptincel",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "35",
+			"name": "Dracaufeu",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "36",
+			"name": "Dracaufeu ex",
+			"subseries": "Dracaufeu",
+			"rarity": "4d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "37",
+			"name": "Goupix",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "38",
+			"name": "Feunard",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "39",
+			"name": "Caninos",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "40",
+			"name": "Arcanin",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "41",
+			"name": "Arcanin ex",
+			"subseries": "Pikachu",
+			"rarity": "4d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "42",
+			"name": "Ponyta",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "43",
+			"name": "Galopa",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "44",
+			"name": "Magmar",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "45",
+			"name": "Pyroli",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "46",
+			"name": "Sulfura",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "47",
+			"name": "Sulfura ex",
+			"subseries": "Dracaufeu",
+			"rarity": "4d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "48",
+			"name": "Aflamanoir",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "49",
+			"name": "Tritox",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 7
+		},
+		{
+			"number": "50",
+			"name": "Malamandre",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 7
+		},
+		{
+			"number": "51",
+			"name": "Grillepattes",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 8
+		},
+		{
+			"number": "52",
+			"name": "Scolocendre",
+			"subseries": null,
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 8
+		},
+		{
+			"number": "53",
+			"name": "Carapuce",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "54",
+			"name": "Carabaffe",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "55",
+			"name": "Tortank",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "56",
+			"name": "Tortank ex",
+			"subseries": "Pikachu",
+			"rarity": "4d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "57",
+			"name": "Psykokwak",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "58",
+			"name": "Akwakwak",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "59",
+			"name": "Ptitard",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "60",
+			"name": "Têtarte",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "61",
+			"name": "Tartard",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "62",
+			"name": "Tentacool",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "63",
+			"name": "Tentacruel",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "64",
+			"name": "Otaria",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "65",
+			"name": "Lamantine",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "66",
+			"name": "Kokiyas",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "67",
+			"name": "Crustabri",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "68",
+			"name": "Krabby",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "69",
+			"name": "Krabboss",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "70",
+			"name": "Hypotrempe",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "71",
+			"name": "Hypocéan",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "72",
+			"name": "Poissirène",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "73",
+			"name": "Poissoroy",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "74",
+			"name": "Stari",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "75",
+			"name": "Staross",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "76",
+			"name": "Staross ex",
+			"subseries": "Dracaufeu",
+			"rarity": "4d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "77",
+			"name": "Magicarpe",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "78",
+			"name": "Léviator",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "79",
+			"name": "Lokhlass",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "80",
+			"name": "Aquali",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "81",
+			"name": "Amonita",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "82",
+			"name": "Amonistar",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "83",
+			"name": "Artikodin",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "84",
+			"name": "Artikodin ex",
+			"subseries": "Mewtwo",
+			"rarity": "4d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "85",
+			"name": "Couaneton",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 5
+		},
+		{
+			"number": "86",
+			"name": "Lakmécygne",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 5
+		},
+		{
+			"number": "87",
+			"name": "Grenousse",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 6
+		},
+		{
+			"number": "88",
+			"name": "Croâporal",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 6
+		},
+		{
+			"number": "89",
+			"name": "Amphinobi",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 6
+		},
+		{
+			"number": "90",
+			"name": "Concombaffe",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 7
+		},
+		{
+			"number": "91",
+			"name": "Denticrisse",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 7
+		},
+		{
+			"number": "92",
+			"name": "Frissonille",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 8
+		},
+		{
+			"number": "93",
+			"name": "Beldeneige",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 8
+		},
+		{
+			"number": "94",
+			"name": "Pikachu",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "95",
+			"name": "Raichu",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "96",
+			"name": "Pikachu ex",
+			"subseries": "Pikachu",
+			"rarity": "4d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "97",
+			"name": "Magnéti",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "98",
+			"name": "Magneton",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "99",
+			"name": "Voltorbe",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "100",
+			"name": "Électrode",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "101",
+			"name": "Élektek",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "102",
+			"name": "Voltali",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "103",
+			"name": "Électhor",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "104",
+			"name": "Électhor ex",
+			"subseries": "Pikachu",
+			"rarity": "4d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "105",
+			"name": "Zébibron",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "106",
+			"name": "Zéblitz",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "107",
+			"name": "Anchwatt",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "108",
+			"name": "Lampéroie",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "109",
+			"name": "Ohmassacre",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "110",
+			"name": "Galvaran",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 6
+		},
+		{
+			"number": "111",
+			"name": "Iguolta",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 6
+		},
+		{
+			"number": "112",
+			"name": "Wattapik",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 8
+		},
+		{
+			"number": "113",
+			"name": "Mélofée",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "114",
+			"name": "Mélodelfe",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "115",
+			"name": "Abra",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "116",
+			"name": "Kadabra",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "117",
+			"name": "Alakazam",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "118",
+			"name": "Ramoloss",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "119",
+			"name": "Flagadoss",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "120",
+			"name": "Fantominus",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "121",
+			"name": "Spectrum",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "122",
+			"name": "Ectoplasma",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "123",
+			"name": "Ectoplasma ex",
+			"subseries": "Mewtwo",
+			"rarity": "4d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "124",
+			"name": "Soporifik",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "125",
+			"name": "Hypnomade",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "126",
+			"name": "M. Mime",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "127",
+			"name": "Lippoutou",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "128",
+			"name": "Mewtwo",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "129",
+			"name": "Mewtwo ex",
+			"subseries": "Mewtwo",
+			"rarity": "4d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "130",
+			"name": "Tarsal",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 3
+		},
+		{
+			"number": "131",
+			"name": "Kirlia",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 3
+		},
+		{
+			"number": "132",
+			"name": "Gardevoir",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 3
+		},
+		{
+			"number": "133",
+			"name": "Chovsourir",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "134",
+			"name": "Rhinolove",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "135",
+			"name": "Gringolem",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "136",
+			"name": "Golemastoc",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "137",
+			"name": "Sabelette",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "138",
+			"name": "Sablaireau",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "139",
+			"name": "Taupiqueur",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "140",
+			"name": "Triopokeur",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "141",
+			"name": "Férosinge",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "142",
+			"name": "Colossinge",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "143",
+			"name": "Machoc",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "144",
+			"name": "Machopeur",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "145",
+			"name": "Mackogneur",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "146",
+			"name": "Mackogneur ex",
+			"subseries": "Dracaufeu",
+			"rarity": "4d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "147",
+			"name": "Racaillou",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "148",
+			"name": "Gravalanch",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "149",
+			"name": "Grolem",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "150",
+			"name": "Onix",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "151",
+			"name": "Osselait",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "152",
+			"name": "Ossatueur",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "153",
+			"name": "Ossatueur ex",
+			"subseries": "Mewtwo",
+			"rarity": "4d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "154",
+			"name": "Kicklee",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "155",
+			"name": "Tygnon",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "156",
+			"name": "Rhinocorne",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "157",
+			"name": "Rhinoféros",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "158",
+			"name": "Kabuto",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "159",
+			"name": "Kabutops",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "160",
+			"name": "Kungfouine",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 5
+		},
+		{
+			"number": "161",
+			"name": "Shaofouine",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 5
+		},
+		{
+			"number": "162",
+			"name": "Poulpaf",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 8
+		},
+		{
+			"number": "163",
+			"name": "Krakos",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 8
+		},
+		{
+			"number": "164",
+			"name": "Abo",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "165",
+			"name": "Arbok",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "166",
+			"name": "Nidoran\u2640",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "167",
+			"name": "Nidorina",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "168",
+			"name": "Nidoqueen",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "169",
+			"name": "Nidoran\u2642",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "170",
+			"name": "Nidorino",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "171",
+			"name": "Nidoking",
+			"subseries": "Pikachu",
+			"rarity": "3d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "172",
+			"name": "Nosferapti",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "173",
+			"name": "Nosferalto",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "174",
+			"name": "Tadmorv",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "175",
+			"name": "Grotadmorv",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "176",
+			"name": "Smogo",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "177",
+			"name": "Smogogo",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "178",
+			"name": "Mysdibule",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Metal",
+			"generation": 3
+		},
+		{
+			"number": "179",
+			"name": "Scalpion",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Metal",
+			"generation": 5
+		},
+		{
+			"number": "180",
+			"name": "Scalproie",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Metal",
+			"generation": 5
+		},
+		{
+			"number": "181",
+			"name": "Meltan",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Metal",
+			"generation": null
+		},
+		{
+			"number": "182",
+			"name": "Melmetal",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Metal",
+			"generation": null
+		},
+		{
+			"number": "183",
+			"name": "Minidraco",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Dragon",
+			"generation": 1
+		},
+		{
+			"number": "184",
+			"name": "Draco",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Dragon",
+			"generation": 1
+		},
+		{
+			"number": "185",
+			"name": "Dracolosse",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Dragon",
+			"generation": 1
+		},
+		{
+			"number": "186",
+			"name": "Roucool",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "187",
+			"name": "Roucoups",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "188",
+			"name": "Roucarnage",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "189",
+			"name": "Rattata",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "190",
+			"name": "Rattatac",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "191",
+			"name": "Piafabec",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "192",
+			"name": "Rapasdepic",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "193",
+			"name": "Rondoudou",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "194",
+			"name": "Grodoudou",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "195",
+			"name": "Grodoudou ex",
+			"subseries": "Pikachu",
+			"rarity": "4d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "196",
+			"name": "Miaouss",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "197",
+			"name": "Persian",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "198",
+			"name": "Canarticho",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "199",
+			"name": "Doduo",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "200",
+			"name": "Dodrio",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "201",
+			"name": "Excelangue",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "202",
+			"name": "Leveinard",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "203",
+			"name": "Kangourex",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "204",
+			"name": "Tauros",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "205",
+			"name": "Métamorph",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "206",
+			"name": "Évoli",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "207",
+			"name": "Évoli",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "208",
+			"name": "Évoli",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "209",
+			"name": "Porygon",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "210",
+			"name": "Ptéra",
+			"subseries": "Mewtwo",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "211",
+			"name": "Ronflex",
+			"subseries": "Dracaufeu",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "212",
+			"name": "Chinchidou",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 5
+		},
+		{
+			"number": "213",
+			"name": "Pashmilla",
+			"subseries": null,
+			"rarity": "2d",
+			"type": "Colorless",
+			"generation": 5
+		},
+		{
+			"number": "214",
+			"name": "Moumouton",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 8
+		},
+		{
+			"number": "215",
+			"name": "Moumouflon",
+			"subseries": null,
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 8
+		},
+		{
+			"number": "216",
+			"name": "Fossile Nautile",
+			"subseries": "Pikachu",
+			"rarity": "1d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "217",
+			"name": "Fossile Dôme",
+			"subseries": "Dracaufeu",
+			"rarity": "1d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "218",
+			"name": "Vieil Ambre",
+			"subseries": "Mewtwo",
+			"rarity": "1d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "219",
+			"name": "Erika",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "220",
+			"name": "Ondine",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "221",
+			"name": "Auguste",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "222",
+			"name": "Koga",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "223",
+			"name": "Giovanni",
+			"subseries": "Mewtwo",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "224",
+			"name": "Pierre",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "225",
+			"name": "Morgane",
+			"subseries": "Dracaufeu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "226",
+			"name": "Major Bob",
+			"subseries": "Pikachu",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "227",
+			"name": "Bulbizarre",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "228",
+			"name": "Ortide",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "229",
+			"name": "Scarabrute",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "230",
+			"name": "Salamèche",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "231",
+			"name": "Galopa",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "232",
+			"name": "Carapuce",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "233",
+			"name": "Léviator",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "234",
+			"name": "Lokhlass",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "235",
+			"name": "Electrode",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "236",
+			"name": "Alakazam",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "237",
+			"name": "Ramoloss",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "238",
+			"name": "Taupiqueur",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "239",
+			"name": "Osselait",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "240",
+			"name": "Nidoqueen",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "241",
+			"name": "Nidoking",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "242",
+			"name": "Nosferalto",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "243",
+			"name": "Smogogo",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "244",
+			"name": "Dracolosse",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Dragon",
+			"generation": 1
+		},
+		{
+			"number": "245",
+			"name": "Roucarnage",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "246",
+			"name": "Miaouss",
+			"subseries": "Dracaufeu",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "247",
+			"name": "Métamorph",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "248",
+			"name": "Évoli",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "249",
+			"name": "Porygon",
+			"subseries": "Mewtwo",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "250",
+			"name": "Ronflex",
+			"subseries": "Pikachu",
+			"rarity": "1s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "251",
+			"name": "Florizarre ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "252",
+			"name": "Noadkoko ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "253",
+			"name": "Dracaufeu ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "254",
+			"name": "Arcanin ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "255",
+			"name": "Sulfura ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "256",
+			"name": "Tortank ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "257",
+			"name": "Staross ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "258",
+			"name": "Artikodin ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "259",
+			"name": "Pikachu ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "260",
+			"name": "Électhor ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "261",
+			"name": "Ectoplasma ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "262",
+			"name": "Mewtwo ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "263",
+			"name": "Mackogneur ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "264",
+			"name": "Ossatueur ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "265",
+			"name": "Grodoudou ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "266",
+			"name": "Erika",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "267",
+			"name": "Ondine",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "268",
+			"name": "Auguste",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "269",
+			"name": "Koga",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "270",
+			"name": "Giovanni",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "271",
+			"name": "Pierre",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "272",
+			"name": "Morgane",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "273",
+			"name": "Major Bob",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "274",
+			"name": "Sulfura ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "275",
+			"name": "Artikodin ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "276",
+			"name": "Électhor ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "277",
+			"name": "Ectoplasma ex",
+			"subseries": "Mewtwo",
+			"rarity": "2s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "278",
+			"name": "Mackogneur ex",
+			"subseries": "Dracaufeu",
+			"rarity": "2s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "279",
+			"name": "Grodoudou ex",
+			"subseries": "Pikachu",
+			"rarity": "2s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "280",
+			"name": "Dracaufeu ex",
+			"subseries": "Dracaufeu",
+			"rarity": "3s",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "281",
+			"name": "Pikachu ex",
+			"subseries": "Pikachu",
+			"rarity": "3s",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "282",
+			"name": "Mewtwo ex",
+			"subseries": "Mewtwo",
+			"rarity": "3s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "283",
+			"name": "Mew",
+			"subseries": null,
+			"rarity": "3s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "284",
+			"name": "Dracaufeu ex",
+			"subseries": null,
+			"rarity": "1c",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "285",
+			"name": "Pikachu ex",
+			"subseries": null,
+			"rarity": "1c",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "286",
+			"name": "Mewtwo ex",
+			"subseries": null,
+			"rarity": "1c",
+			"type": "Psychic",
+			"generation": 1
+		}
+	]
+}

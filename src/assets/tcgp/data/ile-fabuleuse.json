@@ -1,0 +1,696 @@
+{
+	"codename": "A1a",
+	"seriesName": "Mythical Island",
+  "type": "demi",
+	"normalCardCount": 68,
+	"cards": [
+		{
+			"number": "1",
+			"name": "Noeunoeuf",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "2",
+			"name": "Noadkoko",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "3",
+			"name": "Celebi ex",
+			"subseries": "",
+			"rarity": "4d",
+			"type": "Grass",
+			"generation": 2
+		},
+		{
+			"number": "4",
+			"name": "Vipélierre",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "5",
+			"name": "Lianaja",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "6",
+			"name": "Majaspic",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "7",
+			"name": "Spododo",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Grass",
+			"generation": 7
+		},
+		{
+			"number": "8",
+			"name": "Lampignon",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 7
+		},
+		{
+			"number": "9",
+			"name": "Sinistrail",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Grass",
+			"generation": 7
+		},
+		{
+			"number": "10",
+			"name": "Ponyta",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "11",
+			"name": "Galopa",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "12",
+			"name": "Magmar",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Fire",
+			"generation": 1
+		},
+		{
+			"number": "13",
+			"name": "Pyronille",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 5
+		},
+		{
+			"number": "14",
+			"name": "Pyrax",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Fire",
+			"generation": 5
+		},
+		{
+			"number": "15",
+			"name": "Tritox",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 7
+		},
+		{
+			"number": "16",
+			"name": "Malamandre",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fire",
+			"generation": 7
+		},
+		{
+			"number": "17",
+			"name": "Magicarpe",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "18",
+			"name": "Léviator ex",
+			"subseries": "",
+			"rarity": "4d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "19",
+			"name": "Aquali",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "20",
+			"name": "Écayon",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 4
+		},
+		{
+			"number": "21",
+			"name": "Luminéon",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 4
+		},
+		{
+			"number": "22",
+			"name": "Khélocrok",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 8
+		},
+		{
+			"number": "23",
+			"name": "Torgamord",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Water",
+			"generation": 8
+		},
+		{
+			"number": "24",
+			"name": "Nigosier",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Water",
+			"generation": 8
+		},
+		{
+			"number": "25",
+			"name": "Pikachu",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "26",
+			"name": "Raichu",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "27",
+			"name": "Élektek",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 1
+		},
+		{
+			"number": "28",
+			"name": "Statitik",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "29",
+			"name": "Mygavolt",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Electric",
+			"generation": 5
+		},
+		{
+			"number": "30",
+			"name": "Dedenne",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Electric",
+			"generation": 6
+		},
+		{
+			"number": "31",
+			"name": "Mew",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "32",
+			"name": "Mew ex",
+			"subseries": "",
+			"rarity": "4d",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "33",
+			"name": "Cryptéro",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "34",
+			"name": "Lewsor",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "35",
+			"name": "Neitram",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 5
+		},
+		{
+			"number": "36",
+			"name": "Flabébé",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 6
+		},
+		{
+			"number": "37",
+			"name": "Floette",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 6
+		},
+		{
+			"number": "38",
+			"name": "Florges",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Psychic",
+			"generation": 6
+		},
+		{
+			"number": "39",
+			"name": "Sucroquin",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 6
+		},
+		{
+			"number": "40",
+			"name": "Cupcanaille",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Psychic",
+			"generation": 6
+		},
+		{
+			"number": "41",
+			"name": "Férosinge",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "42",
+			"name": "Colossinge",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "43",
+			"name": "Racaillou",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "44",
+			"name": "Gravalanch",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "45",
+			"name": "Grolem",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "46",
+			"name": "Ptéra ex",
+			"subseries": "",
+			"rarity": "4d",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "47",
+			"name": "Marshadow",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Fighting",
+			"generation": 7
+		},
+		{
+			"number": "48",
+			"name": "Dolman",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Fighting",
+			"generation": 8
+		},
+		{
+			"number": "49",
+			"name": "Smogo",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "50",
+			"name": "Smogogo",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 1
+		},
+		{
+			"number": "51",
+			"name": "Chacripan",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 5
+		},
+		{
+			"number": "52",
+			"name": "Léopardus",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 5
+		},
+		{
+			"number": "53",
+			"name": "Venipatte",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 5
+		},
+		{
+			"number": "54",
+			"name": "Scobolide",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Darkness",
+			"generation": 5
+		},
+		{
+			"number": "55",
+			"name": "Brutapode",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Darkness",
+			"generation": 5
+		},
+		{
+			"number": "56",
+			"name": "Drakkarmin",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Dragon",
+			"generation": 5
+		},
+		{
+			"number": "57",
+			"name": "Roucool",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "58",
+			"name": "Roucoups",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "59",
+			"name": "Roucarnage ex",
+			"subseries": "",
+			"rarity": "4d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "60",
+			"name": "Tauros",
+			"subseries": "",
+			"rarity": "3d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "61",
+			"name": "Évoli",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "62",
+			"name": "Pijako",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Colorless",
+			"generation": 4
+		},
+		{
+			"number": "63",
+			"name": "Vieil Ambre",
+			"subseries": "",
+			"rarity": "1d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "64",
+			"name": "Flûte Pokémon",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "65",
+			"name": "Dalle Fabuleuse",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "66",
+			"name": "Jeune Explorateur",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "67",
+			"name": "Blue",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "68",
+			"name": "Leaf",
+			"subseries": "",
+			"rarity": "2d",
+			"type": "Trainer",
+			"generation": 3
+		},
+		{
+			"number": "69",
+			"name": "Noadkoko",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Grass",
+			"generation": 1
+		},
+		{
+			"number": "70",
+			"name": "Majaspic",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Grass",
+			"generation": 5
+		},
+		{
+			"number": "71",
+			"name": "Tritox",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Fire",
+			"generation": 7
+		},
+		{
+			"number": "72",
+			"name": "Aquali",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "73",
+			"name": "Dedenne",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Electric",
+			"generation": 6
+		},
+		{
+			"number": "74",
+			"name": "Marshadow",
+			"subseries": "",
+			"rarity": "1s",
+			"type": "Fighting",
+			"generation": 8
+		},
+		{
+			"number": "75",
+			"name": "Celebi ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Grass",
+			"generation": 2
+		},
+		{
+			"number": "76",
+			"name": "Léviator ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Water",
+			"generation": 1
+		},
+		{
+			"number": "77",
+			"name": "Mew ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "78",
+			"name": "Ptéra ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "79",
+			"name": "Roucarnage ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Colorless",
+			"generation": 1
+		},
+		{
+			"number": "80",
+			"name": "Jeune Explorateur",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": null
+		},
+		{
+			"number": "81",
+			"name": "Blue",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 1
+		},
+		{
+			"number": "82",
+			"name": "Leaf",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Trainer",
+			"generation": 3
+		},
+		{
+			"number": "83",
+			"name": "Mew ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Psychic",
+			"generation": 1
+		},
+		{
+			"number": "84",
+			"name": "Ptéra ex",
+			"subseries": "",
+			"rarity": "2s",
+			"type": "Fighting",
+			"generation": 1
+		},
+		{
+			"number": "85",
+			"name": "Celebi ex",
+			"subseries": "",
+			"rarity": "3s",
+			"type": "Grass",
+			"generation": 2
+		},
+		{
+			"number": "86",
+			"name": "Mew ex",
+			"subseries": "",
+			"rarity": "1c",
+			"type": "Psychic",
+			"generation": 1
+		}
+	]
+}

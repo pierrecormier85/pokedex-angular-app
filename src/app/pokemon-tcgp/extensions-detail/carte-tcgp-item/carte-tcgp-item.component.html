@@ -1,0 +1,12 @@
+<div class="carte-tcgp-card" [ngClass]="{'green_background' : isCarteTrouvee()}" (click)="changeCarteTrouvee()">
+  <div class="carte-tcgp-card-info">
+    <div class="id-name">
+      <span class="card-id">
+        {{carte.number}}
+      </span>
+      <div class="card-name text-capitalize text-left text-truncate">{{carte.name}}</div>
+    </div>
+  </div>
+  <img class="carte-tcgp-card-img mx-auto" alt=""
+       src="../../../../assets/tcgp/cartes/{{extensionCode}}/{{carte.number + '.png'}}">
+</div>
